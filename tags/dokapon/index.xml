@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dokapon on This is a blog.</title>
+    <link>https://krokodyl.github.io/tags/dokapon/</link>
+    <description>Recent content in dokapon on This is a blog.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/dokapon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kessen! Dokapon Kingdom IV (English)</title>
+      <link>https://krokodyl.github.io/posts/kessen-translation/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/posts/kessen-translation/</guid>
+      <description>English fan translation for the SNES game
+Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi.
+The Japanese title (決戦! ドカポン王国 (ランド) IV ~伝説の勇者たち~) roughly translates to &amp;ldquo;Decisive Battle! Dokapon Kingdoms IV: Legendary Heroes&amp;rdquo;.
+This is the very first game in the Dokapon game series. The IV in the title refers to the possibility of supporting up to 4 players and was probably also mocking the numbering of JRPG that was getting out of hand.</description>
+    </item>
+    
+    <item>
+      <title>Dokapon 3-2-1 Wiki</title>
+      <link>https://krokodyl.github.io/posts/dokapon-3-2-1-wiki/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/posts/dokapon-3-2-1-wiki/</guid>
+      <description>This is a single page version of the wiki I made on github (link).
+Content Game Modes Jobs Combat System Spaces Training Area Equipment Items Magic Status Towns Map Special-Events Memory-Cheats Game modes Normal mode Whoever collects the most assets (gold + towns) in a set period of time wins.
+The period can be selected from 1 to 9999 weeks, and can be changed even during the game.
+In this mode, you can choose the character level at the start and the initial equipment will change accordingly.</description>
+    </item>
+    
+  </channel>
+</rss>
