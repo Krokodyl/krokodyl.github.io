@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on This is a blog.</title>
     <link>https://krokodyl.github.io/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 09:03:20 -0800</lastBuildDate><atom:link href="https://krokodyl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://krokodyl.github.io/posts/my-first-post/</link>
-      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
+      <title>Kessen! Dokapon Kingdom IV (English)</title>
+      <link>https://krokodyl.github.io/posts/kessen-translation/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://krokodyl.github.io/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
+      <guid>https://krokodyl.github.io/posts/kessen-translation/</guid>
+      <description>English fan translation for the SNES game
+Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi.
+The Japanese title (決戦! ドカポン王国 (ランド) IV ~伝説の勇者たち~) roughly translates to &amp;ldquo;Decisive Battle! Dokapon Kingdoms IV: Legendary Heroes&amp;rdquo;.
+This is the very first game in the Dokapon game series. The IV in the title refers to the possibility of supporting up to 4 players and was probably also mocking the numbering of JRPG that was getting out of hand.</description>
+    </item>
+    
+    <item>
+      <title>Dokapon 3-2-1 Wiki</title>
+      <link>https://krokodyl.github.io/posts/dokapon-3-2-1-wiki/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/posts/dokapon-3-2-1-wiki/</guid>
+      <description>This is a single page version of the wiki I made on github (link).
+Content Game Modes Jobs Combat System Spaces Training Area Equipment Items Magic Status Towns Map Special-Events Memory-Cheats Game modes Normal mode Whoever collects the most assets (gold + towns) in a set period of time wins.
+The period can be selected from 1 to 9999 weeks, and can be changed even during the game.
+In this mode, you can choose the character level at the start and the initial equipment will change accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Dokapon 3-2-1 (English)</title>
+      <link>https://krokodyl.github.io/posts/dokapon-3-2-1-translation/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/posts/dokapon-3-2-1-translation/</guid>
+      <description>This project is a fan translation file of the Super Famicom video game
+Dokapon 3-2-1: Arashi o Yobu Yuujou (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
+Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land.</description>
     </item>
     
   </channel>
