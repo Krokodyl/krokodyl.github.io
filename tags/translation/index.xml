@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>translation on This is a blog.</title>
+    <link>https://krokodyl.github.io/tags/translation/</link>
+    <description>Recent content in translation on This is a blog.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kessen! Dokapon Kingdom IV (English)</title>
+      <link>https://krokodyl.github.io/posts/kessen-translation/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/posts/kessen-translation/</guid>
+      <description>English fan translation for the SNES game
+Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi.
+The Japanese title (決戦! ドカポン王国 (ランド) IV ~伝説の勇者たち~) roughly translates to &amp;ldquo;Decisive Battle! Dokapon Kingdoms IV: Legendary Heroes&amp;rdquo;.
+This is the very first game in the Dokapon game series. The IV in the title refers to the possibility of supporting up to 4 players and was probably also mocking the numbering of JRPG that was getting out of hand.</description>
+    </item>
+    
+    <item>
+      <title>Dokapon 3-2-1 (English)</title>
+      <link>https://krokodyl.github.io/posts/dokapon-3-2-1-translation/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/posts/dokapon-3-2-1-translation/</guid>
+      <description>This project is a fan translation file of the Super Famicom video game
+Dokapon 3-2-1: Arashi o Yobu Yuujou (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
+Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land.</description>
+    </item>
+    
+  </channel>
+</rss>
