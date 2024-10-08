@@ -6,29 +6,96 @@
     <description>Recent content in Tags on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
       <link>https://krokodyl.github.io/tags/blog/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+=======
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://krokodyl.github.io/tags/blog/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+>>>>>>> 1ae3e9b... Hymne des femmes
+=======
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://krokodyl.github.io/tags/blog/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+>>>>>>> 5f4b721... March content
+=======
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://krokodyl.github.io/tags/blog/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+>>>>>>> 888c6a1... March content
+=======
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://krokodyl.github.io/tags/blog/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+>>>>>>> 0b3376c... parabo
       
       <guid>https://krokodyl.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <title>satellaview</title>
+      <link>https://krokodyl.github.io/tags/satellaview/</link>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+=======
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+>>>>>>> 1ae3e9b... Hymne des femmes
+=======
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+>>>>>>> 5f4b721... March content
+=======
+      <title>translation</title>
+      <link>https://krokodyl.github.io/tags/translation/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+>>>>>>> 888c6a1... March content
+=======
       <title>satellaview</title>
       <link>https://krokodyl.github.io/tags/satellaview/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+>>>>>>> 0b3376c... parabo
       
       <guid>https://krokodyl.github.io/tags/satellaview/</guid>
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <title>translation</title>
+      <link>https://krokodyl.github.io/tags/translation/</link>
+<<<<<<< HEAD
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+=======
+=======
+      <title>satellaview</title>
+      <link>https://krokodyl.github.io/tags/satellaview/</link>
+>>>>>>> 888c6a1... March content
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+>>>>>>> 5f4b721... March content
+=======
       <title>translation</title>
       <link>https://krokodyl.github.io/tags/translation/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+>>>>>>> 0b3376c... parabo
       
       <guid>https://krokodyl.github.io/tags/translation/</guid>
       <description></description>

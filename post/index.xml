@@ -6,6 +6,10 @@
     <description>Recent content on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parabo&#39;s Game Quiz I</title>
@@ -13,11 +17,30 @@
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://krokodyl.github.io/post/2024/10/parabo/</guid>
+=======
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parabo&#39;s Game Quiz I</title>
+      <link>https://krokodyl.github.io/post/2024/10/parabo/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      
+<<<<<<< HEAD
+      <guid>https://krokodyl.github.io/post/2024/10/</guid>
+>>>>>>> 0b3376c... parabo
+=======
+      <guid>https://krokodyl.github.io/post/2024/10/parabo/</guid>
+>>>>>>> e9bf75a... parabo
       <description>Parabo&amp;rsquo;s Game Quiz is a homebrew game for the Satellaview (the Super Famicom extension). It is a quiz where you have to identify NES games from a blurry screenshot.
 Download Music + SFX SFX only Parabo&amp;rsquo;s Game Quiz I.bs Parabo&amp;rsquo;s Game Quiz I (NO BGM).bs Gameplay Each round you are granted 20 credits to spend on hints in order to help you identify the game.
 Hint Effect Unblur Makes the image slightly unblurry.</description>
     </item>
     
+<<<<<<< HEAD
+=======
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 888c6a1... March content
+=======
+>>>>>>> 0b3376c... parabo
     <item>
       <title>迦楼羅王 Skyblazer Retranslated (English)</title>
       <link>https://krokodyl.github.io/post/2024/08/skyblazer/</link>
@@ -30,6 +53,12 @@ While the original game story in inspired by Hindu mythology and Buddhist cosmol
 This project is a retranslation of the Japanese game into English to keep as much of the original material as possible.</description>
     </item>
     
+<<<<<<< HEAD
+=======
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 5f4b721... March content
+=======
+>>>>>>> 888c6a1... March content
     <item>
       <title>WaiWai Check 11/22 (English)</title>
       <link>https://krokodyl.github.io/post/2024/03/waiwai-check-11-22/</link>
@@ -38,7 +67,15 @@ This project is a retranslation of the Japanese game into English to keep as muc
       <guid>https://krokodyl.github.io/post/2024/03/waiwai-check-11-22/</guid>
       <description>WaiWai Check 11/22 (わいわいチェック 11/22) is a Satellaview game.
 The ROM was originally dumped through the effort of several people and published on the Satellablog.
+<<<<<<< HEAD
+<<<<<<< HEAD
 Roms (Japanese and English) Japanese ROM English Patch On Satellablog ROM CRC32: 701009F1 Download Wai Wai Check (11-22) (English).bps The game The game is a &amp;ldquo;spot the difference&amp;rdquo; game.
+=======
+Roms (Japanese and English) Japanese ROM English Patch On Satellablog ROM CRC32: C6DA55E2 Download Wai Wai Check (11-22) (English).bps The game The game is a &amp;ldquo;spot the difference&amp;rdquo; game.
+>>>>>>> 5f4b721... March content
+=======
+Roms (Japanese and English) Japanese ROM English Patch On Satellablog ROM CRC32: 701009F1 Download Wai Wai Check (11-22) (English).bps The game The game is a &amp;ldquo;spot the difference&amp;rdquo; game.
+>>>>>>> 888c6a1... March content
 You have an animated image on the left and the mirrored version on the right with 5 differences.</description>
     </item>
     
@@ -63,9 +100,29 @@ You have an animated image on the left and the mirrored version on the right wit
       <description>Listen to the song on YouTube.
 This article is a translation of Histoire d’un slogan #1 : L’Hymne des femmes et du MLF. With respect to the licence: CC BY-SA 4.0
 History of a slogan : The Hymne des femmes et the MLF Written by members of the MLF (Mouvement de Libération des Femmes, Women&amp;rsquo;s Liberation Movement), the Hymne des femmes (Women&amp;rsquo;s Hymn) has become a reference for many activists and feminist organisations in French speaking countries.</description>
+<<<<<<< HEAD
+=======
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+=======
+    </item>
+    
+>>>>>>> 5f4b721... March content
+    <item>
+<<<<<<< HEAD
+      <title>Can you play as female Link in the Satellaview Zelda games?</title>
+      <link>https://krokodyl.github.io/post/2023/11/bs-zelda/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/11/bs-zelda/</guid>
+      <description>What was the Satellaview? Short answer: The Satellaview was an add-on to the Super Famicom, only released in Japan.
+The Satellaview Zelda games Two Zelda games were broadcasted on the Satellaview:
+BSゼルダの伝説 (BS Zeruda no Densetsu, lit. BS The Legend of Zelda) BS Zeruda no Densetsu: Inishie no Sekiban (BSゼルダの伝説 古代の石盤) Like many Satellaview games, Dynami Tracer ends with a postcard that shows the player score and a password used to verify that score.</description>
+>>>>>>> 1ae3e9b... Hymne des femmes
     </item>
     
     <item>
+=======
+>>>>>>> 6b5a36d... zelda
       <title>NEXT Generation - May 1995</title>
       <link>https://krokodyl.github.io/post/2023/11/satellaview-article/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
