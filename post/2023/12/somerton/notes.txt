@@ -1,0 +1,152 @@
+MODUS OPERANDI
+- Read the book word for word
+- Read quotes as his own words, sometimes changing the quote
+- Replacing the words homosexual with gay or lgbt
+- Removing words like lesbians
+
+
+STOLEN CONTENT
+
+https://www.youtube.com/@BobMizerFoundation-xn7dq
+
+5:30	Stolen from https://youtu.be/AKQ6dJ9rBYU 
+6:15	Cover from Google Image
+
+
+MOVIES with Joe Dallesandro
+Flesh (1968 film)				produced by Andy Warhol
+Trash (1970 film)				produced by Andy Warhol
+Lonesome Cowboys (1968 film)	produced by Andy Warhol
+
+degree in business administration
+refers to himself as a "marking expert"
+"film school grad"
+
+initially made videos about geek stuff
+switch video essays with focus on queer characters in media
+and lgbt film history
+as well as anime
+(The fascism of Attack on Titan)
+
+During the 1990s 
+"
+Making It Big: The History of Gay Adult Film (Documentary)
+
+WORD COUNT
+
+Before 30min	3900 copied / 5300		75%
+
+############## CORRECTIONS ##############
+
+"One of his regular johns had recommended he get in touch with Mizer"
+It's actually AMG in the book. 
+Jeffrey Escoffier mentions (p.16) that Mizer created a modeling agency called Athletic Models Guild before the creation of his magazine. But because James did not lift the part about the agency, he had to change all references to AMG to Mizer.
+
+
+for i in *.WAV; do ffmpeg -i "$i" "${i%.*}.wav"; done
+
+Carson McCullers			American writer		female
+Janet Flanner				American writer		female
+Benjamin Britten			English composer	male
+Peter Pears					English tenor		male
+Christopher Isherwood		Anglo-American novelist		male
+Lincoln Kirstein			American writer		male
+Patricia Highsmith			American novelist	female
+Jane Bowles					American writer		female
+Tennessee Williams			American playwright		male
+Truman Capote				American novelist		male
+
+Muscle Sweat And Brawn		1972		24:50
+
+Ace in the Hole (FVP055)				99:26
+
+Jaws 1975
+SW 		May 1977
+
+
+Hello,
+Sorry to bother you. I recently discovered the works of Jeffrey Escoffier through unfortunate circumstances that I'll explain. 
+About a week ago, YouTuber hbomberguy released a video about plagiarism and YouTube. 
+
+https://youtu.be/yDp3cB5fHXQ
+
+The video exposes several plagiarism cases and in particular (after the 1:50:00 mark) that of a queer content creator named James Somerton. The evidence compiled a very damning.
+
+Pretty much all of his content is stolen from many other queer artists or creators.
+By trying to do my due diligence and verify for myself, I went and checked other videos not mentioned by hbomberguy. Which is how I found one of his earlier essays titled "Making It Big: The History of Gay Adult Film (Documentary)". It's 1 hour and 26 min long. As I was doing research, James set this video to private, and as of yesterday, deleted all his videos.
+The video page can still be found on the WayBackMachine: https://web.archive.org/web/20201101150914/https://www.youtube.com/watch?v=UfpkP6s_g_4
+
+You can't watch the video (I have a copy of it though) but can see the description where it says "Based on the book "Bigger than Life" by Jeffrey Escoffier".
+
+As expected, most of the script is lifted word for word from the book. I've started to compile all the instances of plagiarism in that video and 75% of it is Escoffier's words, verbatim, in just the first 30min. And the content that is original work is full of aproximations and fabrications.
+
+In that context, I wanted to know if you knew if Jeffrey (or the publisher) had given any permission for this? 
+Before being removed, this video was sitting at 1,4 million views. As hbomberguy showed, James has made a ton of money (patreon, ads, brand deals) by ripping off the work of others and, unfortunately, Jeffrey Escoffier is among the victims.
+
+Initially, I wanted to contact him about this issue but learned of his passing through the thoughtful and moving eulogy that you wrote. Which is why I'm contacting you instead.
+
+If this is something that you feel doesn't concerns you, I apologize for bringing it up. Considering that James reputation and credibility has been obliterated and he deleted all of his social media presence, I don't really know where to go from here. 
+
+I was thinking of making a video of my own, showing the extent of the issue and highlighting the work of the stolen artists (Jeffrey Escoffier and the Bob Mizer Foundation to name two that I found).
+
+I realize that this is a long message that should have been an email. Sorry.
+For any typos and late reply: non native English speaker living in Europe.
+
+Cheers.
+
+https://web.archive.org/web/20201101150914/https://www.youtube.com/watch?v=UfpkP6s_g_4
+ https://www.plagiarismtoday.com/2023/12/05/responding-to-hbomberguys-plagiarism-video/
+ 
+ 
+Stonewall Riots		5-6, 48, 90-91, 94, 120, 135, 185, 250, 325
+
+
+
+##################### BOB DAMRON ########################
+Who Was Bob Damron?
+https://www.mappingthegayguides.org/who-was-bob-damron/
+
+MGG Project
+https://www.mappingthegayguides.org/
+
+Dr. Amanda Regan
+https://www.amanda-regan.com/
+
+Dr. Eric Gonzaba
+https://ericnolangonzaba.net/
+
+Next City Podcast
+https://nextcity.org/podcast/these-maps-once-showed-where-being-gay-was-safe
+
+##################### YALE UNIVERSITY ########################
+
+https://lgbts.yale.edu/history-lgbts-yale
+In 1980, the Yale medievalist John Boswell published Christianity, Social Tolerance, and Homosexuality: Gay People in Western Europe from the Beginning of the Christian Era to the Fourteenth Century.
+
+
+##################### QUESTIONS ########################
+
+Was there a "history of gay erotica" taught at Yale University?
+
+Did Joey Stefano got his porn name from Chi Chi LaRue?
+
+[1:03:40 PART 11: COBRA]
+
+##################### PHOTOSHOP PROGRESS ########################
+Done: 
+P1		1, 5, 6, 7, 16, 17, 18, 19, 20
+P2		48, 60, 61, 62, 95
+P3		96, 97, 98, 102, 104, 105, 107
+P4		131, 132, 133, 134, 135
+P5		138, 139, 140, 141, 143, 144
+P6		159, 160, 161, 162, 163, 165, 166
+P7		177, 178, 185, 186, 187, 188, 189, 190, 191, 192,
+		197, 198, 199, 200, 201
+P8		227, 229, 230, 231, 232, 233, 234
+TODO:
+P9		238, 239, 240, 241
+
+1h/ 7 pages
+
+##################### HIGHLIGHT PROGRESS ########################
+
