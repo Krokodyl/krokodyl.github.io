@@ -6,13 +6,25 @@
     <description>Recent content in dokapon on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/dokapon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/dokapon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dokapon Gaiden (English)</title>
+      <link>https://krokodyl.github.io/post/2023/07/dokapon-gaiden/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/dokapon-gaiden/</guid>
+      <description>This is the English translation of the Super Famicom (SNES) videogame: ドカポン外伝 〜炎のオーディション～ Dokapon Gaiden 〜Honō no Audition〜
+The 3rd game in the Dokapon series.
+外伝 (gaiden) means &amp;lsquo;Side Story&amp;rsquo;. It&amp;rsquo;s often used in fiction for work that references previous one while not being a direct sequel.
+Game 4 players (Human or CPUs) take turns going around a board. The goal is to have the most gold at the end.You get gold from different sources: random events, fighting monsters, fighting other players (you take half of the gold of defeated opponents) or simply completing a lap around the board.</description>
+    </item>
+    
     <item>
       <title>Kessen! Dokapon Kingdom IV (English)</title>
-      <link>https://krokodyl.github.io/posts/kessen-translation/</link>
+      <link>https://krokodyl.github.io/post/2023/07/kessen-translation/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://krokodyl.github.io/posts/kessen-translation/</guid>
+      <guid>https://krokodyl.github.io/post/2023/07/kessen-translation/</guid>
       <description>English fan translation for the SNES game
 Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi.
 The Japanese title (決戦! ドカポン王国 (ランド) IV ~伝説の勇者たち~) roughly translates to &amp;ldquo;Decisive Battle! Dokapon Kingdoms IV: Legendary Heroes&amp;rdquo;.
@@ -21,14 +33,25 @@ This is the very first game in the Dokapon game series. The IV in the title refe
     
     <item>
       <title>Dokapon 3-2-1 Wiki</title>
-      <link>https://krokodyl.github.io/posts/dokapon-3-2-1-wiki/</link>
+      <link>https://krokodyl.github.io/post/2023/07/dokapon-3-2-1-wiki/</link>
       <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://krokodyl.github.io/posts/dokapon-3-2-1-wiki/</guid>
+      <guid>https://krokodyl.github.io/post/2023/07/dokapon-3-2-1-wiki/</guid>
       <description>This is a single page version of the wiki I made on github (link).
 Content Game Modes Jobs Combat System Spaces Training Area Equipment Items Magic Status Towns Map Special-Events Memory-Cheats Game modes Normal mode Whoever collects the most assets (gold + towns) in a set period of time wins.
 The period can be selected from 1 to 9999 weeks, and can be changed even during the game.
 In this mode, you can choose the character level at the start and the initial equipment will change accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Dokapon 3-2-1 (English)</title>
+      <link>https://krokodyl.github.io/post/2023/07/dokapon-3-2-1-translation/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/dokapon-3-2-1-translation/</guid>
+      <description>This project is a fan translation file of the Super Famicom video game
+Dokapon 3-2-1: Arashi o Yobu Yuujou (ドカポン3・2・1 〜嵐を呼ぶ友情〜) released in 1994.
+Dokapon 3-2-1 is the second Dokapon game for the Super Famicom. Like its predecessor, it follows a group of ragtag RPG heroes across a board game-like map as they attempt to outmaneuver each other and be the first to save the kingdom. Characters move around determinant on dice rolls and can acquire items and treasure depending on where they land.</description>
     </item>
     
   </channel>
