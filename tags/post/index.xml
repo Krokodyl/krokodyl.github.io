@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post on This is a blog.</title>
+    <link>https://krokodyl.github.io/tags/post/</link>
+    <description>Recent content in post on This is a blog.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WaiWai Check 8/26 (English)</title>
+      <link>https://krokodyl.github.io/post/2024/03/waiwai-check-8-26/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2024/03/waiwai-check-8-26/</guid>
+      <description>WaiWai Check 8/26 (わいわいチェック 8/26) is a Satellaview game.
+The ROM was originally dumped through the effort of several people and published on the Satellablog.
+Roms (Japanese and English) Japanese ROM English Patch On Satellablog ROM CRC32: 729F0D04 Download Wai Wai Check (8-26) (English).bps The game The game is a &amp;ldquo;spot the difference&amp;rdquo; game.
+You have an animated image on the left and the mirrored version on the right with 5 differences.</description>
+    </item>
+    
+  </channel>
+</rss>
