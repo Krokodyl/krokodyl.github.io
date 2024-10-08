@@ -6,7 +6,18 @@
     <description>Recent content on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parabo&#39;s Game Quiz I</title>
+      <link>https://krokodyl.github.io/post/2024/10/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2024/10/</guid>
+      <description>Parabo&amp;rsquo;s Game Quiz is a homebrew game for the Satellaview (the Super Famicom extension). It is a quiz where you have to identify NES games from a blurry screenshot.
+Download Music + SFX SFX only Parabo&amp;rsquo;s Game Quiz I.bs Parabo&amp;rsquo;s Game Quiz I (NO BGM).bs Gameplay Each round you are granted 20 credits to spend on hints in order to help you identify the game.
+Hint Effect Unblur Makes the image slightly unblurry.</description>
+    </item>
+    
     <item>
       <title>迦楼羅王 Skyblazer Retranslated (English)</title>
       <link>https://krokodyl.github.io/post/2024/08/skyblazer/</link>
