@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Wordle for SNES (Satebo&#39;s Wordgame) - This is a blog.</title>
+<meta name="description" content="Homebrew game for the Satellaview.">
+
+<meta name="author" content="Krokodyl"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "This is a blog.",
+    
+    "url": "https:\/\/krokodyl.github.io\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/krokodyl.github.io\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/krokodyl.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/krokodyl.github.io\/post\/2023\/07\/satebo\/",
+          "name": "Wordle for snes ( satebo\u0027s wordgame)"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Krokodyl"
+  },
+  "headline": "Wordle for SNES (Satebo\u0027s Wordgame)",
+  "description" : "Homebrew game for the Satellaview.",
+  "inLanguage" : "en",
+  "wordCount":  656 ,
+  "datePublished" : "2023-07-12T00:00:00",
+  "dateModified" : "2023-07-12T00:00:00",
+  "image" : "https:\/\/krokodyl.github.io\/",
+  "keywords" : [ "satellaview, blog" ],
+  "mainEntityOfPage" : "https:\/\/krokodyl.github.io\/post\/2023\/07\/satebo\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/krokodyl.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/krokodyl.github.io\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:image" content="https://krokodyl.github.io/img/satebo.png">
+<meta property="og:url" content="https://krokodyl.github.io/post/2023/07/satebo/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="This is a blog.">
+   
+<link rel="apple-touch-icon" sizes="180x180" href=" https://krokodyl.github.io/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://krokodyl.github.io/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://krokodyl.github.io/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.115.2"><link rel="alternate" href="https://krokodyl.github.io/index.xml" type="application/rss+xml" title="This is a blog.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://krokodyl.github.io/css/main.css">
+<link disabled id="dark-mode-theme" rel="stylesheet" href="https://krokodyl.github.io/css/dark.css">
+<link rel="stylesheet" href="https://krokodyl.github.io/css/highlight.min.css"><link rel="stylesheet" href="https://krokodyl.github.io/css/codeblock.css">
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+          
+          <a class="navbar-brand fw-bold" href="https://krokodyl.github.io/">This is a blog.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Home"
+                  href="/"> Home</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Posts"
+                  href="/post/"> Posts</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Satellaview"
+                  href="/tags/satellaview/"> Satellaview</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Translations"
+                  href="/tags/translation/"> Translations</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Dokapon"
+                  href="/tags/dokapon/"> Dokapon</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Disclaimer"
+                  href="/disclaimer/"> Disclaimer</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+              
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-sun"></a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                Wordle for SNES (Satebo&#39;s Wordgame)
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;July 12, 2023 
+
+  
+
+  
+  
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+
+      <div class="card-image card-image-blog p-0">
+        
+        <img src="/img/satebo.png" alt="Wordle for SNES (Satebo&#39;s Wordgame)" class="card-img-bottom img-fluid" style="width:auto;">
+        
+        
+      </div>
+    </div>
+ 
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <div align="center">
+<img src="screenshots/00.png" style="display: inline;" /> <img src="screenshots/01.png" style="display: inline;" /> <img src="screenshots/02.png" style="display: inline;" />
+</div>
+<p>Satebo&rsquo;s Wordgame is a homebrew game for the <a href="https://en.wikipedia.org/wiki/Satellaview">Satellaview</a> (the Super Famicom extension). <br>
+It is an implementation of the <a href="https://en.wikipedia.org/wiki/Wordle">Wordle</a> game, developped by Josh Wardle, that became popular in 2021 before being bought by the New York Times.</p>
+<p>The game is named after Satebo, one of the two Satellaview mascots. (Satebo: <img src="screenshots/satebo.png" style="display: inline;" />) and Parabo: <img src="screenshots/parabo.png" style="display: inline;" />) <br>
+Why did you spell wordgame in one word? I don&rsquo;t know, why is wargame spelled in one word? <br>
+My prototype was called Super Wordle but I&rsquo;d rather not get sued by the NYT.</p>
+<p>I mostly did this project as a simple way to learn how to make a game for the SNES. So far, all my other projects were just translation hacks so this was all new to me.</p>
+<p>Here&rsquo;s a gameplay video: <a href="https://youtu.be/i5349zKPyHg">https://youtu.be/i5349zKPyHg</a></p>
+<br/>
+<h2 id="download">Download</h2>
+<p><a href="roms/Satebo's%20Wordgame%20-%201.0.bs">Satebo&rsquo;s Wordgame - 1.0.bs</a> <br>
+<a href="roms/Satebo's%20Wordgame%20-%201.0.zip">Satebo&rsquo;s Wordgame - 1.0.zip</a></p>
+<br/>
+<h2 id="emulation">Emulation</h2>
+<p><br>
+The game works on:</p>
+<ul>
+<li><strong>snes9x-1.61</strong></li>
+<li><strong>bsnes-plus</strong></li>
+</ul>
+<p>Requirement: <a href="https://project.satellaview.org/downloads.htm">BS-X BIOS (English) - No DRM - 2016 v1.3</a> <br>
+<strong>Make sure to turn on the option &ldquo;Get BS-X date and time from local time&rdquo;</strong> <br>
+(It should be on by default in snes9x)</p>
+<p>I couldn&rsquo;t make the game work on:</p>
+<ul>
+<li>no$sns</li>
+<li>bsnes v115</li>
+<li>mesen</li>
+</ul>
+<br/>
+<h3 id="why-does-the-game-not-work-on-emulator-x">Why does the game not work on emulator X?</h3>
+<p>The game uses the channel feature of the Satellaview (specifically the Time Channel Packet) in order to get the current date and time.<br>
+That feature is documented there: <a href="https://problemkaputt.de/fullsnes.htm#snescartsatellaviewotherpackets">SNES Cart Satellaview Other Packets</a> <br>
+The current date is used for the Daily Word and the time is used for the timers (I could have used a timer based on the frame count but I needed the date anyway).<br>
+Unfortunately, many emulators do not emulate that feature well, if at all. The code I use to read the channel data from the ad-hoc register is taken from the game BS-Kodomo-Chousadan which is itself not emulated well by all emulators.</p>
+<br/>
+<h2 id="gameplay">Gameplay</h2>
+<p><img src="screenshots/06.png" alt="00"></p>
+<p>You have 6 guesses to find a 5-letter word. <br>
+Each guess must be a valid word found in the dictionary (the included one has about 13000 words). <br>
+The solution is taken from a smaller set of 2300 words.</p>
+<br/>
+<h2 id="game-modes">Game Modes</h2>
+<br/>
+<h3 id="practice">Practice</h3>
+<p><img src="screenshots/04.png" alt="00"></p>
+<p>Play as long as you want. You can press Select to get a new word.</p>
+<br/>
+<h3 id="daily-word">Daily Word</h3>
+<p><img src="screenshots/05.png" alt="00"></p>
+<p>You can play this mode once a day. <br>
+Each day has a predetermined solution. <br>
+The solution for a given day is based on the month (mod 8), the day of the month and the day of the week (the Time Channel Packet does not include the current year).
+Therefore, as long as the 1st day of the month is different than the 1st day of the same month of the previous years, it will have never-seen-before solutions. <br>
+But eventually, there will be repeats in the future. By my calculations, the first repeat will be November 2024, being identical to March 2024. After that, September 2025 will be a repeat of January 2024, November 2025 a repeat of March 2025 and December 2025 a repeat of April 2024. <br>
+The repeated month are always at least 8 months (because of the mod 8 operation) or 1 year apart. Considering the scope of the game (and the fact that we all stopped playing Wordle after 2 weeks), that&rsquo;s a reasonable design trade-off.</p>
+<br/>
+<h3 id="time-attack">Time Attack</h3>
+<p>Try to find a number of words (5, 10 or 15) as fast as possible.</p>
+<br/>
+<h3 id="challenge">Challenge</h3>
+<p>Try to find as many words as you can in 15 minutes. <br>
+Like many Satellaview puzzle games, at the end of the 15 min, you are shown a &ldquo;password&rdquo; postcard. <br>
+The password encodes your score (words and guesses) to be verifiable. <br>
+Back in the days of the Satellaview, the St.GIGA office would receive the cards, verify them and reveal the winners the following weeks (on the dedicated show or through the digital magazines presumably). <br>
+If you feel like it, you can post the card with #sateboschallenge on Twitter, I&rsquo;ll verify that your score is legit and may send you a funny gif as a reward.</p>
+<p><img src="screenshots/10.png" style="display: inline;" /> <img src="screenshots/11.png" style="display: inline;" /><br/><br/>
+<img src="screenshots/12.png" style="display: inline;" /> <img src="screenshots/13.png" style="display: inline;" /></p>
+
+      </article>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr />
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+        
+          <div class="blog-tags">
+            
+              <a href="https://krokodyl.github.io//tags/satellaview/">satellaview</a>
+            
+              <a href="https://krokodyl.github.io//tags/blog/">blog</a>
+            
+          </div>
+        
+      </div>
+ 
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+      <section id="social-share">
+        <div class="list-inline footer-links">
+          
+
+<div class="share-box" aria-hidden="true">
+  <div><p class="list-inline footer-links">Share this post:</p></div>
+  <ul class="share">
+
+    
+    <li>
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkrokodyl.github.io%2fpost%2f2023%2f07%2fsatebo%2f" target="_blank" title="Share on Facebook">
+        <i class="bi bi-facebook facebook-color"></i>
+      </a>
+    </li>
+
+    
+    <li>
+      <a href="//twitter.com/share?url=https%3a%2f%2fkrokodyl.github.io%2fpost%2f2023%2f07%2fsatebo%2f&amp;text=Wordle%20for%20SNES%20%28Satebo%27s%20Wordgame%29&amp;via=map%5bgithub%3aKrokodyl%20name%3aKrokodyl%20twitch%3akrokrodyl%20twitter%3aJohnDumberTwo%20website%3ahttps%3a%2f%2fkrokodyl.github.io%2f%20youtube%3auser%2fKrokrodyl%5d"
+        target="_blank" title="Share on Twitter">
+        <i class="bi bi-twitter twitter-color"></i>
+      </a>
+    </li>
+
+    
+    <li>
+      <a href="//reddit.com/submit?url=https%3a%2f%2fkrokodyl.github.io%2fpost%2f2023%2f07%2fsatebo%2f&amp;title=Wordle%20for%20SNES%20%28Satebo%27s%20Wordgame%29" target="_blank" title="Share on Reddit">
+        <i class="bi bi-reddit reddit-color"></i>
+      </a>
+    </li>
+
+    
+    <li>
+      <a href="whatsapp://send?text=https%3a%2f%2fkrokodyl.github.io%2fpost%2f2023%2f07%2fsatebo%2f&amp;description=Wordle%20for%20SNES%20%28Satebo%27s%20Wordgame%29" target="_blank" rel="noopener"
+        title="Share on WhatsApp">
+        <i class="bi bi-whatsapp whatsapp-color"></i>
+      </a>
+    </li>
+
+
+    
+
+    
+
+    
+
+    
+    
+
+  </ul>
+</div>
+<p class="text-muted"></p>
+
+        </div>
+      </section>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-2 "> 
+            <div class="card-body ">
+            <img src="/img/k320.png" class="img-round" alt="">
+          </div>
+          </div>
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+
+              <p class="p-0 m-0"><small class="text-muted ">Written By</small></p>
+              <h5>
+                
+                
+                Krokodyl
+                
+                
+              </h5>
+              <p class="card-text fs-1"></p>
+            </div>
+          </div>
+        </div>
+
+      
+    </div>
+  </div>
+
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+        
+        <ul class="list-group list-group-horizontal" style="flex-direction: row">
+          
+          <li class="list-group-item b-0">
+
+            <a type="button" class="btn btn-dark" role="button" href="https://krokodyl.github.io/post/2023/07/how-to-satellaview/"
+              data-toggle="tooltip" data-placement="top" title="How to play Satellaview games on PC">&larr;
+              Previous Post</a>
+          </li>
+          
+
+
+          
+        </ul>
+        
+      </div>
+
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4"> 
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mt-3">
+          <h3>Read more</h3>
+          <hr />
+        </div>
+
+        
+        
+        
+        
+
+        
+ 
+        
+        
+         
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <div class="card h-100 single-post-card shadow-effect bg-faded-light">
+        <a href="https://krokodyl.github.io/post/2023/07/how-to-satellaview/">
+            <div class="card-body">
+
+                <h3 class="fw-bold post-title">How to play Satellaview games on PC</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta">
+  
+  
+  &nbsp;July 11, 2023 
+
+  
+
+  
+  
+  
+</span>
+
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                     
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6>Read more</h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/4bsx-small.png" alt="How to play Satellaview games on PC" class="card-img-top img-fluid">
+            
+            
+        </a>
+    </div>
+</div> 
+        
+         
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <div class="card h-100 single-post-card shadow-effect bg-faded-light">
+        <a href="https://krokodyl.github.io/post/2023/07/treasure-conflix-fr/">
+            <div class="card-body">
+
+                <h3 class="fw-bold post-title">Treasure Conflix (French)</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta">
+  
+  
+  &nbsp;July 11, 2023 
+
+  
+
+  
+  
+  
+</span>
+
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    Traduction française du jeu Satellaview (SFC).
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6>Read more</h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/treasure-conflix-fr.png" alt="Treasure Conflix (French)" class="card-img-top img-fluid">
+            
+            
+        </a>
+    </div>
+</div> 
+        
+         
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <div class="card h-100 single-post-card shadow-effect bg-faded-light">
+        <a href="https://krokodyl.github.io/post/2023/07/treasure-conflix-maps/">
+            <div class="card-body">
+
+                <h3 class="fw-bold post-title">Treasure Conflix - All Treasure Locations</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta">
+  
+  
+  &nbsp;July 10, 2023 
+
+  
+
+  
+  
+  
+</span>
+
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    Locations of all the treasures in the game.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6>Read more</h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/treasure-conflix-map.png" alt="Treasure Conflix - All Treasure Locations" class="card-img-top img-fluid">
+            
+            
+        </a>
+    </div>
+</div> 
+         
+
+        
+        
+      </div>
+    </div>
+
+    
+
+  </div>
+</div>
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/Krokodyl" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/JohnDumberTwo" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/Krokrodyl" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/krokrodyl" title="Twitch" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitch"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          
+          <a href="https://krokodyl.github.io/">Krokodyl</a>
+          
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+          2023
+          
+
+          
+          &nbsp;&bull;&nbsp;
+          <a href="https://krokodyl.github.io/">This is a blog.</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>&nbsp; Theme made by <a href="https://binovarghese.com">Bino</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<script src="https://krokodyl.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script><script src="https://krokodyl.github.io/js/dark-mode.js"></script>
+    
+  </body>
+</html>
+
