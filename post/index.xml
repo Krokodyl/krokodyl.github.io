@@ -6,7 +6,63 @@
     <description>Recent content on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordle for SNES (Satebo&#39;s Wordgame)</title>
+      <link>https://krokodyl.github.io/post/2023/07/satebo/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/satebo/</guid>
+      <description>Satebo&amp;rsquo;s Wordgame is a homebrew game for the Satellaview (the Super Famicom extension). It is an implementation of the Wordle game, developped by Josh Wardle, that became popular in 2021 before being bought by the New York Times.
+The game is named after Satebo, one of the two Satellaview mascots. (Satebo: ) and Parabo: ) Why did you spell wordgame in one word? I don&amp;rsquo;t know, why is wargame spelled in one word?</description>
+    </item>
+    
+    <item>
+      <title>How to play Satellaview games on PC</title>
+      <link>https://krokodyl.github.io/post/2023/07/how-to-satellaview/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/how-to-satellaview/</guid>
+      <description>Prerequisite Have a SNES emulator.
+1. Download the Satellaview BIOS The file can be downloaded on the BS-X Project Blog
+BS-X BIOS (English) [No DRM] [2016 v1.3].sfc I recommend taking the ENGLISH + NO DRM version.
+2. Place the BIOS in your emulator config (optional) Some emulators automatically look for the BIOS in a specific folder or with a specific file name. Either way, you should keep it in a known location, as you&amp;rsquo;ll need it.</description>
+    </item>
+    
+    <item>
+      <title>Treasure Conflix (French)</title>
+      <link>https://krokodyl.github.io/post/2023/07/treasure-conflix-fr/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/treasure-conflix-fr/</guid>
+      <description>Traduction française du jeu Satellaview (SNES/Super Famicom) トレジャーコンフリクス (Treasure Conflix) sortie en 1996 par Squaresoft. Le jeu mélange des éléments de RPG avec des combats aériens en mode 7. Cependant, l&amp;rsquo;essentiel du jeu consiste à parler à des PNJ et à résoudre des énigmes pour trouver des trésors.
+Conseils pour une première partie Utiliser L et R avec le D-pad pour tourner plus vite. On ne peut trouver un trésor qu&amp;rsquo;après avoir obtenu un indice ou une carte pour ce trésor.</description>
+    </item>
+    
+    <item>
+      <title>Treasure Conflix - All Treasure Locations</title>
+      <link>https://krokodyl.github.io/post/2023/07/treasure-conflix-maps/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/treasure-conflix-maps/</guid>
+      <description>There are 32 treasures to find in the game (not counting the Cloud Gate, which is the main story element).
+20 of the treasures are found with a clue given by an NPC.
+8 of the treasures are found using a treasure map given by an NPC.
+4 of the treasures are underwater in the Doom Triangle.
+World Map Click here for world mapWorld Map Full Resolution (4096x4096)
+Treasure Locations Amethyst Bracelet Click here for the treasure locationAncient Coin Click here for the treasure locationAncient Scriptures Click here for the treasure locationAngel&amp;rsquo;s Bow Click here for the treasure locationBlack Coral Hairpin Click here for the treasure locationCat&amp;rsquo;s Eye Click here for the treasure locationCursed Mirror Click here for the treasure locationDiamond Ring Click here for the treasure locationUnderwater in the Doom Triangle (Dark waters around the Salvage Ship)</description>
+    </item>
+    
+    <item>
+      <title>Treasure Conflix (English)</title>
+      <link>https://krokodyl.github.io/post/2023/07/treasure-conflix/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2023/07/treasure-conflix/</guid>
+      <description>English translation for the Satellaview (SNES/Super Famicom) game トレジャーコンフリクス (Treasure Conflix) released in 1996 by Squaresoft. The game mixes RPG elements with some airship fights in mode 7. Most of the focus is on talking with NPCs and solving riddles trying to find the locations of treasures.
+Tips for your first playthrough You can use L and R in conjunction with the D-pad to turn faster while in combat. You can only find a treasure after you&amp;rsquo;ve been given the clue or the map for that treasure.</description>
+    </item>
+    
     <item>
       <title>WaiWai Check 03/21 (English)</title>
       <link>https://krokodyl.github.io/post/2023/07/waiwai-check-3-21/</link>
