@@ -60,7 +60,7 @@
   "headline": "Dynami Tracer (English)",
   "description" : "English translation for the Satellaview (SFC) game.",
   "inLanguage" : "en",
-  "wordCount":  4469 ,
+  "wordCount":  4438 ,
   "datePublished" : "2023-08-01T00:00:00",
   "dateModified" : "2023-08-01T00:00:00",
   "image" : "https:\/\/krokodyl.github.io\/",
@@ -365,16 +365,19 @@ The characters are referred to as ダイナマイ・トレーサー (<em>dainama
 <br id="patch"/>
 <br/>
 <h1 id="english-patch">English Patch</h1>
-<p>Version 1.0: link coming soon<br/></p>
+<p>Version 1.0: <a href="patch/1.0/BS%20Dynami%20Trace%20(English)%201.0.zip">BS Dynami Tracer (English) 1.0.zip</a><br/></p>
 <p>The patch applies to the following rom:<br/>
 File/ROM SHA-1: 2FF4BC75B88480A35F42DB0A2468EB3F6F8E53E5<br/>
 File/ROM CRC32: 41DAE33C<br/></p>
 <p>IMPORTANT NOTE:<br/>
-As it stands currently (September 03), the patch translates the game into English AND turns the game into a regular SNES game.<br/>
-Because of the size restriction, I cannot keep it as a BS game (working on it though).<br/></p>
+<del>As it stands currently (September 03), the patch translates the game into English AND turns the game into a regular SNES game.</del><br/>
+Update (September 18): I managed to fit the new data into the 1MB rom so the game now runs as a Satellaview game, as intended!<br/>
+Hopefully, this improvement doesn&rsquo;t bring too many bugs.<br/></p>
+<p>How to run Satellaview games:<br/>
+<a href="https://krokodyl.github.io/post/2023/07/how-to-satellaview/">https://krokodyl.github.io/post/2023/07/how-to-satellaview/</a></p>
 <h2 id="what-the-patch-does">What the patch does</h2>
 <ul>
-<li>Turns the BS game into a regular SNES/SFC game (necessary to fit all the new data)</li>
+<li><del>Turns the BS game into a regular SNES/SFC game (necessary to fit all the new data)</del> FIXED</li>
 <li>Translates menus and dialogs into English</li>
 <li>Adds a VWF engine for the dialogs (the menus are still using a monospace font)</li>
 <li>Changes the character name length from 5 to 7</li>
@@ -384,13 +387,6 @@ Because of the size restriction, I cannot keep it as a BS game (working on it th
 </ul>
 <h2 id="known-issues">Known issues</h2>
 <ul>
-<li>The variable width font that I coded is not perfect and sometimes messes up the automatic dialogs (dialog box not triggered by the player) e.g.:
-<ul>
-<li>During the race on Octave, it skips a frame at every checkpoint</li>
-<li>On Clockwork Star, when the time reminder shows up, if you open the menu or crosses to a different screen, the next dialog box gets messed up.</li>
-<li>It could also happen on Satella as the &ldquo;elevator&rdquo; messages are also automatic.</li>
-</ul>
-</li>
 <li>The character name of one save file may replace the default name of that character in the other save file:
 <ul>
 <li>It only matters if you have a different character in each file and you renamed them</li>
@@ -402,6 +398,7 @@ Because of the size restriction, I cannot keep it as a BS game (working on it th
 <li>When you stay idle on the title screen, there&rsquo;s a high score screen.</li>
 <li>After each play-through, it would get updated with your name, rank and score.</li>
 <li>I cannot get this to work yet, because of the length restrictions in character names and the modification I made to have the save file working.</li>
+<li>As it doesn&rsquo;t work, I disabled this screen.</li>
 </ul>
 </li>
 </ul>
@@ -923,7 +920,8 @@ It is explained by the girl in block 1.<br/></p>
 <p><img src="screenshots/clockwork-star.png" alt=""> <img src="screenshots/clockwork-star-blocs.png" alt=""></p>
 <br/>
 <h2 id="tv-schedule">TV Schedule</h2>
-<p>At 1 pm and 10 pm, you can watch the news and get important information about what happened in town.</p>
+<p>In front of the old lady in block 6, there is a TV.<br/>
+At 1 pm and 10 pm, you can watch the news and get important information about what happened in town.</p>
 <br/>
 <h2 id="dr-madows-lab">Dr. Madow&rsquo;s lab</h2>
 <br/>
@@ -1602,6 +1600,45 @@ Each byte is one treasure. The value indicates which player owns it:<br/>
       </div>
     </div>
   </div>
+
+
+
+<div class="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Comments</h3>
+        <hr />
+      </div>
+
+      
+      
+      
+      <div class="disqus-comments">
+              <div id="disqus_thread"></div>
+              <script>
+              
+
+              
+
+              (function() { 
+              var d = document, s = d.createElement('script');
+              s.src = 'https://krokodyl-github-io.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+      
+      
+      
+    </div>
+  </div>
+
+
+
+</div>
 
   <div class="">
     <div class="container">
