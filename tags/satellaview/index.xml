@@ -6,7 +6,19 @@
     <description>Recent content in satellaview on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/satellaview/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/satellaview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make your own Parabo&#39;s Game Quiz</title>
+      <link>https://krokodyl.github.io/post/2024/10/parabo-template/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2024/10/parabo-template/</guid>
+      <description>Parabo&amp;rsquo;s Game Quiz is a homebrew game for the Satellaview (the Super Famicom extension). It is a quiz where you have to identify games from a blurry screenshot.
+Here is the template you can use to make your own quiz.
+Send me all the files and I will compile your own version of the game.
+The original version has 12 rounds but you can make any number of rounds (within reason).</description>
+    </item>
+    
     <item>
       <title>Parabo&#39;s Game Quiz I</title>
       <link>https://krokodyl.github.io/post/2024/10/parabo/</link>
