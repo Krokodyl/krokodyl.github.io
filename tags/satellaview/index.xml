@@ -8,15 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/satellaview/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Developing Satellaview games with PVSNESLIB</title>
+      <title>Developing Satellaview games with PVSnesLib</title>
       <link>https://krokodyl.github.io/post/2024/10/bs-demo/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://krokodyl.github.io/post/2024/10/bs-demo/</guid>
       <description>This is a demo to showcase the way I integrate Satellaview features to a PVSnesLib project.
+Video of the demo: https://youtu.be/HI_O6bwIuIU
+Download the rom (bs-demo-mpack.bs): https://github.com/Krokodyl/bsdemo-mpack
 First, you need to have the PVSnesLib environment set up. Follow the instructions on the wiki and try to compile any of the examples provided to make sure it&amp;rsquo;s working.
-Second, you can get the sources for the demo by cloning or downloading the github repository below.
-I will only go into details about the specific Satellaview features.</description>
+Second, you can get the sources for the demo by cloning or downloading the github repository below.</description>
     </item>
     
     <item>
