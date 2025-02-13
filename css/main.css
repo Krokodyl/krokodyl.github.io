@@ -48,8 +48,10 @@ a:focus {
   text-decoration: none;
 }
 blockquote {
+  background-color: #dfe6eb;
   color: #808080;
   font-style: italic;
+  padding: 5px;
 }
 blockquote p:first-child {
   margin-top: 0;
