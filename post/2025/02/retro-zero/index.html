@@ -61,7 +61,7 @@
   "headline": "Is retro-bit selling fan translations?",
   "description" : "Review",
   "inLanguage" : "en",
-  "wordCount":  3828 ,
+  "wordCount":  4818 ,
   "datePublished" : "2025-02-08T00:00:00",
   "dateModified" : "2025-02-08T00:00:00",
   "image" : "https:\/\/krokodyl.github.io\/",
@@ -355,7 +355,7 @@
 </tr>
 <tr>
 <td><a href="https://retro-bit.com/gley-lancer/">Gley Lancer</a></td>
-<td><a href="https://www.romhacking.net/translations/1173/">Gley Lancer (2007 by Jon Najar)</a></td>
+<td><a href="https://mijet.eludevisibility.org/Gleylancer/Gleylancer.html">Gley Lancer (2006 by MIJET)</a></td>
 </tr>
 <tr>
 <td><a href="https://retro-bit.com/majyuo/">Majyūō: King of Demons</a></td>
@@ -802,8 +802,6 @@ Which brings us to the retro-bit release. How did they translate BB団?
 </table>
 <br/>
 Another coincidence you say?
-<p>To be entirely fair, these screenshots are taken from the preview stream done by retro-bit. I haven&rsquo;t found any other footage of anyone playing the retro-bit version to the end credits.</p>
-<p>But even if we&rsquo;re being charitable and say that it&rsquo;s a preview of a work in progress, it&rsquo;s still a big tell, in my opinion, that their work is based on Svambo&rsquo;s patch.</p>
 <p>Another thing I found while comparing the staff roll of the different versions, there are 2 screens of &ldquo;Special Thanks&rdquo; towards the end:</p>
 <table>
 <thead>
@@ -857,7 +855,8 @@ Another coincidence you say?
 <p>PS5 digital release footage from:</p>
 <p><a href="https://youtu.be/N-rvzvLOfwI">https://youtu.be/N-rvzvLOfwI</a></p>
 <p><a href="https://youtu.be/YQ9y3fNInAM">https://youtu.be/YQ9y3fNInAM</a></p>
-<p>retro-bit release footage :</p>
+<p>retro-bit&rsquo;s edition footage :</p>
+<p><a href="https://youtu.be/XX3NvOAU9YE">https://youtu.be/XX3NvOAU9YE</a></p>
 <p><a href="https://youtu.be/ZKrJ0WpH9Tg">Madlittlepixel - Shockman Zero (Unboxing &amp; Gameplay)</a></p>
 <p><a href="https://youtu.be/YhrawWNKsM4">Retro-Bit - Preview Stream: Shockman Zero with IceStrike256!</a></p>
 <p>Manual images from:</p>
@@ -1078,137 +1077,229 @@ What are the odds that two completely separate translations, by separate people,
 <br/>
 <h1 id="game-3-gley-lancer">Game 3: Gley Lancer</h1>
 <br/>
+<h2 id="the-fan-translation">The fan translation</h2>
+<br/>
+<p>The Gley Lancer fan translation is from <a href="https://mijet.eludevisibility.org/Gleylancer/Gleylancer.html">2006 by MIJET</a>.</p>
+<p>It was uploaded to <a href="https://www.romhacking.net/translations/1173/">romhacking.net in 2007</a>.</p>
+<br/>
+<h2 id="retro-bit-edition">Retro-bit edition</h2>
+<br/>
+<p>If you&rsquo;ve made it so far and still think to yourself &ldquo;this is nitpicking, this is all speculation, there&rsquo;s no proof&rdquo;, well I have good and bad news.</p>
+<p>The bad news is that I had written a details analysis comparing the versions of Gley Lancer, like I did for the other games, but I had to delete everything.</p>
+<p>The good news is I did that because something major happened: thanks to a good samaritan, I was able to get my hand on a copy of the ROM of retro-bit&rsquo;s edition of Gley Lancer!</p>
+<p>No more shoddy gameplay screenshots, let&rsquo;s dive into the actual game.</p>
+<h2 id="nihongo-jōzu">Nihongo jōzu!</h2>
+<p>The first thing I did with the ROM is to play it on two different regions (US and JP).</p>
+<p>Something of a miracle happened:</p>
+<details>
+  <summary>Open Video Player</summary>
+<video src="gley/video/gley-lancer-dual-languages-raw.mp4" width="640" height="480" controls></video>
+</details>
+<p>Here&rsquo;s a <a href="https://www.youtube.com/watch?v=VYixJwTBwXA">YouTube link</a> if the video doesn&rsquo;t load.</p>
+<p>TLDW: If you play on a US/EU region console the game is in English, if you play on a JP region console the game is in Japanese.</p>
+<p>That&rsquo;s amazing! Why isn&rsquo;t it mentioned anywhere in the promotional materials? Why go through the trouble of making a dual-language cartridge and not to advertise it?</p>
+<p>And the retro-bit FAQ doesn&rsquo;t mention it:</p>
+<p><img src="gley/faq-region.png" alt="faq-region.png"></p>
+<p>Correct me if I&rsquo;m wrong, I thought it was the other way around: the Japanese cartridge won&rsquo;t fit in a Western console but a Western cartridge should fit in a Japanese console?</p>
+<p>Now I didn&rsquo;t discover this feature randomly. I did what nobody does: read the <a href="https://www.romhacking.net/translations/genesis/patches/1173readme.txt">MIJET translation readme</a>.</p>
+<p><img src="gley/mijet-readme.png" alt="mijet-readme.png"></p>
+<br/>
+<h2 id="beyond-compare">Beyond Compare</h2>
+<br/>
+<p>I&rsquo;m going to compare the ROMs with a program called <a href="https://www.scootersoftware.com/v5help/viewhex.html">Beyond Compare</a>. It&rsquo;s a powerful tool used to compare 2 text files or 2 binary files (hex) side by side. On the left of the interface, there is a color-coded navigation bar: white for identical lines, red for the different lines. That bar represents the entirety of the files.</p>
 <table>
 <thead>
 <tr>
-<th> </th>
-<th>retro-bit release</th>
-<th>2007 Jon Najar patch</th>
+<th>Example of Text Compare</th>
+<th>Example of Hex Compare</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><img src="gley/retro/001.jpg" alt="001"></td>
-<td><img src="gley/jon/001.jpg" alt="001"></td>
-</tr>
-<tr>
-<td>2</td>
-<td><img src="gley/retro/002.jpg" alt="002"></td>
-<td><img src="gley/jon/002.jpg" alt="002"></td>
-</tr>
-<tr>
-<td>3</td>
-<td><img src="gley/retro/003.jpg" alt="003"></td>
-<td><img src="gley/jon/003.jpg" alt="003"></td>
-</tr>
-<tr>
-<td>4</td>
-<td><img src="gley/retro/004.jpg" alt="004"></td>
-<td><img src="gley/jon/004.jpg" alt="004"></td>
-</tr>
-<tr>
-<td>5</td>
-<td><img src="gley/retro/005.jpg" alt="005"></td>
-<td><img src="gley/jon/005.jpg" alt="005"></td>
-</tr>
-<tr>
-<td>6</td>
-<td><img src="gley/retro/006.jpg" alt="006"></td>
-<td><img src="gley/jon/006.jpg" alt="006"></td>
-</tr>
-<tr>
-<td>7</td>
-<td><img src="gley/retro/007.jpg" alt="007"></td>
-<td><img src="gley/jon/007.jpg" alt="007"></td>
-</tr>
-<tr>
-<td>8</td>
-<td><img src="gley/retro/008.jpg" alt="008"></td>
-<td><img src="gley/jon/008.jpg" alt="008"></td>
-</tr>
-<tr>
-<td>9</td>
-<td><img src="gley/retro/009.jpg" alt="009"></td>
-<td><img src="gley/jon/009.jpg" alt="009"></td>
-</tr>
-<tr>
-<td>10</td>
-<td><img src="gley/retro/010.jpg" alt="010"></td>
-<td><img src="gley/jon/010.jpg" alt="010"></td>
-</tr>
-<tr>
-<td>11</td>
-<td><img src="gley/retro/011.jpg" alt="011"></td>
-<td><img src="gley/jon/011.jpg" alt="011"></td>
-</tr>
-<tr>
-<td>12</td>
-<td><img src="gley/retro/012.jpg" alt="012"></td>
-<td><img src="gley/jon/012.jpg" alt="012"></td>
-</tr>
-<tr>
-<td>13</td>
-<td><img src="gley/retro/013.jpg" alt="013"></td>
-<td><img src="gley/jon/013.jpg" alt="013"></td>
-</tr>
-<tr>
-<td>14</td>
-<td><img src="gley/retro/014.jpg" alt="014"></td>
-<td><img src="gley/jon/014.jpg" alt="014"></td>
+<td><img src="gley%2Fbeyond-c%2Ftext-compare.png" alt="text-compare.png"></td>
+<td><img src="gley%2Fbeyond-c%2Fhex-compare.png" alt="hex-compare.png"></td>
 </tr>
 </tbody>
 </table>
+<p>As a reference point and to show what a comparison looks like, I&rsquo;m going to use my 2024 translation and the 1998 translation (by Chaotic Translations) of Wedding Peach (SNES) as examples.</p>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Fcompare01.jpg" alt="compare01.jpg"></p>
+</blockquote>
+<p>You can see for the 2 translations of Wedding Peach, not all but most of the changes to the original are different. When compared against each other, these differences add up (3rd bar).</p>
+<p>For Gley Lancer, not only are the changes to the original almost identical, but when compared against each other (last bar) most of these differences disappear.</p>
+<p>Let me go through what those differences are.</p>
+<p>The differences at the beginning of the ROM are expected:</p>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Fcompare02.jpg" alt="compare02.jpg">
+The header</p>
+</blockquote>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Fcompare03.jpg" alt="compare03.jpg">
+The licences</p>
+</blockquote>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Fcompare04.jpg" alt="compare04.jpg">
+The copyrights (Note: I redacted the translator name with $)</p>
+</blockquote>
+<p>In the original ROM, there are several unused areas. Notably between 0xAF3C0 and 0xB0000.</p>
+<p>MIJET arbitrarily put the font graphics at address 0xAF500. Even leaving empty space before and after.</p>
+<p>Here is this section compared to retro-bit ROM:</p>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Fcompare05.jpg" alt="compare05.jpg">
+Retro-bit ROM (left) vs MIJET patched ROM (right)</p>
+</blockquote>
+<p>&ldquo;The character tiles are different though?&rdquo; I hear you say. Indeed, I wondered why the bytes were changing in a set pattern (FA -&gt; F9, AA -&gt; A9&hellip; always 2 bits).</p>
+<p>I found the answer in Tile Layer Pro, a program to visualize uncompressed ROM graphics.</p>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Ftiles-letters.gif" alt="tiles-letters.gif"></p>
+</blockquote>
+<p>They changed the index color of the shadow in the whole font. I think it&rsquo;s actually an improvement, the font is easier to read.</p>
+<p>The same change can be seen at address 0xF1D0A for the numbers/punctuation marks:</p>
+<blockquote>
+<p><img src="gley%2Fbeyond-c%2Ftiles-numbers.gif" alt="tiles-numbers.gif"></p>
+</blockquote>
+<p>Same font graphics, only the shadow color changes.</p>
+<p>Another unused area in the original ROM is between addresses 0xF0150 and 0xF2280.</p>
+<p>That&rsquo;s where MIJET put the code of the font engine and all the English script.</p>
+<p>Lo and behold, retro-bit&rsquo;s ROM has the exact same code at the exact same address (Everything from the start to the beginning of the script):</p>
+<details>
+  <summary>Open Video Player</summary>
+<video src="gley/video/gley-lancer-code.mp4" width="640" height="480" controls></video>
+</details>
+<p>If video doesn&rsquo;t load, <a href="https://youtu.be/TZrKNm1TbZ0">watch on YouTube</a>.</p>
+<p>Another good thing I can do with the ROMs is to extract the texts in order to compare them (for the sake of presentation, I replaced the line breaks with §).</p>
+<blockquote>
+<p>Retro-bit script (left) vs MIJET script (right) (click images to enlarge)
+<a href="gley/beyond-c/text-compare01.jpg" target="_blank"><img src="gley/beyond-c/text-compare01.jpg"/></a>
+<a href="gley/beyond-c/text-compare02.jpg" target="_blank"><img src="gley/beyond-c/text-compare02.jpg"/></a>
+<a href="gley/beyond-c/text-compare03.jpg" target="_blank"><img src="gley/beyond-c/text-compare03.jpg"/></a></p>
+</blockquote>
+<p>Out of 125 lines, only 32 are different. The further into the script (the later in the game it comes up), the less changes were made to MIJET script.</p>
+<p>Because the pointers have not been changed, all the lines start and end at the exact same address. And because of that, the lines in retro-bit&rsquo;s script are never longer than in MIJET&rsquo;s script. Whenever a line is shorter, it&rsquo;s padded with spaces. This is very blatant in the &ldquo;Text Details&rdquo; in Beyond Compare:</p>
+<blockquote>
+<p>MIJET script on top, retro-bit&rsquo;s below.</p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details01.jpg" alt="text-details01.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details02.jpg" alt="text-details02.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details03.jpg" alt="text-details03.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details04.jpg" alt="text-details04.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details05.jpg" alt="text-details05.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details06.jpg" alt="text-details06.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details07.jpg" alt="text-details07.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details08.jpg" alt="text-details08.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details09.jpg" alt="text-details09.jpg"></p>
+<p><img src="gley%2Fbeyond-c%2Ftext-details10.jpg" alt="text-details10.jpg"></p>
+</blockquote>
+<p>Some of the changes don&rsquo;t even sound like proper English: &ldquo;conclude a new type of fighter&rdquo;, &ldquo;mention about&rdquo;.</p>
+<blockquote>
+<p>Even IntelliJ IDEA, that I use to write this post, is suggesting that it&rsquo;s incorrect:
+<img src="gley/idea.png" alt="idea.png"></p>
+</blockquote>
+<p>There&rsquo;s only 125 lines of script! Surely it doesn&rsquo;t take too much effort to proofread</p>
+<p>I have a theory about how the translated ROM was edited. A normal person would have used a program (custom-made or not) to extract the Japanese text into a file, translate the file, inject the English texts and automatically update the pointers.</p>
+<p>I think they only used a hexadecimal editor. That would explain the pointers, the difficulty of proofreading, the weird padding (sometimes before, sometimes after) and also mistakes like this one:</p>
+<blockquote>
+<p><img src="gley%2Fwhat.jpg" alt="what.jpg">
+<img src="gley%2Fpunctuation.jpg" alt="punctuation.jpg">
+They moved the question mark but left the ellipsis.</p>
+</blockquote>
+<p>In an hexadecimal editor, any non-printable character such as 0x00 (the termination byte used by the game) appears as a dot. If you only look at the decoded ascii text, it&rsquo;s indistinguishable from the actual period (0x2E).</p>
+<blockquote>
+<p><img src="gley/hex.jpg" alt="hex.jpg"></p>
+</blockquote>
+<p>Just a thought. If you only use a hex editor, more power to you.
+I&rsquo;m not gatekeeping how you should do your romhacking project but between a hobbyist and a professional working on a commercial product, the expectations are not the same.</p>
 <br/>
-<p>(Reminder that the retro-bit FAQ and promotion claims that they only work from the Japanese games, not from any existing work)</p>
-<p>So in entry 5, both lines end with an exclamation mark. In the Japanese, both lines also end with an exclamation mark. All good.</p>
-<p><img src="gley%2Fjpn%2F05.jpg" alt="05.png"></p>
-<p>But in entry 6, both translations are &ldquo;We&rsquo;ve lost 15% of our fleet&hellip;&rdquo;, but the Japanese ends with an exclamation mark not an ellipsis.</p>
-<p><img src="gley%2Fjpn%2F06.jpg" alt="06.png"></p>
-<p>For reference, the PS5 version has the correct punctuation.
-<img src="gley%2Fps5%2F15.jpg" alt="15.png"></p>
-<p>Surely, the fact that both translations have the same incorrect punctuation is just a coincidence.</p>
-<p>I don&rsquo;t get what happened in entry 13. Look like the ? was moved but someone forgot to remove the ellipsis behind it.</p>
-<p>These are only the very first texts of the game. I&rsquo;m sure you can go through the whole script and find more similarities, but that&rsquo;s what I noticed.</p>
+<h2 id="nihongo-not-jōzu-at-all">Nihongo not jōzu at all&hellip;</h2>
 <br/>
-<p>The fan translation doesn&rsquo;t translate the staff roll at the end of the game. Unfortunately, there is no footage of the end of the game for the retro-bit version. It would have been good to compare them. I don&rsquo;t know anything about programming for Megadrive so I can&rsquo;t even look at the code to see if there&rsquo;s a technical reason why it was left in Japanese.</p>
-<p><img src="gley%2Fstaff.png" alt="staff.png"></p>
-<br/>
-<p>The more telling thing is that, again, it&rsquo;s the same font.</p>
-<p>There&rsquo;s something else to note: it&rsquo;s a variable width font.</p>
-<p>You see, due to the way old console works, there are two types of fonts: monospaced and variable width font (commonly called VWF).</p>
-<br/>
+<p>The game has two endings depending on what happens in Stage 10. The credit roll after the ending is different for each ending: the bad ending has the credits in English with names in romaji (even in the original Japanese game) and the good ending has the credits in Japanese with the names in kanji.</p>
 <table>
 <thead>
 <tr>
-<th>Example of<br/>a monospaced font</th>
-<th>Example of<br/>a VWF</th>
+<th>Good Ending Credits</th>
+<th>Bad Ending Credits</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><img src="gley%2Ffont-monospaced.png" alt="font-monospaced.png"></td>
-<td><img src="gley%2Ffont-vwf.png" alt="font-vwf.png"></td>
+<td><img src="gley%2Fcredits%2Fcredits-good-ending.jpg" alt="credits-good-ending.jpg"></td>
+<td><img src="gley%2Fcredits%2Fcredits-bad-ending.jpg" alt="credits-bad-ending.jpg"></td>
 </tr>
 </tbody>
 </table>
 <br/>
-<p>With a monospaced font, the characters are tied to the tilemap (each one always 1 or 2 tiles wide) whereas the VWF allows characters to overlap 2 tiles.</p>
-<p>VWF are more pleasant to read but harder to program.</p>
-<p>Isn&rsquo;t it interesting that out of all these retro-bit releases translated by the same &ldquo;talented&rdquo; programmer, the only one with a VWF happens to be the one where the fan translation also uses a VWF?</p>
-<p>Which raises another question, if they were able to develop their own VWF for the game (as retro-bit claims that &ldquo;no existing script or work&rdquo; was used) in 2022 for Gley Lancer, why didn&rsquo;t they make a VWF for any of the other games released later?</p>
-<p>So many questions, so few answers! O tempora, o mores!</p>
+In the patch readme, MIJET explains that. He also says that he purposefully didn't translate the good ending credits, out of respect for the people who made the game.<br/>
+<br/>
+<blockquote>
+<p><img src="gley%2Fcredits%2Freadme-credits.png" alt="readme-credits.png">
+MIJET&rsquo;s readme</p>
+</blockquote>
+<p>Obviously, in retro-bit&rsquo;s edition, they are also left in Japanese. It&rsquo;s actually what raised my suspicions a lot, after I heard through the Spanish grapevine that this translation was fishy.</p>
+<p>As I was playing through the end of retro-bit&rsquo;s version to record some footage about a copyright issue (I&rsquo;ll come back to that later), something caught my eye in the good ending credits.</p>
+<p>I&rsquo;ll be honest, my kanji knowledge is pretty bad but I immediately recognize one of them, along with the name.</p>
+<p><img src="gley%2Fcredits%2Fmijeto.jpg" alt="mijeto.jpg"></p>
+<p>英   English (英語=English language)<br/>
+訳   Translation<br/>
+ミジェト    MIJET (<em>mijeto</em> in katakana)<br/></p>
+<p>Yep, you read that right. While retro-bit&rsquo;s &ldquo;translator/skilled programmer&rdquo; gets credited in the bad ending, the good ending credits still have the name of the person of actually did all the work: MIJET.</p>
+<p>Isn&rsquo;t that a beautiful irony?</p>
+<p>Relegated to the bad ending and caught by his own inability to read a simple name in katakana (never mind the kanji).</p>
+<h2 id="sega-does">Sega does&hellip;</h2>
+<p>As we&rsquo;ve established that retro-bit&rsquo;s Gley Lancer is a modified version of MIJET&rsquo;s fan translation, it creates some licensing/copyright issues.</p>
+<p><a href="https://en.wikipedia.org/wiki/Masaya_Games">Masaya Games</a> is a brand, created in 1984 by Nippon Computer Systems (NCS). The brand was transferred to <a href="https://nintendo.fandom.com/wiki/Extreme_Co.,_Ltd.">Extreme</a> in 2014.</p>
+<p>That is reflected at the start of the game where the NCS copyright is replaced by the Extreme copyright:</p>
+<table>
+<thead>
+<tr>
+<th>original intro</th>
+<th>retro-bit&rsquo;s edition intro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="gley%2Flegal%2Flegal-ncs.png" alt="legal-ncs.png"></td>
+<td><img src="gley%2Flegal%2Flegal-extreme.png" alt="legal-extreme.png"></td>
+</tr>
+</tbody>
+</table>
+<p>but retro-bit still uses the old Masaya logo, not the new one you can see in all other re-releases and all over their marketing assets&hellip;</p>
+<table>
+<thead>
+<tr>
+<th>New logo</th>
+<th>retro-bit&rsquo;s edition intro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="gley%2Flegal%2Fmasaya-logo-ps4.jpg" alt="masaya-logo-ps4.jpg"></td>
+<td><img src="gley%2Flegal%2Flegal-old-masaya.png" alt="legal-old-masaya.png"></td>
+</tr>
+</tbody>
+</table>
+<p>The very end of the credits (good ending) still says:<br/>
+制作<br/>
+日本コンピューターシステム株式会社<br/>
+Production<br/>
+Nippon Computer Systems</p>
+<p><img src="gley%2Flegal%2Fncs.png" alt="ncs.png"></p>
+<p>But more importantly, unlike all other re-releases (Columbus Circle&rsquo;s physical or the digital version on modern consoles), the game starts with the emblematic Sega logo.</p>
+<p><img src="gley%2Flegal%2Flegal-sega.png" alt="legal-sega.png"></p>
+<p>I&rsquo;m not a lawyer but I&rsquo;m pretty sure you shouldn&rsquo;t slap a company&rsquo;s logo on a game that is neither developed nor published by said company.</p>
+<p>It&rsquo;s really funny considering that on all their cartridges, game boxes and manuals they go to great lengths to avoid saying Sega or Nintendo like Harry avoid saying Voldemort.</p>
+<h3 id="mijet">MIJET</h3>
+<p>For whoever is considering contacting MIJET about all this, read the <a href="https://mijet.eludevisibility.org/Old.html">disclaimer on their blog</a>.</p>
 <br id="game3-sources"/>
 <br/>
 <h2 id="sources-2">Sources</h2>
 <br/>
 <p><a href="https://www.romhacking.net/translations/1173/">https://www.romhacking.net/translations/1173/</a> <br/>
 retro-bit footage: <a href="https://youtu.be/V3D6bJ1FQ30">https://youtu.be/V3D6bJ1FQ30</a> <br/>
+<a href="https://youtu.be/8Rof5zO2lEo">https://youtu.be/8Rof5zO2lEo</a><br/>
 Japanese footage: <a href="https://youtu.be/0ilPiq_9TAo">https://youtu.be/0ilPiq_9TAo</a> <br/>
 <a href="https://retro-bit.com/gley-lancer/">https://retro-bit.com/gley-lancer/</a><br/></p>
 <br id="game4"/>
 <br/>
-# Game 4: Majyūō: King of Demons
+<h1 id="game-4-majyūō-king-of-demons">Game 4: Majyūō: King of Demons</h1>
 <br/>
 <blockquote>
 <p>The retro-bit FAQ says &ldquo;no existing script or work&rdquo; was used:
