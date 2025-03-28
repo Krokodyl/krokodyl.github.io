@@ -6,7 +6,29 @@
     <description>Recent content on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retro-bit Translations: Part Deux</title>
+      <link>https://krokodyl.github.io/post/2025/03/retro-dos/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2025/03/retro-dos/</guid>
+      <description>What is this about? This is a follow-up to this blog post: Has retro-bit stolen fan translations to put in their repros?
+In that first post, I only had screenshots and videos to look at Shockman Zero.
+I have since been sent the ROM file. I intend here to do a thorough and exhaustive comparison of Retro-bit&amp;rsquo;s ROM and the fan translation by Svambo (romhacking) and Anonymousse (translation).
+For the sake of simplicity, I&amp;rsquo;ll sometimes refer to the fan translation as Svambo ROM.</description>
+    </item>
+    
+    <item>
+      <title>Kodomo Chōsadan Mighty Pockets - Week 1 - English Patch</title>
+      <link>https://krokodyl.github.io/post/2025/03/mighty-pockets/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2025/03/mighty-pockets/</guid>
+      <description>Kodomo Chōsadan Mighty Pockets (子供調査団 MightyPockets) is a series of 3 games released on Satellaview.
+The games are based on the board game Cluedo (known as Clue in North America). The first two games feature 4 locations, 4 weapons and 4 suspects. They are using the same engine (they were broadcast one week apart). For the third game (broadcast 6 months after game 2), the engine has been modified to allow more than 4 elements.</description>
+    </item>
+    
     <item>
       <title>Has retro-bit stolen fan translations to put in their repros?</title>
       <link>https://krokodyl.github.io/post/2025/02/retro-zero/</link>
