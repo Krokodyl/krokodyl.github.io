@@ -1,0 +1,1996 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigAdd { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EFEFFF; text-decoration: line-through; }
+td.TextItemInsigDiffMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigLeftMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigRightMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemNum { color: #827357; background-color: #F2F2F2; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+td.TextItemSigDiffMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigLeftMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigRightMod { color: #000000; background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 23/03/2025<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; All, Ignoring Unimportant &nbsp;
+<br/>
+6 same line(s)<br/>
+1 ignored unimportant difference line(s)<br/>
+270 important difference line(s)<br/>
+<br/>
+Left file: retro-bit.txt &nbsp;
+<br/>
+Right file: switch.txt &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1</td>
+<td class="TextItemSigDiffMod">Oh<span class="TextSegSigDiff">-</span>ho<span class="TextSegSigDiff">-</span>h<span class="TextSegSigDiff">o</span>!§This town <span class="TextSegSigDiff">here...</span></td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">1</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>OH hoh <span class="TextSegSigDiff">hoh</span>!§This town <span class="TextSegSigDiff">now</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">2</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">now</span> belongs to us,§the B<span class="TextSegSigDiff">.B.</span> <span class="TextSegSigDiff">Corps</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">2</td>
+<td class="TextItemSigDiffMod">belongs to us,§the B<span class="TextSegSigDiff">B</span> <span class="TextSegSigDiff">Gang</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">3</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span>ee<span class="TextSegSigDiff">...</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">3</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">M</span>ee<span class="TextSegSigDiff">p</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">4</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Stop</span> <span class="TextSegSigDiff">it</span> <span class="TextSegSigDiff">right</span> t<span class="TextSegSigDiff">here</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">4</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span><span class="TextSegSigDiff">OLD</span> <span class="TextSegSigDiff">I</span>T!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">5</td>
+<td class="TextItemSigDiffMod">Your <span class="TextSegSigDiff">impish</span> <span class="TextSegSigDiff">crime</span>s <span class="TextSegSigDiff">won't§go</span> <span class="TextSegSigDiff">unpunis</span>he<span class="TextSegSigDiff">d</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">5</td>
+<td class="TextItemSigDiffMod">Your <span class="TextSegSigDiff">ev</span><span class="TextSegSigDiff">il</span> <span class="TextSegSigDiff">de</span><span class="TextSegSigDiff">ed</span>s<span class="TextSegSigDiff">§e</span><span class="TextSegSigDiff">nd</span> he<span class="TextSegSigDiff">re</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">6</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">...</span>who are you!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">6</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">-</span>Who are you<span class="TextSegSigDiff">?</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">7</td>
+<td class="TextItemSigDiffMod">A <span class="TextSegSigDiff">shock</span>ing <span class="TextSegSigDiff">entry!</span> A<span class="TextSegSigDiff">§</span>sh<span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">cki</span>ng <span class="TextSegSigDiff">morph</span>ing<span class="TextSegSigDiff">!!</span>&nbsp; &nbsp;&nbsp; </td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">7</td>
+<td class="TextItemSigDiffMod">A<span class="TextSegSigDiff">ppear</span>ing <span class="TextSegSigDiff">in</span> a <span class="TextSegSigDiff">fla</span>sh<span class="TextSegSigDiff">,§cha</span>nging <span class="TextSegSigDiff">with</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">shock...</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">8</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">The</span> cyb<span class="TextSegSigDiff">org</span> <span class="TextSegSigDiff">townsma</span>n§<span class="TextSegSigDiff">known</span> <span class="TextSegSigDiff">as</span> Shockman!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">8</td>
+<td class="TextItemSigDiffMod">Cyb<span class="TextSegSigDiff">er</span> <span class="TextSegSigDiff">Citize</span>n§Shockman!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">9</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">U</span><span class="TextSegSigDiff">gh,</span> <span class="TextSegSigDiff">s</span>o <span class="TextSegSigDiff">annoying!</span>&nbsp; &nbsp; </td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">9</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Trying</span> <span class="TextSegSigDiff">t</span>o <span class="TextSegSigDiff">get</span> <span class="TextSegSigDiff">in</span> <span class="TextSegSigDiff">our§way,</span> <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">you?!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">10</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">lot</span><span class="TextSegSigDiff">!§Deal</span> <span class="TextSegSigDiff">with</span> <span class="TextSegSigDiff">t</span>he t<span class="TextSegSigDiff">rouble</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">10</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">B</span><span class="TextSegSigDiff">oys!</span> H<span class="TextSegSigDiff">andl</span>e <span class="TextSegSigDiff">i</span>t!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">11</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">AolAAitAAigh</span>t<span class="TextSegSigDiff">A</span><span class="TextSegSigDiff">tAAAe</span>!&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">11</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">No</span>t <span class="TextSegSigDiff">so</span> <span class="TextSegSigDiff">fast</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">12</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">At</span> <span class="TextSegSigDiff">last</span> <span class="TextSegSigDiff">I</span> tr<span class="TextSegSigDiff">acked</span> you<span class="TextSegSigDiff">§down,</span> B<span class="TextSegSigDiff">.B.</span> <span class="TextSegSigDiff">Corps</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">12</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">he</span>r<span class="TextSegSigDiff">e</span> you <span class="TextSegSigDiff">are,§</span>B<span class="TextSegSigDiff">B</span> <span class="TextSegSigDiff">Gang</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">13</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span>'ll <span class="TextSegSigDiff">finall</span>y <span class="TextSegSigDiff">avenge</span> my§father!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">13</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span>'ll <span class="TextSegSigDiff">p</span><span class="TextSegSigDiff">a</span>y <span class="TextSegSigDiff">for</span> my§fath<span class="TextSegSigDiff">er's</span> <span class="TextSegSigDiff">murd</span>er!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">14</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'v</span>e <span class="TextSegSigDiff">caugh</span>t <span class="TextSegSigDiff">you</span>!&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">14</td>
+<td class="TextItemSigDiffMod">E<span class="TextSegSigDiff">nd</span> <span class="TextSegSigDiff">of</span> t<span class="TextSegSigDiff">he</span> <span class="TextSegSigDiff">line</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">15</td>
+<td class="TextItemSigDiffMod">Oh<span class="TextSegSigDiff">-</span>hoh<span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">§we</span><span class="TextSegSigDiff">'ll</span> s<span class="TextSegSigDiff">ee</span> what y<span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">g</span>ot!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">15</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>OH hoh <span class="TextSegSigDiff">hoh!§That'</span>s what yo<span class="TextSegSigDiff">u</span> t<span class="TextSegSigDiff">hink</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">16</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">won't</span> <span class="TextSegSigDiff">ge</span>t <span class="TextSegSigDiff">away!</span>&nbsp; </td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">16</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">No</span><span class="TextSegSigDiff">where</span> <span class="TextSegSigDiff">lef</span>t <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">run.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">17</td>
+<td class="TextItemSigDiffMod">Cyb<span class="TextSegSigDiff">org</span> <span class="TextSegSigDiff">townsma</span>n§Shockman!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">17</td>
+<td class="TextItemSigDiffMod">Cyb<span class="TextSegSigDiff">er</span> <span class="TextSegSigDiff">Citize</span>n§Shockman!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">18</td>
+<td class="TextItemSigDiffMod">I'<span class="TextSegSigDiff">ve</span> <span class="TextSegSigDiff">put</span> you <span class="TextSegSigDiff">on</span> <span class="TextSegSigDiff">my</span> <span class="TextSegSigDiff">list</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">18</td>
+<td class="TextItemSigDiffMod">I'<span class="TextSegSigDiff">ll</span> <span class="TextSegSigDiff">remember</span> you<span class="TextSegSigDiff">r§name</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">19</td>
+<td class="TextItemSigDiffMod">S<span class="TextSegSigDiff">trong!</span> So <span class="TextSegSigDiff">damn</span> strong<span class="TextSegSigDiff">!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">19</td>
+<td class="TextItemSigDiffMod">S<span class="TextSegSigDiff">o...</span> so strong<span class="TextSegSigDiff">...</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">20</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">e</span>, <span class="TextSegSigDiff">that</span> <span class="TextSegSigDiff">i</span>s!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">20</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">a</span>m <span class="TextSegSigDiff">SO</span>, <span class="TextSegSigDiff">SO</span> S<span class="TextSegSigDiff">TRONG</span>!</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">21</td>
+<td class="TextItemSame">Wait! Tell me where§Jinguji is!</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">21</td>
+<td class="TextItemSame">Wait! Tell me where§Jinguji is!</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">22</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It</span> <span class="TextSegSigDiff">seem</span>s I <span class="TextSegSigDiff">got</span> to find<span class="TextSegSigDiff">§</span>their hideout <span class="TextSegSigDiff">by</span> <span class="TextSegSigDiff">myself</span>.</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">22</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...Bah.</span> <span class="TextSegSigDiff">Gues</span>s I<span class="TextSegSigDiff">'ll</span> <span class="TextSegSigDiff">have§</span>to find their hideout.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">23</td>
+<td class="TextItemSigDiffMod">An a<span class="TextSegSigDiff">rmy</span> <span class="TextSegSigDiff">of</span> evil<span class="TextSegSigDiff">...§That</span> <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">very</span> <span class="TextSegSigDiff">interes</span>tin<span class="TextSegSigDiff">g</span>!&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">23</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Sweet!</span> An a<span class="TextSegSigDiff">ctual</span> evil<span class="TextSegSigDiff">§o</span><span class="TextSegSigDiff">rga</span><span class="TextSegSigDiff">niza</span>ti<span class="TextSegSigDiff">o</span>n!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">24</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Right</span><span class="TextSegSigDiff">,</span> Azuki?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">24</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Pret</span><span class="TextSegSigDiff">ty</span> <span class="TextSegSigDiff">cool,§huh</span> Azuki?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">25</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Your</span> i<span class="TextSegSigDiff">ntro</span> <span class="TextSegSigDiff">ca</span><span class="TextSegSigDiff">tchphras</span>e§i<span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">eall</span>y <span class="TextSegSigDiff">crin</span>g<span class="TextSegSigDiff">eworthy.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">25</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Hey,</span> <span class="TextSegSigDiff">Ra</span>i<span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">a.</span> <span class="TextSegSigDiff">T</span><span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">at</span> <span class="TextSegSigDiff">littl</span>e§i<span class="TextSegSigDiff">ntro</span> <span class="TextSegSigDiff">speech</span> y<span class="TextSegSigDiff">ou</span> g<span class="TextSegSigDiff">ave?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">26</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ple</span>as<span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">cu</span>t it <span class="TextSegSigDiff">out!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">26</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It</span> <span class="TextSegSigDiff">w</span>as <span class="TextSegSigDiff">dumb.§Don'</span>t <span class="TextSegSigDiff">do</span> it <span class="TextSegSigDiff">again.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">27</td>
+<td class="TextItemSigDiffMod">. . . <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">27</td>
+<td class="TextItemSigDiffMod">...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">28</td>
+<td class="TextItemSigDiffMod">The sudde<span class="TextSegSigDiff">n</span> <span class="TextSegSigDiff">incursio</span>n <span class="TextSegSigDiff">of</span> <span class="TextSegSigDiff">§the</span> <span class="TextSegSigDiff">B.B.</span> <span class="TextSegSigDiff">Corp</span>s. . .</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">28</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Hmm,</span> the <span class="TextSegSigDiff">BB</span> <span class="TextSegSigDiff">Gang§</span>sudden<span class="TextSegSigDiff">ly</span> <span class="TextSegSigDiff">appea</span><span class="TextSegSigDiff">r</span>s...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">29</td>
+<td class="TextItemSigDiffMod">The <span class="TextSegSigDiff">murder</span> <span class="TextSegSigDiff">of</span> Azuki's§<span class="TextSegSigDiff">father</span>. . .</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">29</td>
+<td class="TextItemSigDiffMod">The<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">kill</span> Azuki's§<span class="TextSegSigDiff">dad</span>...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">30</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">T</span>he d<span class="TextSegSigDiff">isappearance</span> <span class="TextSegSigDiff">of</span> <span class="TextSegSigDiff">his§</span>assistant Jinguji<span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span> .</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">30</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">And</span> he<span class="TextSegSigDiff">r</span> d<span class="TextSegSigDiff">ad'</span><span class="TextSegSigDiff">s</span> assistant<span class="TextSegSigDiff">§</span>Jinguji <span class="TextSegSigDiff">vanishes..</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">31</td>
+<td class="TextItemSigDiffMod">Just what <span class="TextSegSigDiff">on</span> <span class="TextSegSigDiff">ear</span>th&nbsp; &nbsp; <span class="TextSegSigDiff">§is</span> <span class="TextSegSigDiff">going</span> <span class="TextSegSigDiff">on</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">31</td>
+<td class="TextItemSigDiffMod">Just what <span class="TextSegSigDiff">could</span> th<span class="TextSegSigDiff">ey</span><span class="TextSegSigDiff">§be</span> <span class="TextSegSigDiff">after</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">32</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...k</span>ee<span class="TextSegSigDiff">...</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">32</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">M</span>ee<span class="TextSegSigDiff">p</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">33</td>
+<td class="TextItemSigDiffMod">Who the heck are you<span class="TextSegSigDiff">§creeps</span>?!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">33</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">-Wh</span>o the heck are<span class="TextSegSigDiff">§</span>you?!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">34</td>
+<td class="TextItemSigDiffMod">H<span class="TextSegSigDiff">-H</span>ey! <span class="TextSegSigDiff">Hold</span> <span class="TextSegSigDiff">on</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">34</td>
+<td class="TextItemSigDiffMod">Hey! <span class="TextSegSigDiff">Come</span> <span class="TextSegSigDiff">back</span> <span class="TextSegSigDiff">here</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">35</td>
+<td class="TextItemSigDiffMod">Didn't know y<span class="TextSegSigDiff">a</span> were<span class="TextSegSigDiff">§</span>into <span class="TextSegSigDiff">this</span> <span class="TextSegSigDiff">kind</span>a <span class="TextSegSigDiff">stuff</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">35</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Yo,</span> <span class="TextSegSigDiff">doc,</span> didn't know y<span class="TextSegSigDiff">ou§</span>were into<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">uh,</span> <span class="TextSegSigDiff">th</span>a<span class="TextSegSigDiff">t..</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">36</td>
+<td class="TextItemSigDiffMod">You do<span class="TextSegSigDiff">lt</span>! They<span class="TextSegSigDiff">'ve§</span>stole<span class="TextSegSigDiff">n</span> my&nbsp; &nbsp;&nbsp; </td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">36</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">No,</span> you do<span class="TextSegSigDiff">pe</span>! They stole<span class="TextSegSigDiff">§</span>my <span class="TextSegSigDiff">latest</span> <span class="TextSegSigDiff">invention!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">37</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">invention,</span> the&nbsp; &nbsp; <span class="TextSegSigDiff">§</span>Gotokuji Engine<span class="TextSegSigDiff">.</span>&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">37</td>
+<td class="TextItemSigDiffMod">The <span class="TextSegSigDiff">&quot;</span>Gotokuji Engine<span class="TextSegSigDiff">&quot;!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">38</td>
+<td class="TextItemSigDiffMod">They were head<span class="TextSegSigDiff">ing§</span>towards the museum<span class="TextSegSigDiff">.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">38</td>
+<td class="TextItemSigDiffMod">They were head<span class="TextSegSigDiff">ed</span> towards<span class="TextSegSigDiff">§</span>the museum<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">39</td>
+<td class="TextItemSigDiffMod">H<span class="TextSegSigDiff">urry</span> a<span class="TextSegSigDiff">nd</span> <span class="TextSegSigDiff">ge</span><span class="TextSegSigDiff">t</span> the <span class="TextSegSigDiff">engine§back</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">39</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">mig</span>h<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">be</span> a<span class="TextSegSigDiff">ble</span> <span class="TextSegSigDiff">to§catch</span> the<span class="TextSegSigDiff">m</span> <span class="TextSegSigDiff">if</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">hurry</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">40</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Uoo</span>h!<span class="TextSegSigDiff">§</span>Leave it to me!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">40</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Yea</span>h! Leave it to me!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">41</td>
+<td class="TextItemSigDiffMod">H<span class="TextSegSigDiff">ey!</span> A<span class="TextSegSigDiff">m</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">uppos</span><span class="TextSegSigDiff">ed</span> <span class="TextSegSigDiff">to§</span>untie m<span class="TextSegSigDiff">yself?</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">41</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">W</span>ha<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">the--</span> <span class="TextSegSigDiff">YOU</span> <span class="TextSegSigDiff">COULD§HAVE</span> UNTIE<span class="TextSegSigDiff">D</span> M<span class="TextSegSigDiff">E</span> <span class="TextSegSigDiff">FIRST!!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">42</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Professor,</span> is this <span class="TextSegSigDiff">some§</span>new <span class="TextSegSigDiff">game</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">42</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span> Is this <span class="TextSegSigDiff">a</span> new <span class="TextSegSigDiff">hobby§of</span> <span class="TextSegSigDiff">yours,</span> <span class="TextSegSigDiff">doctor</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">43</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Alri</span><span class="TextSegSigDiff">ght!</span>§This i<span class="TextSegSigDiff">s</span> m<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">chanc</span>e!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">43</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">They</span> <span class="TextSegSigDiff">won't</span> <span class="TextSegSigDiff">get</span> <span class="TextSegSigDiff">away</span>§this <span class="TextSegSigDiff">t</span>ime!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">44</td>
+<td class="TextItemSigDiffMod">O<span class="TextSegSigDiff">ops.</span> <span class="TextSegSigDiff">You're</span> <span class="TextSegSigDiff">no</span>t <span class="TextSegSigDiff">getting§any</span> <span class="TextSegSigDiff">fur</span>ther.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">44</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>o<span class="TextSegSigDiff">ld</span> <span class="TextSegSigDiff">i</span>t <span class="TextSegSigDiff">right</span> ther<span class="TextSegSigDiff">e</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">45</td>
+<td class="TextItemSigDiffMod">Who <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">heck</span> are you?!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">45</td>
+<td class="TextItemSigDiffMod">Who are you?!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">46</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Le</span><span class="TextSegSigDiff">t's</span> <span class="TextSegSigDiff">sa</span>y <span class="TextSegSigDiff">I</span> a<span class="TextSegSigDiff">m</span> <span class="TextSegSigDiff">a§ren</span><span class="TextSegSigDiff">owned</span> bounty hunter...&nbsp; &nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">46</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Just</span> y<span class="TextSegSigDiff">our</span> a<span class="TextSegSigDiff">verag</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">worl</span><span class="TextSegSigDiff">d-§class</span> bounty hunter...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">47</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">who</span> <span class="TextSegSigDiff">was</span> h<span class="TextSegSigDiff">i</span>re<span class="TextSegSigDiff">d</span> to<span class="TextSegSigDiff">§dis</span>ma<span class="TextSegSigDiff">ntl</span>e <span class="TextSegSigDiff">you!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">47</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span> h<span class="TextSegSigDiff">e</span>re to ma<span class="TextSegSigDiff">k</span>e <span class="TextSegSigDiff">some§scratch.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">48</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Yo</span><span class="TextSegSigDiff">u</span> <span class="TextSegSigDiff">ca</span>n <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">a</span>ll <span class="TextSegSigDiff">m</span><span class="TextSegSigDiff">e§Kag</span><span class="TextSegSigDiff">emaru</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">48</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Kagemaru.</span> N<span class="TextSegSigDiff">ot</span> <span class="TextSegSigDiff">that§you'</span>ll <span class="TextSegSigDiff">live</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">use</span> <span class="TextSegSigDiff">it</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">49</td>
+<td class="TextItemSigDiffMod">I never miss <span class="TextSegSigDiff">my</span> target.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">49</td>
+<td class="TextItemSigDiffMod">I<span class="TextSegSigDiff">'ve</span> n<span class="TextSegSigDiff">ever,</span> ever miss<span class="TextSegSigDiff">ed§a</span> target.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">50</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">d</span><span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">pit</span><span class="TextSegSigDiff">y</span> you, but...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">50</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">almost</span> <span class="TextSegSigDiff">feel</span> <span class="TextSegSigDiff">sorry§for</span> you, but...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">51</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'll</span> <span class="TextSegSigDiff">be</span> <span class="TextSegSigDiff">ending</span> you<span class="TextSegSigDiff">r</span> <span class="TextSegSigDiff">life§all</span> <span class="TextSegSigDiff">th</span>e <span class="TextSegSigDiff">same</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">51</td>
+<td class="TextItemSigDiffMod">You<span class="TextSegSigDiff">'re</span> <span class="TextSegSigDiff">d</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">ad</span> <span class="TextSegSigDiff">m</span>e<span class="TextSegSigDiff">at</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">52</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">And</span> who <span class="TextSegSigDiff">might</span> you be?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">52</td>
+<td class="TextItemSigDiffMod">Who <span class="TextSegSigDiff">are</span> you <span class="TextSegSigDiff">supposed§to</span> be?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">53</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">F-For</span> <span class="TextSegSigDiff">me</span> t<span class="TextSegSigDiff">o</span> l<span class="TextSegSigDiff">ose</span> like<span class="TextSegSigDiff">§this!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">53</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">S</span><span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">this</span> <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">wha</span>t <span class="TextSegSigDiff">defeat§fee</span>l<span class="TextSegSigDiff">s</span> like<span class="TextSegSigDiff">...</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">54</td>
+<td class="TextItemSigDiffMod">H<span class="TextSegSigDiff">ow</span> <span class="TextSegSigDiff">migh</span>t t<span class="TextSegSigDiff">his</span> <span class="TextSegSigDiff">be?</span> <span class="TextSegSigDiff">I'</span>ve<span class="TextSegSigDiff">§nev</span><span class="TextSegSigDiff">er</span> <span class="TextSegSigDiff">lost</span> <span class="TextSegSigDiff">t</span>o <span class="TextSegSigDiff">anyon</span>e.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">54</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You're</span> <span class="TextSegSigDiff">t</span>h<span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">firs</span>t t<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">e</span>ve<span class="TextSegSigDiff">r§get</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">better</span> o<span class="TextSegSigDiff">f</span> <span class="TextSegSigDiff">m</span>e.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">55</td>
+<td class="TextItemSigDiffMod">N<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">duh!</span> <span class="TextSegSigDiff">I'm</span> the cyb<span class="TextSegSigDiff">org§townsman</span> <span class="TextSegSigDiff">aft</span><span class="TextSegSigDiff">er</span> <span class="TextSegSigDiff">all</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">55</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">A</span>n <span class="TextSegSigDiff">easy</span> <span class="TextSegSigDiff">feat</span> <span class="TextSegSigDiff">for</span> the<span class="TextSegSigDiff">§</span>Cyb<span class="TextSegSigDiff">er</span> <span class="TextSegSigDiff">Citizen</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">56</td>
+<td class="TextItemSigDiffMod">Cyb<span class="TextSegSigDiff">org</span>. . . <span class="TextSegSigDiff">tow</span><span class="TextSegSigDiff">nsman</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">56</td>
+<td class="TextItemSigDiffMod">Cyb<span class="TextSegSigDiff">er</span>... <span class="TextSegSigDiff">Citizen...</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">57</td>
+<td class="TextItemSigDiffMod">Where is your hideo<span class="TextSegSigDiff">ut?</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">57</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Tell</span> <span class="TextSegSigDiff">me!</span> Where is your<span class="TextSegSigDiff">§</span>hideo<span class="TextSegSigDiff">--</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">58</td>
+<td class="TextItemSigDiffMod">No good<span class="TextSegSigDiff">.</span> . <span class="TextSegSigDiff">.§</span>He<span class="TextSegSigDiff">'s</span> <span class="TextSegSigDiff">ou</span><span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">col</span>d.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">58</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span>No good. He <span class="TextSegSigDiff">fainte</span>d.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">59</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">*S</span><span class="TextSegSigDiff">igh*</span> Kagemaru<span class="TextSegSigDiff">.§Talking</span> <span class="TextSegSigDiff">so</span> <span class="TextSegSigDiff">much</span> <span class="TextSegSigDiff">smack</span>...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">59</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Darn</span> <span class="TextSegSigDiff">it,</span> Kagemaru...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">60</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">j</span><span class="TextSegSigDiff">ust</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">fai</span>l <span class="TextSegSigDiff">miserably.§You</span> <span class="TextSegSigDiff">ha</span>d o<span class="TextSegSigDiff">ne</span> <span class="TextSegSigDiff">job.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">60</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">were</span> <span class="TextSegSigDiff">al</span>l <span class="TextSegSigDiff">ba</span><span class="TextSegSigDiff">rk</span><span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">an</span>d <span class="TextSegSigDiff">n</span>o <span class="TextSegSigDiff">bite!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">61</td>
+<td class="TextItemSigDiffMod">Return th<span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">stolen</span> engine<span class="TextSegSigDiff">§</span>right now!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">61</td>
+<td class="TextItemSigDiffMod">Return th<span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">t</span> engine right<span class="TextSegSigDiff">§</span>now!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">62</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Pip</span>e <span class="TextSegSigDiff">it</span> <span class="TextSegSigDiff">dow</span><span class="TextSegSigDiff">n,</span> <span class="TextSegSigDiff">will</span> <span class="TextSegSigDiff">ya</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">62</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ugh,</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">ar</span>e <span class="TextSegSigDiff">S</span><span class="TextSegSigDiff">O§annoy</span><span class="TextSegSigDiff">ing</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">63</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">im</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">ak</span>e <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">out!!</span>&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">63</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Octobo</span>t<span class="TextSegSigDiff">!</span> <span class="TextSegSigDiff">Deal</span> <span class="TextSegSigDiff">with§this</span> <span class="TextSegSigDiff">headach</span>e<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">64</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Tell</span> <span class="TextSegSigDiff">me</span> where your<span class="TextSegSigDiff">§</span>hideout <span class="TextSegSigDiff">is!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">64</td>
+<td class="TextItemSigDiffMod">Where <span class="TextSegSigDiff">is</span> your hideout<span class="TextSegSigDiff">?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">65</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Spill</span> <span class="TextSegSigDiff">it,</span> <span class="TextSegSigDiff">now!</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">65</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">We</span> <span class="TextSegSigDiff">can</span> <span class="TextSegSigDiff">do</span> <span class="TextSegSigDiff">this</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">easy§way</span> <span class="TextSegSigDiff">or</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">hard</span> <span class="TextSegSigDiff">way!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">66</td>
+<td class="TextItemSigDiffMod">Wa<span class="TextSegSigDiff">i</span>t!<span class="TextSegSigDiff">§</span>Why <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">you</span> here<span class="TextSegSigDiff">,</span> again?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">66</td>
+<td class="TextItemSigDiffMod">W<span class="TextSegSigDiff">h</span>at <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">rush</span>! <span class="TextSegSigDiff">So,</span> <span class="TextSegSigDiff">uh,</span> why<span class="TextSegSigDiff">§did</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">come</span> here again?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">67</td>
+<td class="TextItemSigDiffMod">A<span class="TextSegSigDiff">h!</span> She <span class="TextSegSigDiff">ran</span> away<span class="TextSegSigDiff">!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">67</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...Oh,</span> <span class="TextSegSigDiff">right.§D</span>a<span class="TextSegSigDiff">ng,</span> she <span class="TextSegSigDiff">got</span> away<span class="TextSegSigDiff">.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">68</td>
+<td class="TextItemSigDiffMod">Darn it!<span class="TextSegSigDiff">§S</span>he <span class="TextSegSigDiff">esc</span><span class="TextSegSigDiff">aped</span>!&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">68</td>
+<td class="TextItemSigDiffMod">Darn it! <span class="TextSegSigDiff">T</span>he<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">ran§away</span> <span class="TextSegSigDiff">again</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">69</td>
+<td class="TextItemSigDiffMod">So what d<span class="TextSegSigDiff">oes</span> that engine<span class="TextSegSigDiff">§do</span> <span class="TextSegSigDiff">ex</span><span class="TextSegSigDiff">actl</span>y?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">69</td>
+<td class="TextItemSigDiffMod">So what<span class="TextSegSigDiff">'s</span> <span class="TextSegSigDiff">the</span> d<span class="TextSegSigDiff">eal</span> <span class="TextSegSigDiff">with§</span>that engine<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">anywa</span>y?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">70</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Using</span> <span class="TextSegSigDiff">it</span>s power<span class="TextSegSigDiff">,</span> e<span class="TextSegSigDiff">ven§h</span>ug<span class="TextSegSigDiff">e</span> object<span class="TextSegSigDiff">s...</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">70</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span><span class="TextSegSigDiff">t'</span>s power<span class="TextSegSigDiff">ful</span> e<span class="TextSegSigDiff">no</span>ug<span class="TextSegSigDiff">h</span> <span class="TextSegSigDiff">to§allow</span> <span class="TextSegSigDiff">any</span> object<span class="TextSegSigDiff">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">71</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">ca</span>n <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">e</span> e<span class="TextSegSigDiff">a</span>sily <span class="TextSegSigDiff">lifted§into</span> the skies<span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">But</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">71</td>
+<td class="TextItemSigDiffMod">n<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">matter</span> <span class="TextSegSigDiff">th</span>e si<span class="TextSegSigDiff">ze,</span> <span class="TextSegSigDiff">to§f</span>ly <span class="TextSegSigDiff">up</span> <span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">n</span> the skies!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">72</td>
+<td class="TextItemSigDiffMod">It needs the <span class="TextSegSigDiff">ene</span><span class="TextSegSigDiff">rgy</span> <span class="TextSegSigDiff">of</span> a<span class="TextSegSigDiff">§whole</span> <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">ity</span> to o<span class="TextSegSigDiff">perate</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">72</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">But</span> it needs the <span class="TextSegSigDiff">whole§electric</span>a<span class="TextSegSigDiff">l</span> <span class="TextSegSigDiff">grid</span> to <span class="TextSegSigDiff">w</span>o<span class="TextSegSigDiff">rk</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">73</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">A</span> <span class="TextSegSigDiff">failed</span> <span class="TextSegSigDiff">project.§What</span> <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">they</span> <span class="TextSegSigDiff">trying..</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">73</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span><span class="TextSegSigDiff">onestly?</span> <span class="TextSegSigDiff">I</span><span class="TextSegSigDiff">t's</span> <span class="TextSegSigDiff">ju</span><span class="TextSegSigDiff">nk</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">74</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">achi</span>eve <span class="TextSegSigDiff">by</span> steal<span class="TextSegSigDiff">ing§something</span> <span class="TextSegSigDiff">like</span> <span class="TextSegSigDiff">tha</span>t?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">74</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Why</span> <span class="TextSegSigDiff">would</span> <span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">hey</span> eve<span class="TextSegSigDiff">n§</span>steal <span class="TextSegSigDiff">i</span>t?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">75</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">W</span>e <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">an't</span> <span class="TextSegSigDiff">l</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">hem</span> <span class="TextSegSigDiff">get§away</span> w<span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">th</span> it!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">75</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Th</span>e <span class="TextSegSigDiff">real</span> <span class="TextSegSigDiff">question</span> <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">why</span><span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">you</span> w<span class="TextSegSigDiff">ant</span> it <span class="TextSegSigDiff">back</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">76</td>
+<td class="TextItemSigDiffMod">B<span class="TextSegSigDiff">ad</span> news!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">76</td>
+<td class="TextItemSigDiffMod">B<span class="TextSegSigDiff">reaking</span> news!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">77</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Our</span> <span class="TextSegSigDiff">Azuma</span> <span class="TextSegSigDiff">Ca</span>st<span class="TextSegSigDiff">l</span>e <span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">as§bee</span><span class="TextSegSigDiff">n</span> <span class="TextSegSigDiff">take</span>n <span class="TextSegSigDiff">over...</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">77</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">A</span> <span class="TextSegSigDiff">my</span>ste<span class="TextSegSigDiff">rious</span> <span class="TextSegSigDiff">criminal§organizatio</span>n</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">78</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">by</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">mysteri</span>o<span class="TextSegSigDiff">us</span> <span class="TextSegSigDiff">enemy§</span><span class="TextSegSigDiff">army</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">78</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">as</span> o<span class="TextSegSigDiff">ccupied</span> <span class="TextSegSigDiff">Azuma§Castle</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">79</td>
+<td class="TextItemSigDiffMod">It's them!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">79</td>
+<td class="TextItemSigDiffMod">It's <span class="TextSegSigDiff">gotta</span> <span class="TextSegSigDiff">be</span> them!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">80</td>
+<td class="TextItemSigDiffMod">Shockman<span class="TextSegSigDiff">!§Move</span> <span class="TextSegSigDiff">out</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">80</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Get</span> <span class="TextSegSigDiff">going,</span> Shockman!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">81</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span>s <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">engine</span> <span class="TextSegSigDiff">really§</span>that <span class="TextSegSigDiff">valuabl</span>e?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">81</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">What'</span>s <span class="TextSegSigDiff">so</span> <span class="TextSegSigDiff">important</span><span class="TextSegSigDiff">§abou</span>t <span class="TextSegSigDiff">t</span>hat <span class="TextSegSigDiff">engin</span>e?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">82</td>
+<td class="TextItemSigDiffMod">B<span class="TextSegSigDiff">.B.</span> <span class="TextSegSigDiff">Corps</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">82</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It</span> <span class="TextSegSigDiff">has</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">be</span> <span class="TextSegSigDiff">the§</span>B<span class="TextSegSigDiff">B</span> <span class="TextSegSigDiff">Gang</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">83</td>
+<td class="TextItemSigDiffMod">Oh<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-</span>Ho!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">83</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>OH ho<span class="TextSegSigDiff">h</span> ho<span class="TextSegSigDiff">h</span> ho<span class="TextSegSigDiff">h</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">84</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">S</span><span class="TextSegSigDiff">urrender</span> <span class="TextSegSigDiff">now</span> and <span class="TextSegSigDiff">I</span>'ll§<span class="TextSegSigDiff">sp</span><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">re</span> <span class="TextSegSigDiff">you</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">84</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Come</span> <span class="TextSegSigDiff">qui</span><span class="TextSegSigDiff">etly</span> and <span class="TextSegSigDiff">you</span>'ll§<span class="TextSegSigDiff">get</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">fair</span> <span class="TextSegSigDiff">trial</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">85</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">What</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">cock</span>y <span class="TextSegSigDiff">boy.</span>&nbsp;&nbsp; <span class="TextSegSigDiff">§That's</span> <span class="TextSegSigDiff">my</span> ki<span class="TextSegSigDiff">nda</span> <span class="TextSegSigDiff">thing</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">85</td>
+<td class="TextItemSigDiffMod">Y<span class="TextSegSigDiff">ou're</span> <span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">trong,</span> ki<span class="TextSegSigDiff">d...§I</span> <span class="TextSegSigDiff">l</span><span class="TextSegSigDiff">ike</span> <span class="TextSegSigDiff">you</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">86</td>
+<td class="TextItemSigDiffMod">But <span class="TextSegSigDiff">these</span> <span class="TextSegSigDiff">guys</span> <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">a§perfect</span> m<span class="TextSegSigDiff">atch</span> <span class="TextSegSigDiff">for</span> <span class="TextSegSigDiff">you!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">86</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">How</span> <span class="TextSegSigDiff">a</span>b<span class="TextSegSigDiff">o</span>ut <span class="TextSegSigDiff">yo</span><span class="TextSegSigDiff">u</span> <span class="TextSegSigDiff">play</span><span class="TextSegSigDiff">§wi</span><span class="TextSegSigDiff">th</span> m<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">bo</span><span class="TextSegSigDiff">ys?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">87</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Hey!</span> Why are you doing<span class="TextSegSigDiff">§all</span> this?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">87</td>
+<td class="TextItemSigDiffMod">Why are you doing this?<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">88</td>
+<td class="TextItemSigDiffMod">I'll te<span class="TextSegSigDiff">ll</span> <span class="TextSegSigDiff">you</span> if you<span class="TextSegSigDiff">§</span>catch me!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">88</td>
+<td class="TextItemSigDiffMod">I'll <span class="TextSegSigDiff">spill</span> t<span class="TextSegSigDiff">h</span>e <span class="TextSegSigDiff">beans...§...</span> if you <span class="TextSegSigDiff">can</span> catch me!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">89</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Beaten</span> again<span class="TextSegSigDiff">!</span><span class="TextSegSigDiff">§I</span>n <span class="TextSegSigDiff">that</span> c<span class="TextSegSigDiff">ase.</span> <span class="TextSegSigDiff">.</span> .</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">89</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">No</span><span class="TextSegSigDiff">t</span> again<span class="TextSegSigDiff">...</span> <span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">leave§me</span> n<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">choi</span>c<span class="TextSegSigDiff">e</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">90</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Time</span> <span class="TextSegSigDiff">to</span> retreat <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">the§B.B.</span> <span class="TextSegSigDiff">Corps</span> <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">ase</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">90</td>
+<td class="TextItemSigDiffMod">RETREAT<span class="TextSegSigDiff">!</span> <span class="TextSegSigDiff">RUN</span> <span class="TextSegSigDiff">AWAY</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">91</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Yup</span>, b<span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">se</span>!§<span class="TextSegSigDiff">Good</span> <span class="TextSegSigDiff">ol'</span> base!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">91</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">C'mon</span>, b<span class="TextSegSigDiff">oys</span>! <span class="TextSegSigDiff">Back</span> <span class="TextSegSigDiff">to</span>§<span class="TextSegSigDiff">our</span> <span class="TextSegSigDiff">SECRET</span> BASE!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">92</td>
+<td class="TextItemSigDiffMod">What <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">dumbass.§</span>I can just follow <span class="TextSegSigDiff">you.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">92</td>
+<td class="TextItemSigDiffMod">What <span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">diot</span><span class="TextSegSigDiff">s!</span> I can<span class="TextSegSigDiff">§</span>just follow <span class="TextSegSigDiff">them!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">93</td>
+<td class="TextItemSigDiffMod">So that's the <span class="TextSegSigDiff">enemy§base,</span> huh<span class="TextSegSigDiff">.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">93</td>
+<td class="TextItemSigDiffMod">So that's the<span class="TextSegSigDiff">ir</span> <span class="TextSegSigDiff">hideout,§</span>huh<span class="TextSegSigDiff">?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">94</td>
+<td class="TextItemSigDiffMod">Azuki<span class="TextSegSigDiff">!§Be</span> <span class="TextSegSigDiff">on</span> <span class="TextSegSigDiff">your</span> <span class="TextSegSigDiff">guard</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">94</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Stay</span> <span class="TextSegSigDiff">sh</span>a<span class="TextSegSigDiff">rp,</span> <span class="TextSegSigDiff">A</span>zuki!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">95</td>
+<td class="TextItemSigDiffMod">O<span class="TextSegSigDiff">h!§</span>She's not here.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">95</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span>O<span class="TextSegSigDiff">h</span> <span class="TextSegSigDiff">yeah,</span> she's<span class="TextSegSigDiff">§</span>not here.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">96</td>
+<td class="TextItemSigDiffMod">Th<span class="TextSegSigDiff">a</span>t s<span class="TextSegSigDiff">ounds</span> <span class="TextSegSigDiff">ex</span>tr<span class="TextSegSigDiff">emely§suspicious</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">96</td>
+<td class="TextItemSigDiffMod">Th<span class="TextSegSigDiff">ere's</span> <span class="TextSegSigDiff">no</span> <span class="TextSegSigDiff">way</span> t<span class="TextSegSigDiff">his§i</span>s<span class="TextSegSigDiff">n't</span> <span class="TextSegSigDiff">a</span> tr<span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">p</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">97</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> this <span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">s</span> the <span class="TextSegSigDiff">en</span><span class="TextSegSigDiff">emy§</span>base<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">huh!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">97</td>
+<td class="TextItemSigDiffMod">This <span class="TextSegSigDiff">must</span> <span class="TextSegSigDiff">be</span> the<span class="TextSegSigDiff">ir§&quot;secret</span> base<span class="TextSegSigDiff">.&quot;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">98</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H-Hey,</span> you<span class="TextSegSigDiff">'re-</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">98</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I-It's</span> you!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">99</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Indeed</span>! Kagemar<span class="TextSegSigDiff">u,</span> <span class="TextSegSigDiff">at§your</span> <span class="TextSegSigDiff">service</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">99</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Y</span><span class="TextSegSigDiff">ES</span>! Kagemar<span class="TextSegSigDiff">u</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">100</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">ha</span><span class="TextSegSigDiff">v</span>e m<span class="TextSegSigDiff">odified§myself</span>...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">100</td>
+<td class="TextItemSigDiffMod">I<span class="TextSegSigDiff">n</span> <span class="TextSegSigDiff">order</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">salvag</span>e m<span class="TextSegSigDiff">y</span><span class="TextSegSigDiff">§r</span><span class="TextSegSigDiff">eputation</span>...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">101</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">t</span>o <span class="TextSegSigDiff">p</span>u<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">away</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">tast</span><span class="TextSegSigDiff">e</span>&nbsp; <span class="TextSegSigDiff">§of</span> <span class="TextSegSigDiff">humiliation</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">101</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">als</span>o u<span class="TextSegSigDiff">nderwent§c</span><span class="TextSegSigDiff">ybernetic</span> <span class="TextSegSigDiff">surgery</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">102</td>
+<td class="TextItemSigDiffMod">Now <span class="TextSegSigDiff">we'</span>re o<span class="TextSegSigDiff">n</span> equal t<span class="TextSegSigDiff">erms§power</span> <span class="TextSegSigDiff">wise.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">102</td>
+<td class="TextItemSigDiffMod">Now <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">and</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">a</span>re o<span class="TextSegSigDiff">f§</span>equal <span class="TextSegSigDiff">s</span>t<span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">ength!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">103</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">hat</span> <span class="TextSegSigDiff">sha</span>ll be decided§by skill alone!&nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">103</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Vic</span>t<span class="TextSegSigDiff">ory</span> <span class="TextSegSigDiff">wi</span>ll be decided§by skill alone!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">104</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ah!</span> <span class="TextSegSigDiff">It's</span> you!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">104</td>
+<td class="TextItemSigDiffMod">You<span class="TextSegSigDiff">'re--</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">105</td>
+<td class="TextItemSigDiffMod">Does this mean <span class="TextSegSigDiff">that§</span>I'm a <span class="TextSegSigDiff">mer</span>e <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">opy</span>?&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">105</td>
+<td class="TextItemSigDiffMod">Does this mean I'm <span class="TextSegSigDiff">just§</span>a <span class="TextSegSigDiff">pal</span>e <span class="TextSegSigDiff">imitation...</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">106</td>
+<td class="TextItemSigDiffMod">No! I <span class="TextSegSigDiff">sh</span><span class="TextSegSigDiff">all</span> <span class="TextSegSigDiff">surpass</span> you<span class="TextSegSigDiff">§one</span> <span class="TextSegSigDiff">day</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">106</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span>No! I<span class="TextSegSigDiff">'m</span> <span class="TextSegSigDiff">new</span> <span class="TextSegSigDiff">and§improved!</span> <span class="TextSegSigDiff">Ju</span><span class="TextSegSigDiff">st</span> you <span class="TextSegSigDiff">wait</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">107</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">won</span><span class="TextSegSigDiff">der</span> <span class="TextSegSigDiff">who</span> <span class="TextSegSigDiff">modifi</span>ed§him?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">107</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...Who</span> <span class="TextSegSigDiff">could</span> <span class="TextSegSigDiff">have</span> <span class="TextSegSigDiff">turn</span>ed§him <span class="TextSegSigDiff">into</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">cyborg</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">108</td>
+<td class="TextItemSigDiffMod">I<span class="TextSegSigDiff">'ve</span> won again<span class="TextSegSigDiff">!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">108</td>
+<td class="TextItemSigDiffMod">I<span class="TextSegSigDiff">...</span> won again<span class="TextSegSigDiff">.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">109</td>
+<td class="TextItemSigDiffMod">I guess I'm pretty<span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.§</span>strong<span class="TextSegSigDiff">.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">109</td>
+<td class="TextItemSigDiffMod">I guess I'm <span class="TextSegSigDiff">actually§</span>pretty strong<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">huh?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">110</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ah,</span> that was <span class="TextSegSigDiff">some</span> <span class="TextSegSigDiff">good§stuff</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">110</td>
+<td class="TextItemSigDiffMod">That was <span class="TextSegSigDiff">f</span><span class="TextSegSigDiff">un</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">111</td>
+<td class="TextItemSigDiffMod">Y<span class="TextSegSigDiff">-Y</span>ou <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">attl</span>e <span class="TextSegSigDiff">obsessed§nutter!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">111</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It</span> <span class="TextSegSigDiff">was</span> <span class="TextSegSigDiff">NOT,</span> you<span class="TextSegSigDiff">§adrena</span><span class="TextSegSigDiff">lin</span>e <span class="TextSegSigDiff">ju</span><span class="TextSegSigDiff">nki</span><span class="TextSegSigDiff">e.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">112</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">No</span> <span class="TextSegSigDiff">doubt</span> this <span class="TextSegSigDiff">time</span> <span class="TextSegSigDiff">I've§got</span> <span class="TextSegSigDiff">you</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">112</td>
+<td class="TextItemSigDiffMod">This <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">as</span> <span class="TextSegSigDiff">far</span> <span class="TextSegSigDiff">as</span><span class="TextSegSigDiff">§you</span> <span class="TextSegSigDiff">go</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">113</td>
+<td class="TextItemSigDiffMod">You<span class="TextSegSigDiff">'ve</span> <span class="TextSegSigDiff">been</span> <span class="TextSegSigDiff">bamb</span>oo<span class="TextSegSigDiff">z</span><span class="TextSegSigDiff">l</span><span class="TextSegSigDiff">e</span>d!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">113</td>
+<td class="TextItemSigDiffMod">You <span class="TextSegSigDiff">fell</span> <span class="TextSegSigDiff">for</span> <span class="TextSegSigDiff">it!</span> <span class="TextSegSigDiff">H</span>oo<span class="TextSegSigDiff">k,§line,</span> <span class="TextSegSigDiff">an</span>d <span class="TextSegSigDiff">sinker</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">114</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">his</span> was <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">draw</span> <span class="TextSegSigDiff">you</span>§a<span class="TextSegSigDiff">way</span> <span class="TextSegSigDiff">f</span><span class="TextSegSigDiff">rom</span> t<span class="TextSegSigDiff">he</span> <span class="TextSegSigDiff">city.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">114</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span>t was <span class="TextSegSigDiff">all</span> <span class="TextSegSigDiff">an</span> <span class="TextSegSigDiff">act!</span>§A <span class="TextSegSigDiff">mere</span> t<span class="TextSegSigDiff">ri</span><span class="TextSegSigDiff">ck</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">115</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It's</span> <span class="TextSegSigDiff">s</span>om<span class="TextSegSigDiff">e</span>th<span class="TextSegSigDiff">ing</span> c<span class="TextSegSigDiff">alled§acting</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">115</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">lure</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">away§fr</span>om th<span class="TextSegSigDiff">e</span> c<span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">ty</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">116</td>
+<td class="TextItemSigDiffMod">All <span class="TextSegSigDiff">f</span>or t<span class="TextSegSigDiff">he</span> <span class="TextSegSigDiff">sake</span> <span class="TextSegSigDiff">of§</span>master Jinguji's plan!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">116</td>
+<td class="TextItemSigDiffMod">All <span class="TextSegSigDiff">acc</span>or<span class="TextSegSigDiff">ding</span> t<span class="TextSegSigDiff">o</span> Master<span class="TextSegSigDiff">§</span>Jinguji's plan!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">117</td>
+<td class="TextItemSigDiffMod">Jinguji? That <span class="TextSegSigDiff">name§</span>sounds familiar. . .</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">117</td>
+<td class="TextItemSigDiffMod">Jinguji?<span class="TextSegSigDiff">§</span>That sounds familiar...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">118</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">late</span> to <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">onnect</span> <span class="TextSegSigDiff">the§dot</span>s now.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">118</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">here's</span> <span class="TextSegSigDiff">nothing</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">can§do</span> to <span class="TextSegSigDiff">stop</span> <span class="TextSegSigDiff">hi</span>s <span class="TextSegSigDiff">plan</span> now.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">119</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">End</span> <span class="TextSegSigDiff">of</span> the <span class="TextSegSigDiff">road</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">119</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">N</span><span class="TextSegSigDiff">ot</span> th<span class="TextSegSigDiff">at</span> <span class="TextSegSigDiff">you'll</span> <span class="TextSegSigDiff">liv</span>e <span class="TextSegSigDiff">to§try</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">120</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> found you!§<span class="TextSegSigDiff">N</span><span class="TextSegSigDiff">ow</span> <span class="TextSegSigDiff">b</span>ra<span class="TextSegSigDiff">c</span>e <span class="TextSegSigDiff">you</span>rs<span class="TextSegSigDiff">elf</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">120</td>
+<td class="TextItemSigDiffMod">Found you!§<span class="TextSegSigDiff">Say</span> <span class="TextSegSigDiff">your</span> <span class="TextSegSigDiff">p</span>ra<span class="TextSegSigDiff">y</span>ers!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">121</td>
+<td class="TextItemSigDiffMod">Jinguji! <span class="TextSegSigDiff">Don't</span> <span class="TextSegSigDiff">tell</span> me<span class="TextSegSigDiff">§he's</span> your <span class="TextSegSigDiff">boss</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">121</td>
+<td class="TextItemSigDiffMod">Jinguji<span class="TextSegSigDiff">?</span>! <span class="TextSegSigDiff">You</span> me<span class="TextSegSigDiff">an</span> you<span class="TextSegSigDiff">r§leade</span>r <span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">s--?</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">122</td>
+<td class="TextItemSigDiffMod">The <span class="TextSegSigDiff">town</span> <span class="TextSegSigDiff">i</span>s in danger!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">122</td>
+<td class="TextItemSigDiffMod">The <span class="TextSegSigDiff">city'</span>s in danger!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">123</td>
+<td class="TextItemSigDiffMod">Wh- Wha<span class="TextSegSigDiff">-</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">123</td>
+<td class="TextItemSigDiffMod">Wh-Wha<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">in</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">world</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">124</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">W</span>hat <span class="TextSegSigDiff">on</span> <span class="TextSegSigDiff">earth</span> <span class="TextSegSigDiff">is§going</span> <span class="TextSegSigDiff">on?</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">124</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">T</span>hat<span class="TextSegSigDiff">'s</span> <span class="TextSegSigDiff">impos</span><span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">ible...!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">125</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Profess</span>or!<span class="TextSegSigDiff">§</span>What <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">that?!</span> &nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">125</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">D</span><span class="TextSegSigDiff">oct</span>or! What<span class="TextSegSigDiff">'s</span> <span class="TextSegSigDiff">going--</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">126</td>
+<td class="TextItemSigDiffMod">Whoa!<span class="TextSegSigDiff">§</span>What's that?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">126</td>
+<td class="TextItemSigDiffMod">Whoa<span class="TextSegSigDiff">aa</span>! What's that?<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">127</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">L</span><span class="TextSegSigDiff">ook</span><span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">like</span> they're using<span class="TextSegSigDiff">§</span>that <span class="TextSegSigDiff">tower...</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">127</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">If</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">had</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">guess,</span> <span class="TextSegSigDiff">I'd§say</span> they're using that</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">128</td>
+<td class="TextItemSigDiffMod">to absorb <span class="TextSegSigDiff">all</span> the <span class="TextSegSigDiff">town</span>'s<span class="TextSegSigDiff">§</span>electric <span class="TextSegSigDiff">power</span>!&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">128</td>
+<td class="TextItemSigDiffMod">to<span class="TextSegSigDiff">wer</span> <span class="TextSegSigDiff">to</span> absorb the<span class="TextSegSigDiff">§city</span>'s electric<span class="TextSegSigDiff">ity</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">129</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span>t c<span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">n't</span> <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">e.</span> <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span>§The Gotokuji Engine<span class="TextSegSigDiff">!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">129</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">hey</span> c<span class="TextSegSigDiff">ould</span> <span class="TextSegSigDiff">even</span> <span class="TextSegSigDiff">fuel</span>§the Gotokuji Engine<span class="TextSegSigDiff">...</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">130</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">D</span>ar<span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">!§What</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">m</span>es<span class="TextSegSigDiff">s</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">130</td>
+<td class="TextItemSigDiffMod">AR<span class="TextSegSigDiff">GH!</span> <span class="TextSegSigDiff">They</span> <span class="TextSegSigDiff">have</span> <span class="TextSegSigDiff">to§b</span>e s<span class="TextSegSigDiff">topped</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">131</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> h<span class="TextSegSigDiff">ave</span> to <span class="TextSegSigDiff">g</span><span class="TextSegSigDiff">et</span> <span class="TextSegSigDiff">back,§fast</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">131</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Gotta</span> h<span class="TextSegSigDiff">urry</span> <span class="TextSegSigDiff">back§</span>to <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">ci</span><span class="TextSegSigDiff">ty</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">132</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Profess</span>or!<span class="TextSegSigDiff">§</span>What is that?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">132</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">D</span><span class="TextSegSigDiff">oct</span>or! What is that?<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">133</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">w</span>on<span class="TextSegSigDiff">'t</span> <span class="TextSegSigDiff">let</span> <span class="TextSegSigDiff">th</span>at&nbsp; &nbsp; <span class="TextSegSigDiff">§happen</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">133</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Not</span> on <span class="TextSegSigDiff">MY</span> <span class="TextSegSigDiff">w</span>at<span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">h</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">134</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Lo</span><span class="TextSegSigDiff">ng</span> ti<span class="TextSegSigDiff">me</span> n<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">see</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">134</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I've</span> <span class="TextSegSigDiff">been</span> <span class="TextSegSigDiff">wai</span>tin<span class="TextSegSigDiff">g§for</span> <span class="TextSegSigDiff">you</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">135</td>
+<td class="TextItemSigDiffMod">I knew we'd <span class="TextSegSigDiff">end</span> <span class="TextSegSigDiff">up§</span>meetin<span class="TextSegSigDiff">g</span> <span class="TextSegSigDiff">once</span> <span class="TextSegSigDiff">more</span>!&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">135</td>
+<td class="TextItemSigDiffMod">I knew we'd meet <span class="TextSegSigDiff">aga</span>in!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">136</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">at</span> are you <span class="TextSegSigDiff">pe</span><span class="TextSegSigDiff">ople§try</span>ing <span class="TextSegSigDiff">to</span> a<span class="TextSegSigDiff">cco</span><span class="TextSegSigDiff">mplish?</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">136</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">y</span> are you <span class="TextSegSigDiff">guys</span> <span class="TextSegSigDiff">do</span>ing<span class="TextSegSigDiff">§this?!</span> A<span class="TextSegSigDiff">nswer</span> <span class="TextSegSigDiff">me!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">137</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> don't <span class="TextSegSigDiff">give</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">damn</span> what<span class="TextSegSigDiff">§</span>the boss <span class="TextSegSigDiff">d</span><span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">es</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">137</td>
+<td class="TextItemSigDiffMod">Don't <span class="TextSegSigDiff">k</span><span class="TextSegSigDiff">now</span> what the bos<span class="TextSegSigDiff">s§ha</span>s <span class="TextSegSigDiff">planned.</span> <span class="TextSegSigDiff">Don't</span> <span class="TextSegSigDiff">care</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">138</td>
+<td class="TextItemSigDiffMod">All I <span class="TextSegSigDiff">care</span> <span class="TextSegSigDiff">abou</span>t is<span class="TextSegSigDiff">§defe</span>at<span class="TextSegSigDiff">ing</span> you.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">138</td>
+<td class="TextItemSigDiffMod">All I <span class="TextSegSigDiff">wan</span>t is <span class="TextSegSigDiff">to§be</span>at YOU.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">139</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">hi</span>d<span class="TextSegSigDiff">e</span> a new trick <span class="TextSegSigDiff">up</span>&nbsp; <span class="TextSegSigDiff">§my</span> <span class="TextSegSigDiff">sleeve</span>! Take this!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">139</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Th</span>i<span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">old</span> d<span class="TextSegSigDiff">og's</span> <span class="TextSegSigDiff">learned</span> a<span class="TextSegSigDiff">§</span>new trick! Take this!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">140</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It's</span> you again!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">140</td>
+<td class="TextItemSigDiffMod">You again<span class="TextSegSigDiff">?</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">141</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Stop</span> <span class="TextSegSigDiff">bein</span><span class="TextSegSigDiff">g</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">pawn</span> <span class="TextSegSigDiff">of</span><span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">ev</span><span class="TextSegSigDiff">il</span> <span class="TextSegSigDiff">alread</span>y!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">141</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">E</span><span class="TextSegSigDiff">nough!</span> <span class="TextSegSigDiff">Do</span><span class="TextSegSigDiff">n't</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">see?§They're</span> <span class="TextSegSigDiff">just</span> <span class="TextSegSigDiff">using</span> y<span class="TextSegSigDiff">ou</span>!</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">142</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">won't</span> <span class="TextSegSigDiff">surrend</span>er...<span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">No</span> <span class="TextSegSigDiff">m</span>att<span class="TextSegSigDiff">er</span> <span class="TextSegSigDiff">what</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">142</td>
+<td class="TextItemSigDiffMod">I<span class="TextSegSigDiff">'ll</span> <span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">ev</span>er <span class="TextSegSigDiff">quit</span>... <span class="TextSegSigDiff">As§many</span> <span class="TextSegSigDiff">times</span> a<span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">i</span>t t<span class="TextSegSigDiff">akes</span>!</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">143</td>
+<td class="TextItemSame">Farewell!</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">143</td>
+<td class="TextItemSame">Farewell!</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">144</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Have</span> <span class="TextSegSigDiff">we</span> <span class="TextSegSigDiff">go</span>t <span class="TextSegSigDiff">enoug</span>h <span class="TextSegSigDiff">to§launch</span> <span class="TextSegSigDiff">th</span>e battleship?</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">144</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Is</span> the battleship <span class="TextSegSigDiff">fully§powered</span> <span class="TextSegSigDiff">up</span> <span class="TextSegSigDiff">yet</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">145</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...k</span>ee!<span class="TextSegSigDiff">...</span>§(Almost <span class="TextSegSigDiff">there.</span>)</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">145</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">M</span>ee<span class="TextSegSigDiff">p</span>!§(Almost<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">si</span><span class="TextSegSigDiff">r!</span>)</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">146</td>
+<td class="TextItemSigDiffMod">Mhahahah<span class="TextSegSigDiff">a</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">146</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">wa</span>hahahah!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">147</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">F</span>i<span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">ally!</span><span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">Those</span> <span class="TextSegSigDiff">fools!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">147</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">can't</span> <span class="TextSegSigDiff">wait</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">test§it</span><span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">power</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">148</td>
+<td class="TextItemSigDiffMod">The<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">ar</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">about</span> <span class="TextSegSigDiff">to§witnes</span>s <span class="TextSegSigDiff">my</span> <span class="TextSegSigDiff">power</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">148</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">on</span> th<span class="TextSegSigDiff">os</span>e <span class="TextSegSigDiff">pathetic</span> <span class="TextSegSigDiff">f</span><span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">ol</span>s!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">149</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...k</span>ee<span class="TextSegSigDiff">kee...</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">149</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">M-M</span>ee<span class="TextSegSigDiff">p</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">150</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You're</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">one</span> Azuki <span class="TextSegSigDiff">was§talking</span> about!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">150</td>
+<td class="TextItemSigDiffMod">Azuki <span class="TextSegSigDiff">told</span> <span class="TextSegSigDiff">me</span> about <span class="TextSegSigDiff">you</span>!<span class="TextSegSigDiff">§You're...</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">151</td>
+<td class="TextItemSigDiffMod">Indeed<span class="TextSegSigDiff">.</span> M<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">nam</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">is§Dr.</span> Jinguji!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">151</td>
+<td class="TextItemSigDiffMod">Indeed<span class="TextSegSigDiff">!§I</span> <span class="TextSegSigDiff">a</span>m <span class="TextSegSigDiff">Profes</span><span class="TextSegSigDiff">so</span><span class="TextSegSigDiff">r</span> Jinguji!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">152</td>
+<td class="TextItemSigDiffMod">The leader of the<span class="TextSegSigDiff">§B.B.</span> <span class="TextSegSigDiff">Corps.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">152</td>
+<td class="TextItemSigDiffMod">The <span class="TextSegSigDiff">esteemed</span> leader of<span class="TextSegSigDiff">§</span>the <span class="TextSegSigDiff">B</span><span class="TextSegSigDiff">B</span> <span class="TextSegSigDiff">Gang!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">153</td>
+<td class="TextItemSigDiffMod">Why you do this?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">153</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Tell</span> <span class="TextSegSigDiff">me!</span> Why <span class="TextSegSigDiff">are</span> you<span class="TextSegSigDiff">§</span>do<span class="TextSegSigDiff">ing</span> this?<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">154</td>
+<td class="TextItemSigDiffMod">Mhahahah<span class="TextSegSigDiff">a</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">154</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">wa</span>hahahah!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">155</td>
+<td class="TextItemSigDiffMod">You <span class="TextSegSigDiff">sha</span>ll <span class="TextSegSigDiff">learn</span> soon§enough!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">155</td>
+<td class="TextItemSigDiffMod">You<span class="TextSegSigDiff">'</span>ll <span class="TextSegSigDiff">fi</span><span class="TextSegSigDiff">nd</span> <span class="TextSegSigDiff">out</span> soon§enough!</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">156</td>
+<td class="TextItemSigDiffMod">You're. . .<span class="TextSegSigDiff">§</span>Jinguji!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">156</td>
+<td class="TextItemSigDiffMod">You're... Jinguji!</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">157</td>
+<td class="TextItemSame">You were my father's§assistant!</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">157</td>
+<td class="TextItemSame">You were my father's§assistant!</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">158</td>
+<td class="TextItemSigDiffMod">H<span class="TextSegSigDiff">ow</span> <span class="TextSegSigDiff">c</span>ou<span class="TextSegSigDiff">l</span>d y<span class="TextSegSigDiff">ou</span>?!</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">158</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">W</span>h<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">did</span> <span class="TextSegSigDiff">y</span>ou d<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">it?§Wh</span>y <span class="TextSegSigDiff">kill</span> <span class="TextSegSigDiff">him</span>?!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">159</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Firs</span><span class="TextSegSigDiff">t,</span> he re<span class="TextSegSigDiff">fused</span> my<span class="TextSegSigDiff">§offer</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">159</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">He</span> <span class="TextSegSigDiff">had</span> <span class="TextSegSigDiff">t</span>he <span class="TextSegSigDiff">gall</span> <span class="TextSegSigDiff">to§</span>re<span class="TextSegSigDiff">j</span><span class="TextSegSigDiff">ect</span> my <span class="TextSegSigDiff">plans..</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">160</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Wors</span>e <span class="TextSegSigDiff">s</span><span class="TextSegSigDiff">ti</span>ll<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">he</span> tried t<span class="TextSegSigDiff">o§oppose</span> m<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">plans</span>! &nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">160</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">And</span> <span class="TextSegSigDiff">h</span>e <span class="TextSegSigDiff">actua</span>ll<span class="TextSegSigDiff">y</span> tried<span class="TextSegSigDiff">§to</span> <span class="TextSegSigDiff">S</span>T<span class="TextSegSigDiff">O</span><span class="TextSegSigDiff">P</span> M<span class="TextSegSigDiff">E</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">161</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">At</span> an<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">rate</span>, I already§<span class="TextSegSigDiff">g</span><span class="TextSegSigDiff">ot</span> <span class="TextSegSigDiff">al</span>l <span class="TextSegSigDiff">h</span>e h<span class="TextSegSigDiff">ad</span> t<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">offer</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">161</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">me</span>an, I<span class="TextSegSigDiff">'d</span> already§<span class="TextSegSigDiff">sto</span>le<span class="TextSegSigDiff">n</span> h<span class="TextSegSigDiff">is</span> t<span class="TextSegSigDiff">ech</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">162</td>
+<td class="TextItemSigDiffMod">He <span class="TextSegSigDiff">was</span> <span class="TextSegSigDiff">n</span>o<span class="TextSegSigDiff">t</span> s<span class="TextSegSigDiff">erving</span> <span class="TextSegSigDiff">a§purpo</span>se <span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">nymore</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">162</td>
+<td class="TextItemSigDiffMod">He<span class="TextSegSigDiff">'d</span> o<span class="TextSegSigDiff">utlived</span> <span class="TextSegSigDiff">hi</span>s<span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">u</span>se<span class="TextSegSigDiff">fuln</span><span class="TextSegSigDiff">ess</span>. <span class="TextSegSigDiff">That's</span> <span class="TextSegSigDiff">it!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">163</td>
+<td class="TextItemSigDiffMod">U<span class="TextSegSigDiff">n-</span> U<span class="TextSegSigDiff">nfo</span><span class="TextSegSigDiff">rgivable</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">163</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Yo</span>u<span class="TextSegSigDiff">...</span> <span class="TextSegSigDiff">Yo</span>u <span class="TextSegSigDiff">monster...</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">164</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'll</span> <span class="TextSegSigDiff">witness</span> <span class="TextSegSigDiff">someth</span>i<span class="TextSegSigDiff">ng§el</span>se <span class="TextSegSigDiff">instead</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">164</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Shov</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">over!</span> I <span class="TextSegSigDiff">can't</span> se<span class="TextSegSigDiff">e</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">165</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">S-</span> <span class="TextSegSigDiff">S</span><span class="TextSegSigDiff">top</span> pushin<span class="TextSegSigDiff">-</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">165</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Q-Quit</span> pushin<span class="TextSegSigDiff">g!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">166</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">N</span><span class="TextSegSigDiff">ot</span> <span class="TextSegSigDiff">good!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">166</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Uh-oh.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">167</td>
+<td class="TextItemSigDiffMod">Mhahahah<span class="TextSegSigDiff">a</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">167</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">wa</span>hahahah!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">168</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Not</span> s<span class="TextSegSigDiff">ure</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">ge</span>t <span class="TextSegSigDiff">i</span>t. . .<span class="TextSegSigDiff">§B</span><span class="TextSegSigDiff">ut</span> <span class="TextSegSigDiff">sam</span>e go<span class="TextSegSigDiff">es</span> <span class="TextSegSigDiff">for</span> <span class="TextSegSigDiff">me</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">168</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span>s <span class="TextSegSigDiff">all</span> <span class="TextSegSigDiff">tha</span>t t<span class="TextSegSigDiff">rue</span>...<span class="TextSegSigDiff">?§You'r</span>e go<span class="TextSegSigDiff">nna</span> <span class="TextSegSigDiff">pay!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">169</td>
+<td class="TextItemSigDiffMod">Oh<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-</span>Ho!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">169</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>OH ho<span class="TextSegSigDiff">h</span> ho<span class="TextSegSigDiff">h</span> ho<span class="TextSegSigDiff">h</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">170</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'm</span> <span class="TextSegSigDiff">afraid</span> you're too<span class="TextSegSigDiff">§</span>late <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">join!</span>!&nbsp;&nbsp; &nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">170</td>
+<td class="TextItemSigDiffMod">You're too late!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">171</td>
+<td class="TextItemSigDiffMod">We<span class="TextSegSigDiff">'r</span>e all <span class="TextSegSigDiff">s</span>t<span class="TextSegSigDiff">ock</span><span class="TextSegSigDiff">ed</span> <span class="TextSegSigDiff">on§energy</span>!&nbsp;&nbsp; &nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">171</td>
+<td class="TextItemSigDiffMod">We <span class="TextSegSigDiff">hav</span>e all t<span class="TextSegSigDiff">he§power</span> <span class="TextSegSigDiff">we</span> <span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">ed</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">172</td>
+<td class="TextItemSigDiffMod">S<span class="TextSegSigDiff">inc</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">w</span><span class="TextSegSigDiff">e'r</span>e d<span class="TextSegSigDiff">one</span> <span class="TextSegSigDiff">her</span><span class="TextSegSigDiff">e..</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">172</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Thi</span>s <span class="TextSegSigDiff">tower</span> <span class="TextSegSigDiff">has</span> <span class="TextSegSigDiff">se</span><span class="TextSegSigDiff">rv</span>ed<span class="TextSegSigDiff">§its</span> <span class="TextSegSigDiff">purpose</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">173</td>
+<td class="TextItemSigDiffMod">I<span class="TextSegSigDiff">'ll</span> <span class="TextSegSigDiff">level</span> t<span class="TextSegSigDiff">his</span> to<span class="TextSegSigDiff">wer§and</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">along</span> with i<span class="TextSegSigDiff">t</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">173</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> i<span class="TextSegSigDiff">t's</span> t<span class="TextSegSigDiff">ime</span> to <span class="TextSegSigDiff">si</span><span class="TextSegSigDiff">nk§it...</span> with <span class="TextSegSigDiff">you</span> i<span class="TextSegSigDiff">nside</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">174</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Not</span> a <span class="TextSegSigDiff">bad</span> idea, <span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">uh</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">174</td>
+<td class="TextItemSigDiffMod">A <span class="TextSegSigDiff">lovely</span> idea,<span class="TextSegSigDiff">§wouldn't</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">say</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">175</td>
+<td class="TextItemSigDiffMod">Wh- What's <span class="TextSegSigDiff">that</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">175</td>
+<td class="TextItemSigDiffMod">Wh-What's <span class="TextSegSigDiff">going</span> <span class="TextSegSigDiff">on</span>?<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">176</td>
+<td class="TextItemSigDiffMod">Oh<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-</span>Ho<span class="TextSegSigDiff">-Ho</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">176</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>OH ho<span class="TextSegSigDiff">h</span> ho<span class="TextSegSigDiff">h</span> ho<span class="TextSegSigDiff">h</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">177</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Look</span>s like the engine <span class="TextSegSigDiff">i</span>s§<span class="TextSegSigDiff">revv</span>ing <span class="TextSegSigDiff">u</span><span class="TextSegSigDiff">p</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">177</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Sound</span>s like the engine<span class="TextSegSigDiff">'</span>s§<span class="TextSegSigDiff">work</span>ing <span class="TextSegSigDiff">properly</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">178</td>
+<td class="TextItemSigDiffMod">Well<span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">tim</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">for</span> <span class="TextSegSigDiff">m</span>e t<span class="TextSegSigDiff">o§</span>b<span class="TextSegSigDiff">ail</span> <span class="TextSegSigDiff">out.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">178</td>
+<td class="TextItemSigDiffMod">Well<span class="TextSegSigDiff">!</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">happen</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">be§quit</span>e t<span class="TextSegSigDiff">he</span> b<span class="TextSegSigDiff">usy</span> <span class="TextSegSigDiff">lady.</span> <span class="TextSegSigDiff">So!</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">179</td>
+<td class="TextItemSigDiffMod">S<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">y</span><span class="TextSegSigDiff">a!</span> <span class="TextSegSigDiff">By</span><span class="TextSegSigDiff">e-</span>bye!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">179</td>
+<td class="TextItemSigDiffMod">S<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">long!</span> <span class="TextSegSigDiff">Farewell!§Auf</span> <span class="TextSegSigDiff">wiedersehen,</span> <span class="TextSegSigDiff">g'</span>bye!</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">180</td>
+<td class="TextItemSame">Wait!</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">180</td>
+<td class="TextItemSame">Wait!</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">181</td>
+<td class="TextItemSigDiffMod">Ow<span class="TextSegSigDiff">-ow-ow-o</span><span class="TextSegSigDiff">w!§W</span>rong <span class="TextSegSigDiff">one</span>.</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">181</td>
+<td class="TextItemSigDiffMod">Ow<span class="TextSegSigDiff">w</span><span class="TextSegSigDiff">w...</span> <span class="TextSegSigDiff">W</span>rong <span class="TextSegSigDiff">way</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">182</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">n</span>am<span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">is§Dr.</span> Jinguji!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">182</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Hear</span> m<span class="TextSegSigDiff">e!§I</span> am <span class="TextSegSigDiff">Profes</span><span class="TextSegSigDiff">so</span><span class="TextSegSigDiff">r</span> Jinguji!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">183</td>
+<td class="TextItemSigDiffMod">This <span class="TextSegSigDiff">town</span> s<span class="TextSegSigDiff">hall</span> <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">ecome§a</span> <span class="TextSegSigDiff">foundati</span>on <span class="TextSegSigDiff">stone</span>...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">183</td>
+<td class="TextItemSigDiffMod">This <span class="TextSegSigDiff">city</span> <span class="TextSegSigDiff">i</span>s <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">first§step</span> <span class="TextSegSigDiff">al</span>on<span class="TextSegSigDiff">g</span> <span class="TextSegSigDiff">my</span> <span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">oad</span>...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">184</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">in</span> <span class="TextSegSigDiff">my</span> <span class="TextSegSigDiff">ques</span>t <span class="TextSegSigDiff">for</span> <span class="TextSegSigDiff">wor</span><span class="TextSegSigDiff">ld§</span>domination!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">184</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">road</span> t<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">total</span><span class="TextSegSigDiff">§global</span> domination!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">185</td>
+<td class="TextItemSigDiffMod">J-Jinguji <span class="TextSegSigDiff">i</span>s the leader<span class="TextSegSigDiff">§</span>of the B<span class="TextSegSigDiff">.B.</span> <span class="TextSegSigDiff">Corps</span>?!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">185</td>
+<td class="TextItemSigDiffMod">J-Jinguji<span class="TextSegSigDiff">?</span> <span class="TextSegSigDiff">HE'</span>s the<span class="TextSegSigDiff">§</span>leader of the B<span class="TextSegSigDiff">B</span> <span class="TextSegSigDiff">Gang</span>?!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">186</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> <span class="TextSegSigDiff">he</span> <span class="TextSegSigDiff">wa</span>s <span class="TextSegSigDiff">th</span>e <span class="TextSegSigDiff">one§beh</span><span class="TextSegSigDiff">ind</span> <span class="TextSegSigDiff">everyt</span>hing!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">186</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It</span> <span class="TextSegSigDiff">all</span> <span class="TextSegSigDiff">make</span>s <span class="TextSegSigDiff">sens</span>e <span class="TextSegSigDiff">now!§T</span><span class="TextSegSigDiff">his</span> <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">all</span> h<span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">do</span>ing!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">187</td>
+<td class="TextItemSigDiffMod">Wha<span class="TextSegSigDiff">-</span> <span class="TextSegSigDiff">Wha</span>t's happening?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">187</td>
+<td class="TextItemSigDiffMod">What's happening?<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">188</td>
+<td class="TextItemSigDiffMod">My<span class="TextSegSigDiff">,</span> my<span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">So</span> you'<span class="TextSegSigDiff">v</span>e <span class="TextSegSigDiff">m</span><span class="TextSegSigDiff">ade</span><span class="TextSegSigDiff">§it</span> <span class="TextSegSigDiff">this</span> <span class="TextSegSigDiff">far.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">188</td>
+<td class="TextItemSigDiffMod">My my<span class="TextSegSigDiff">!</span> You'<span class="TextSegSigDiff">r</span>e <span class="TextSegSigDiff">actually§</span><span class="TextSegSigDiff">he</span><span class="TextSegSigDiff">re!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">189</td>
+<td class="TextItemSigDiffMod">Gr<span class="TextSegSigDiff">e</span>at <span class="TextSegSigDiff">j</span><span class="TextSegSigDiff">ob</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">189</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Con</span>gr<span class="TextSegSigDiff">atul</span>at<span class="TextSegSigDiff">ions</span> <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">in§order</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">190</td>
+<td class="TextItemSigDiffMod">We<span class="TextSegSigDiff">ll,</span> <span class="TextSegSigDiff">we</span>'ve been s<span class="TextSegSigDiff">u</span>ch§<span class="TextSegSigDiff">g</span>o<span class="TextSegSigDiff">od</span> <span class="TextSegSigDiff">p</span>a<span class="TextSegSigDiff">ls</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">190</td>
+<td class="TextItemSigDiffMod">We've been s<span class="TextSegSigDiff">eeing</span> <span class="TextSegSigDiff">ea</span>ch§o<span class="TextSegSigDiff">ther</span> <span class="TextSegSigDiff">for</span> <span class="TextSegSigDiff">quite</span> a <span class="TextSegSigDiff">while</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">191</td>
+<td class="TextItemSigDiffMod">A<span class="TextSegSigDiff">ll</span> t<span class="TextSegSigDiff">hose</span> <span class="TextSegSigDiff">fun</span> <span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">imes§to</span><span class="TextSegSigDiff">gether.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">191</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'd</span> <span class="TextSegSigDiff">s</span>a<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">we've</span> <span class="TextSegSigDiff">go</span>t <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">good§thing</span> <span class="TextSegSigDiff">g</span><span class="TextSegSigDiff">oing</span> <span class="TextSegSigDiff">on!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">192</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> I <span class="TextSegSigDiff">th</span>ou<span class="TextSegSigDiff">ght</span> <span class="TextSegSigDiff">ab</span><span class="TextSegSigDiff">out§giving</span> y<span class="TextSegSigDiff">ou</span> a <span class="TextSegSigDiff">prese</span><span class="TextSegSigDiff">nt!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">192</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">May</span> I <span class="TextSegSigDiff">offer</span> <span class="TextSegSigDiff">y</span>ou <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">small§toke</span><span class="TextSegSigDiff">n</span> <span class="TextSegSigDiff">of</span> <span class="TextSegSigDiff">m</span>y a<span class="TextSegSigDiff">ff</span><span class="TextSegSigDiff">ection?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">193</td>
+<td class="TextItemSigDiffMod">Ugh, I<span class="TextSegSigDiff">'</span>ve had it!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">193</td>
+<td class="TextItemSigDiffMod">Ugh, I <span class="TextSegSigDiff">ha</span>ve had it <span class="TextSegSigDiff">up</span> <span class="TextSegSigDiff">to§HERE</span> <span class="TextSegSigDiff">with</span> <span class="TextSegSigDiff">this</span> <span class="TextSegSigDiff">job</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">194</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">s</span> s<span class="TextSegSigDiff">uch</span> a <span class="TextSegSigDiff">lousy§</span>pa<span class="TextSegSigDiff">rt-time</span> <span class="TextSegSigDiff">job</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">194</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Par</span>t<span class="TextSegSigDiff">-time!</span> <span class="TextSegSigDiff">No</span> <span class="TextSegSigDiff">benefits!§And</span> s<span class="TextSegSigDiff">eriously</span> a<span class="TextSegSigDiff">wful</span> pa<span class="TextSegSigDiff">y</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">195</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ciao!</span> <span class="TextSegSigDiff">Le</span>t's <span class="TextSegSigDiff">mee</span><span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">again§s</span><span class="TextSegSigDiff">om</span>e<span class="TextSegSigDiff">day</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">195</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Tha</span>t's <span class="TextSegSigDiff">it.</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">quit!</span> <span class="TextSegSigDiff">Catch</span><span class="TextSegSigDiff">§you</span> <span class="TextSegSigDiff">on</span> <span class="TextSegSigDiff">th</span>e <span class="TextSegSigDiff">flipside</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">196</td>
+<td class="TextItemSigDiffMod">She<span class="TextSegSigDiff">'</span>s <span class="TextSegSigDiff">been</span> <span class="TextSegSigDiff">part-timing§</span><span class="TextSegSigDiff">a</span>s <span class="TextSegSigDiff">a</span> la<span class="TextSegSigDiff">dy</span> <span class="TextSegSigDiff">g</span><span class="TextSegSigDiff">eneral?</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">196</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">mean</span> she <span class="TextSegSigDiff">wa</span>s <span class="TextSegSigDiff">just</span> <span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">§wage</span> sla<span class="TextSegSigDiff">ve?</span> <span class="TextSegSigDiff">She</span><span class="TextSegSigDiff">esh.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">197</td>
+<td class="TextItemSigDiffMod">W<span class="TextSegSigDiff">hat'</span>s her <span class="TextSegSigDiff">issue§anyway</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">197</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span>W<span class="TextSegSigDiff">a</span>s <span class="TextSegSigDiff">s</span>he <span class="TextSegSigDiff">fo</span>r <span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">al</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">198</td>
+<td class="TextItemSigDiffMod">There you are, Shockman!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">198</td>
+<td class="TextItemSigDiffMod">There you are,<span class="TextSegSigDiff">§</span>Shockman!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">199</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">ime</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">settle</span> <span class="TextSegSigDiff">this</span> <span class="TextSegSigDiff">f</span>or§<span class="TextSegSigDiff">goo</span>d!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">199</td>
+<td class="TextItemSigDiffMod">T<span class="TextSegSigDiff">his</span> <span class="TextSegSigDiff">will</span> <span class="TextSegSigDiff">be</span> o<span class="TextSegSigDiff">u</span>r§<span class="TextSegSigDiff">final</span> d<span class="TextSegSigDiff">uel</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">200</td>
+<td class="TextItemSigDiffMod">I s<span class="TextSegSigDiff">w</span><span class="TextSegSigDiff">ea</span>r o<span class="TextSegSigDiff">n</span> <span class="TextSegSigDiff">my</span> pride<span class="TextSegSigDiff">,§the</span> <span class="TextSegSigDiff">victory</span> <span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">m</span>in<span class="TextSegSigDiff">e</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">200</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Th</span>i<span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">i</span>s <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">matte</span>r o<span class="TextSegSigDiff">f§</span>pride<span class="TextSegSigDiff">...</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">MUST</span> <span class="TextSegSigDiff">W</span>IN<span class="TextSegSigDiff">!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">201</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Come</span> <span class="TextSegSigDiff">to</span> your <span class="TextSegSigDiff">sens</span>es<span class="TextSegSigDiff">§at</span> <span class="TextSegSigDiff">once</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">201</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Open</span> your <span class="TextSegSigDiff">ey</span>es <span class="TextSegSigDiff">alr</span><span class="TextSegSigDiff">eady</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">202</td>
+<td class="TextItemSigDiffMod">Stop it!<span class="TextSegSigDiff">§</span>You<span class="TextSegSigDiff">'re</span> really<span class="TextSegSigDiff">-</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">202</td>
+<td class="TextItemSigDiffMod">Stop it <span class="TextSegSigDiff">already</span>! You<span class="TextSegSigDiff">§don't</span> really <span class="TextSegSigDiff">want</span> <span class="TextSegSigDiff">this!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">203</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">F</span><span class="TextSegSigDiff">-</span> <span class="TextSegSigDiff">For</span> <span class="TextSegSigDiff">me</span> <span class="TextSegSigDiff">to-</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">203</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Wh-Why...?</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">204</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">S</span>o <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">can't</span> w<span class="TextSegSigDiff">in</span> <span class="TextSegSigDiff">no</span> <span class="TextSegSigDiff">m</span><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">tt</span><span class="TextSegSigDiff">er§wh</span>at.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">204</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">N</span>o <span class="TextSegSigDiff">m</span><span class="TextSegSigDiff">at</span><span class="TextSegSigDiff">ter</span> <span class="TextSegSigDiff">ho</span>w <span class="TextSegSigDiff">many</span> <span class="TextSegSigDiff">times§I</span> <span class="TextSegSigDiff">try,</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">can't</span> <span class="TextSegSigDiff">be</span>at <span class="TextSegSigDiff">you</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">205</td>
+<td class="TextItemSigDiffMod">You're <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">l</span>ot <span class="TextSegSigDiff">l</span><span class="TextSegSigDiff">ik</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">me.§But!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">205</td>
+<td class="TextItemSigDiffMod">You <span class="TextSegSigDiff">know...</span> <span class="TextSegSigDiff">We</span>'re <span class="TextSegSigDiff">n</span>ot <span class="TextSegSigDiff">so§different,</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">and</span> <span class="TextSegSigDiff">I</span><span class="TextSegSigDiff">.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">206</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">gotta</span> stop <span class="TextSegSigDiff">w</span><span class="TextSegSigDiff">i</span>th <span class="TextSegSigDiff">this§</span>no<span class="TextSegSigDiff">nsense</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">206</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">B</span><span class="TextSegSigDiff">ut</span> <span class="TextSegSigDiff">ple</span><span class="TextSegSigDiff">ase,</span> stop <span class="TextSegSigDiff">doing§</span>th<span class="TextSegSigDiff">is!</span> <span class="TextSegSigDiff">It'</span><span class="TextSegSigDiff">s</span> no<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">worth</span> <span class="TextSegSigDiff">it</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">207</td>
+<td class="TextItemSigDiffMod">. . . <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">207</td>
+<td class="TextItemSigDiffMod">...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">208</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">My</span> <span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">easo</span>n f<span class="TextSegSigDiff">or</span> <span class="TextSegSigDiff">liv</span>ing <span class="TextSegSigDiff">has§always</span> <span class="TextSegSigDiff">be</span>en t<span class="TextSegSigDiff">o</span> <span class="TextSegSigDiff">fight</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">208</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I've</span> <span class="TextSegSigDiff">bee</span>n f<span class="TextSegSigDiff">ight</span>ing <span class="TextSegSigDiff">my</span><span class="TextSegSigDiff">§</span>ent<span class="TextSegSigDiff">ire</span> <span class="TextSegSigDiff">life</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">209</td>
+<td class="TextItemSigDiffMod">A<span class="TextSegSigDiff">nd</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">ha</span>ve a<span class="TextSegSigDiff">lway</span>s <span class="TextSegSigDiff">won§my</span> <span class="TextSegSigDiff">b</span>at<span class="TextSegSigDiff">tles.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">209</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>a<span class="TextSegSigDiff">ving</span> <span class="TextSegSigDiff">ne</span>ve<span class="TextSegSigDiff">r</span> <span class="TextSegSigDiff">t</span>as<span class="TextSegSigDiff">ted</span><span class="TextSegSigDiff">§defe</span>at<span class="TextSegSigDiff">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">210</td>
+<td class="TextItemSigDiffMod">Opponents were <span class="TextSegSigDiff">just§mere</span> prey<span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">me</span>.&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">210</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">my</span> opponents were<span class="TextSegSigDiff">§naught</span> <span class="TextSegSigDiff">bu</span><span class="TextSegSigDiff">t</span> prey.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">211</td>
+<td class="TextItemSigDiffMod">But a<span class="TextSegSigDiff">fter</span> me<span class="TextSegSigDiff">eting</span> you <span class="TextSegSigDiff">I§finally</span> reali<span class="TextSegSigDiff">sed</span>...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">211</td>
+<td class="TextItemSigDiffMod">But <span class="TextSegSigDiff">you...</span> <span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">be</span>a<span class="TextSegSigDiff">t</span> me<span class="TextSegSigDiff">.§</span>You <span class="TextSegSigDiff">m</span><span class="TextSegSigDiff">ade</span> <span class="TextSegSigDiff">me</span> reali<span class="TextSegSigDiff">ze</span>...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">212</td>
+<td class="TextItemSigDiffMod">what <span class="TextSegSigDiff">having</span> <span class="TextSegSigDiff">a</span> t<span class="TextSegSigDiff">ru</span>e rival<span class="TextSegSigDiff">§means</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">212</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...</span> what <span class="TextSegSigDiff">it</span> <span class="TextSegSigDiff">means</span> t<span class="TextSegSigDiff">o§hav</span>e <span class="TextSegSigDiff">a</span> rival!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">213</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">C</span><span class="TextSegSigDiff">ome</span> w<span class="TextSegSigDiff">ith</span> me.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">213</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Follo</span>w me.</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">214</td>
+<td class="TextItemSigDiffMod">You're after the boss,<span class="TextSegSigDiff">§</span>right?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">214</td>
+<td class="TextItemSigDiffMod">You're <span class="TextSegSigDiff">going</span> after the<span class="TextSegSigDiff">§</span>boss, right?</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">215</td>
+<td class="TextItemSame">Kagemaru. . .</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">215</td>
+<td class="TextItemSame">Kagemaru...</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">216</td>
+<td class="TextItemSigDiffMod">You <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">an</span> <span class="TextSegSigDiff">never</span> <span class="TextSegSigDiff">w</span>i<span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">§whe</span>n <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">los</span>t <span class="TextSegSigDiff">you</span>r <span class="TextSegSigDiff">wa</span><span class="TextSegSigDiff">y!</span></td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">216</td>
+<td class="TextItemSigDiffMod">You<span class="TextSegSigDiff">r</span> <span class="TextSegSigDiff">heart</span> <span class="TextSegSigDiff">just</span> i<span class="TextSegSigDiff">sn't§i</span>n <span class="TextSegSigDiff">it.</span> <span class="TextSegSigDiff">No</span>t r<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">ally.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">217</td>
+<td class="TextItemSigDiffMod">Agh<span class="TextSegSigDiff">h!</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">217</td>
+<td class="TextItemSigDiffMod">A<span class="TextSegSigDiff">AAR</span>GH!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">218</td>
+<td class="TextItemSigDiffMod">Mhahahah<span class="TextSegSigDiff">a</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">218</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">wa</span>hahahah!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">219</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Chos</span>e to betray me at&nbsp; §the <span class="TextSegSigDiff">last</span> <span class="TextSegSigDiff">minu</span>te<span class="TextSegSigDiff">?</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">219</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span>e <span class="TextSegSigDiff">had</span> to betray me at§the <span class="TextSegSigDiff">very</span> <span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">nd,</span> t<span class="TextSegSigDiff">h</span>e <span class="TextSegSigDiff">fool.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">220</td>
+<td class="TextItemSigDiffMod">D<span class="TextSegSigDiff">on't</span> <span class="TextSegSigDiff">fo</span>rge<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">who§modif</span><span class="TextSegSigDiff">i</span><span class="TextSegSigDiff">ed</span> <span class="TextSegSigDiff">you</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">220</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">An</span>d <span class="TextSegSigDiff">afte</span>r <span class="TextSegSigDiff">I</span> g<span class="TextSegSigDiff">av</span>e <span class="TextSegSigDiff">hi</span><span class="TextSegSigDiff">m</span> <span class="TextSegSigDiff">his§cybernetic</span> <span class="TextSegSigDiff">enhancements</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">221</td>
+<td class="TextItemSigDiffMod">You're fired<span class="TextSegSigDiff">!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">221</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Kagemaru...§</span>You're fired<span class="TextSegSigDiff">.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">222</td>
+<td class="TextItemSigDiffMod">Kagemaru!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">222</td>
+<td class="TextItemSigDiffMod">KAGEMARU!<span class="TextSegSigDiff">!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">223</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Bastard!§</span>You'll r<span class="TextSegSigDiff">egret</span> this!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">223</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You...</span><span class="TextSegSigDiff">!</span> You'll <span class="TextSegSigDiff">pay§fo</span>r this<span class="TextSegSigDiff">!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">224</td>
+<td class="TextItemSigDiffMod">You're not half bad I<span class="TextSegSigDiff">§have</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">say.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">224</td>
+<td class="TextItemSigDiffMod">You're not half bad<span class="TextSegSigDiff">.§Color</span> <span class="TextSegSigDiff">me</span> i<span class="TextSegSigDiff">mpr</span><span class="TextSegSigDiff">es</span><span class="TextSegSigDiff">sed!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">225</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">y</span> <span class="TextSegSigDiff">do</span><span class="TextSegSigDiff">n'</span>t <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">work</span> for<span class="TextSegSigDiff">§me</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">225</td>
+<td class="TextItemSigDiffMod">Wh<span class="TextSegSigDiff">addaya</span> <span class="TextSegSigDiff">say?</span> <span class="TextSegSigDiff">Wan</span>t <span class="TextSegSigDiff">to§j</span><span class="TextSegSigDiff">oin</span> for<span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">es</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">226</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Th</span><span class="TextSegSigDiff">at's</span> <span class="TextSegSigDiff">some</span> joke<span class="TextSegSigDiff">§alright</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">226</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Oh.</span> <span class="TextSegSigDiff">A</span> joke<span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">How</span> <span class="TextSegSigDiff">funny</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">227</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">B</span><span class="TextSegSigDiff">ut</span> I<span class="TextSegSigDiff">'m</span> <span class="TextSegSigDiff">n</span>ot laugh<span class="TextSegSigDiff">ing</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">227</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> <span class="TextSegSigDiff">funny</span> I <span class="TextSegSigDiff">forg</span>ot<span class="TextSegSigDiff">§to</span> laugh!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">228</td>
+<td class="TextItemSigDiffMod">Mhahaha<span class="TextSegSigDiff">ha!</span><span class="TextSegSigDiff">§</span>In <span class="TextSegSigDiff">that</span> <span class="TextSegSigDiff">ca</span><span class="TextSegSigDiff">se</span>...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">228</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">wa</span>hahaha<span class="TextSegSigDiff">h...</span> <span class="TextSegSigDiff">Well</span> <span class="TextSegSigDiff">then,§s</span>in<span class="TextSegSigDiff">ce</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">insist</span>...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">229</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Why</span> <span class="TextSegSigDiff">don't</span> you <span class="TextSegSigDiff">die</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">229</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">guess</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">get</span> <span class="TextSegSigDiff">to§kill</span> you!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">230</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'm</span> <span class="TextSegSigDiff">sma</span><span class="TextSegSigDiff">shing</span> that engin<span class="TextSegSigDiff">e§to</span> <span class="TextSegSigDiff">pieces</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">230</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">We</span> <span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">ave</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">stop§</span>that engin<span class="TextSegSigDiff">e</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">231</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span><span class="TextSegSigDiff">ow</span> <span class="TextSegSigDiff">can</span> you <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">e</span> so<span class="TextSegSigDiff">§in</span>human<span class="TextSegSigDiff">?</span>&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">231</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Jinguji...!</span> <span class="TextSegSigDiff">Do</span><span class="TextSegSigDiff">n't</span> you <span class="TextSegSigDiff">have§any</span> s<span class="TextSegSigDiff">hred</span> o<span class="TextSegSigDiff">f</span> human<span class="TextSegSigDiff">ity?!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">232</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Did</span> <span class="TextSegSigDiff">y</span>a re<span class="TextSegSigDiff">all</span>y <span class="TextSegSigDiff">think§thi</span>s <span class="TextSegSigDiff">w</span><span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">ul</span>d <span class="TextSegSigDiff">wor</span>k?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">232</td>
+<td class="TextItemSigDiffMod">Are y<span class="TextSegSigDiff">ou</span> <span class="TextSegSigDiff">nu</span><span class="TextSegSigDiff">t</span>s <span class="TextSegSigDiff">or</span> <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">you§just</span> d<span class="TextSegSigDiff">umb</span> <span class="TextSegSigDiff">as</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">ric</span>k?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">233</td>
+<td class="TextItemSigDiffMod">It's over<span class="TextSegSigDiff">!§</span>J<span class="TextSegSigDiff">ust</span> give <span class="TextSegSigDiff">u</span>p <span class="TextSegSigDiff">at</span> <span class="TextSegSigDiff">once</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">233</td>
+<td class="TextItemSigDiffMod">It's over<span class="TextSegSigDiff">,</span> J<span class="TextSegSigDiff">inguji.§</span>Give <span class="TextSegSigDiff">yourself</span> <span class="TextSegSigDiff">u</span>p!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">234</td>
+<td class="TextItemSigDiffMod">If I destroy th<span class="TextSegSigDiff">at</span>§engine...</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">234</td>
+<td class="TextItemSigDiffMod">If I destroy th<span class="TextSegSigDiff">e</span>§engine...</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">235</td>
+<td class="TextItemSigDiffMod">your s<span class="TextSegSigDiff">cheme</span> will <span class="TextSegSigDiff">c</span><span class="TextSegSigDiff">ome</span> t<span class="TextSegSigDiff">o§an</span> <span class="TextSegSigDiff">end</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">235</td>
+<td class="TextItemSigDiffMod">your <span class="TextSegSigDiff">ambition</span>s will <span class="TextSegSigDiff">go§down</span> <span class="TextSegSigDiff">with</span> t<span class="TextSegSigDiff">his</span> <span class="TextSegSigDiff">ship</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">236</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> c<span class="TextSegSigDiff">ruel</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">236</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">How</span> c<span class="TextSegSigDiff">ou</span><span class="TextSegSigDiff">ld</span> <span class="TextSegSigDiff">you?</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">237</td>
+<td class="TextItemSigDiffMod">No<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">in</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">millio</span>n <span class="TextSegSigDiff">years!</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">237</td>
+<td class="TextItemSigDiffMod">No <span class="TextSegSigDiff">w</span><span class="TextSegSigDiff">ay</span> <span class="TextSegSigDiff">i</span>n <span class="TextSegSigDiff">hell.</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">238</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Don't</span> <span class="TextSegSigDiff">make</span> <span class="TextSegSigDiff">me</span> <span class="TextSegSigDiff">laugh</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">238</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Scr</span><span class="TextSegSigDiff">ew</span> <span class="TextSegSigDiff">yo</span><span class="TextSegSigDiff">u</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">239</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">N</span><span class="TextSegSigDiff">o!</span> <span class="TextSegSigDiff">No!</span> <span class="TextSegSigDiff">No!</span> <span class="TextSegSigDiff">No!</span> <span class="TextSegSigDiff">No!§...N...N...N...</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">239</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">am</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">God...</span> <span class="TextSegSigDiff">i</span> <span class="TextSegSigDiff">AM</span> <span class="TextSegSigDiff">A</span> <span class="TextSegSigDiff">gOD§GOD-GOD-GOD-GOD-G-G-G--</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">240</td>
+<td class="TextItemSigDiffMod">He<span class="TextSegSigDiff">'</span><span class="TextSegSigDiff">s-§No</span>t human!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">240</td>
+<td class="TextItemSigDiffMod">He<span class="TextSegSigDiff">...</span> <span class="TextSegSigDiff">He</span> <span class="TextSegSigDiff">was</span><span class="TextSegSigDiff">n'</span>t <span class="TextSegSigDiff">even§</span>human!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">241</td>
+<td class="TextItemSigDiffMod">He was a <span class="TextSegSigDiff">machine</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">241</td>
+<td class="TextItemSigDiffMod">He was a <span class="TextSegSigDiff">robot</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">242</td>
+<td class="TextItemSigDiffMod">Th- The battleship <span class="TextSegSigDiff">i</span>s§<span class="TextSegSigDiff">crash</span>ing <span class="TextSegSigDiff">down</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">242</td>
+<td class="TextItemSigDiffMod">Th-The battleship<span class="TextSegSigDiff">'</span>s§<span class="TextSegSigDiff">f</span><span class="TextSegSigDiff">all</span>ing!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">243</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ji-</span> <span class="TextSegSigDiff">Jinguji</span> was a§<span class="TextSegSigDiff">mac</span><span class="TextSegSigDiff">hine?</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">243</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">He...</span> <span class="TextSegSigDiff">He</span> was<span class="TextSegSigDiff">n't</span> <span class="TextSegSigDiff">human</span> a<span class="TextSegSigDiff">t</span>§<span class="TextSegSigDiff">all.</span> <span class="TextSegSigDiff">H</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">was</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">robot...</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">244</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">u-</span>Ha<span class="TextSegSigDiff">-</span>Ha<span class="TextSegSigDiff">-</span>Ha<span class="TextSegSigDiff">-</span>Ha<span class="TextSegSigDiff">-Ha</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">244</td>
+<td class="TextItemSigDiffMod">M<span class="TextSegSigDiff">WA</span>HAHAHAHA<span class="TextSegSigDiff">H</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">245</td>
+<td class="TextItemSigDiffMod">Thou<span class="TextSegSigDiff">ght</span> <span class="TextSegSigDiff">I</span> w<span class="TextSegSigDiff">as</span> <span class="TextSegSigDiff">d</span>on<span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">for</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">245</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Did</span> <span class="TextSegSigDiff">you</span> <span class="TextSegSigDiff">really</span> th<span class="TextSegSigDiff">ink§y</span>ou won?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">246</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">H</span><span class="TextSegSigDiff">ow</span> <span class="TextSegSigDiff">f</span>ool<span class="TextSegSigDiff">ish</span> <span class="TextSegSigDiff">of</span> <span class="TextSegSigDiff">you</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">246</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">FOO</span>OOL<span class="TextSegSigDiff">S!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">247</td>
+<td class="TextItemSigDiffMod">The <span class="TextSegSigDiff">gr</span>EE<span class="TextSegSigDiff">Ea</span>t§<span class="TextSegSigDiff">b</span>io<span class="TextSegSigDiff">-mechanicAAAAl...</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">247</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">AM</span> THE <span class="TextSegSigDiff">PE</span>EE<span class="TextSegSigDiff">RFEC</span>T§<span class="TextSegSigDiff">FUUUS</span>IO<span class="TextSegSigDiff">N</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">248</td>
+<td class="TextItemSigDiffMod">F<span class="TextSegSigDiff">US</span><span class="TextSegSigDiff">IOOOON</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">248</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">O</span>F <span class="TextSegSigDiff">MAAAN</span> <span class="TextSegSigDiff">AND</span> <span class="TextSegSigDiff">MACHIII</span><span class="TextSegSigDiff">NE!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">249</td>
+<td class="TextItemSigDiffMod">This <span class="TextSegSigDiff">v</span><span class="TextSegSigDiff">ery</span> battleship <span class="TextSegSigDiff">is§my</span> <span class="TextSegSigDiff">true</span> <span class="TextSegSigDiff">self</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">249</td>
+<td class="TextItemSigDiffMod">THIS <span class="TextSegSigDiff">is</span> <span class="TextSegSigDiff">my</span> <span class="TextSegSigDiff">body!</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">AM§THE</span> BATTLESHIP!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">250</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">We</span> did it!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">250</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> did it!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">251</td>
+<td class="TextItemSigDiffMod">You're alive!<span class="TextSegSigDiff">§</span><span class="TextSegSigDiff">Thank</span> good<span class="TextSegSigDiff">n</span>es<span class="TextSegSigDiff">s</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">251</td>
+<td class="TextItemSigDiffMod">You're alive! <span class="TextSegSigDiff">It's</span> <span class="TextSegSigDiff">so§</span>good <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">se</span>e <span class="TextSegSigDiff">you</span> s<span class="TextSegSigDiff">afe</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">252</td>
+<td class="TextItemSigDiffMod">For <span class="TextSegSigDiff">now,</span> peace <span class="TextSegSigDiff">has</span> <span class="TextSegSigDiff">been§restored</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">the</span> <span class="TextSegSigDiff">town.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">252</td>
+<td class="TextItemSigDiffMod">F<span class="TextSegSigDiff">inally,</span> o<span class="TextSegSigDiff">ur</span> <span class="TextSegSigDiff">fai</span>r <span class="TextSegSigDiff">city§is</span> peace<span class="TextSegSigDiff">ful</span> <span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">nc</span><span class="TextSegSigDiff">e</span> <span class="TextSegSigDiff">agai</span><span class="TextSegSigDiff">n!</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">253</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I-</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">see</span><span class="TextSegSigDiff">.§So</span> <span class="TextSegSigDiff">it's</span> peace<span class="TextSegSigDiff">f</span><span class="TextSegSigDiff">ul</span> n<span class="TextSegSigDiff">ow</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">253</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Oh...</span> <span class="TextSegSigDiff">y</span><span class="TextSegSigDiff">eah...</span> Peace <span class="TextSegSigDiff">sure§is</span> n<span class="TextSegSigDiff">ice,</span> <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">guess..</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">254</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Uoo</span>h!<span class="TextSegSigDiff">§Kinda</span> b<span class="TextSegSigDiff">ummer</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">254</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">...AAARG</span>H! <span class="TextSegSigDiff">I'M</span> B<span class="TextSegSigDiff">OR</span><span class="TextSegSigDiff">ED!</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">255</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Oh,</span> <span class="TextSegSigDiff">yeah</span>! Kagemaru!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">255</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">That's</span> <span class="TextSegSigDiff">it</span>! Kagemaru!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">256</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I'm</span> <span class="TextSegSigDiff">sure</span> he's <span class="TextSegSigDiff">out</span> <span class="TextSegSigDiff">th</span>e<span class="TextSegSigDiff">re</span>§somewhere!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">256</td>
+<td class="TextItemSigDiffMod">He's <span class="TextSegSigDiff">gotta</span> <span class="TextSegSigDiff">b</span>e <span class="TextSegSigDiff">around</span>§somewhere!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">257</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Well,</span> I'm <span class="TextSegSigDiff">off</span> <span class="TextSegSigDiff">t</span>o <span class="TextSegSigDiff">search</span>§for him!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">257</td>
+<td class="TextItemSigDiffMod">I'm <span class="TextSegSigDiff">gonna</span> <span class="TextSegSigDiff">g</span>o <span class="TextSegSigDiff">look</span>§for him!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">258</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">S</span><span class="TextSegSigDiff">ee</span> <span class="TextSegSigDiff">ya</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">258</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Later</span>!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">259</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">L-</span> <span class="TextSegSigDiff">Look</span>s <span class="TextSegSigDiff">lik</span>e <span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">modifi</span>ed<span class="TextSegSigDiff">§</span>one he<span class="TextSegSigDiff">ll</span> of a <span class="TextSegSigDiff">fellow</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">259</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> s<span class="TextSegSigDiff">ure</span> e<span class="TextSegSigDiff">nhanc</span>ed one<span class="TextSegSigDiff">§</span>he<span class="TextSegSigDiff">ck</span> of a <span class="TextSegSigDiff">guy</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">260</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">At</span> <span class="TextSegSigDiff">last</span> <span class="TextSegSigDiff">it's</span> over!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">260</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">It'</span><span class="TextSegSigDiff">s</span> <span class="TextSegSigDiff">finally</span> over!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">261</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">F</span><span class="TextSegSigDiff">ather</span>. . .§I <span class="TextSegSigDiff">finally</span> avenged you.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">261</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">did</span> <span class="TextSegSigDiff">it,</span> <span class="TextSegSigDiff">dad</span>...§I avenged you.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">262</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Right!</span> <span class="TextSegSigDiff">Now,</span> <span class="TextSegSigDiff">§If</span> <span class="TextSegSigDiff">y</span>o<span class="TextSegSigDiff">u</span> <span class="TextSegSigDiff">do</span><span class="TextSegSigDiff">n't</span> <span class="TextSegSigDiff">m</span>ind</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">262</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span><span class="TextSegSigDiff">t's</span> <span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">ime</span> <span class="TextSegSigDiff">t</span>o <span class="TextSegSigDiff">put</span> <span class="TextSegSigDiff">all</span> <span class="TextSegSigDiff">the§fighting</span> <span class="TextSegSigDiff">beh</span>ind <span class="TextSegSigDiff">me,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">263</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">turn</span> <span class="TextSegSigDiff">me</span> back <span class="TextSegSigDiff">in</span>to <span class="TextSegSigDiff">a§re</span><span class="TextSegSigDiff">gul</span>a<span class="TextSegSigDiff">r</span> girl!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">263</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">nd</span> <span class="TextSegSigDiff">go</span> back to <span class="TextSegSigDiff">b</span><span class="TextSegSigDiff">eing§</span>a <span class="TextSegSigDiff">normal</span> girl!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">264</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">P</span><span class="TextSegSigDiff">rof</span><span class="TextSegSigDiff">essor.</span> <span class="TextSegSigDiff">.</span> <span class="TextSegSigDiff">.</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">264</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> <span class="TextSegSigDiff">doctor,</span> <span class="TextSegSigDiff">when</span> <span class="TextSegSigDiff">are</span> <span class="TextSegSigDiff">we§going</span> <span class="TextSegSigDiff">to</span> <span class="TextSegSigDiff">reverse--</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">265</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Profess</span>or?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">265</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">D</span><span class="TextSegSigDiff">oct</span>or<span class="TextSegSigDiff">?</span>?</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">266</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ah!§</span>He ran away!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">266</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">He...</span> He ran away!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">267</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Hey!§You</span> turn me back<span class="TextSegSigDiff">!</span>!!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">267</td>
+<td class="TextItemSigDiffMod">TURN ME BACK <span class="TextSegSigDiff">ALREADY</span>!!</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">268</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Profess</span>or!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">268</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">D</span><span class="TextSegSigDiff">oct</span>or!</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">269</td>
+<td class="TextItemSame">We're back!</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">269</td>
+<td class="TextItemSame">We're back!</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">270</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Ah!</span> Kagemaru<span class="TextSegSigDiff">?</span>!</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">270</td>
+<td class="TextItemSigDiffMod">Kagemaru!</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">271</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">He</span> <span class="TextSegSigDiff">was</span> <span class="TextSegSigDiff">a</span> co<span class="TextSegSigDiff">m</span><span class="TextSegSigDiff">plete</span> <span class="TextSegSigDiff">mess</span>,§y<span class="TextSegSigDiff">o</span><span class="TextSegSigDiff">u</span> <span class="TextSegSigDiff">see</span>.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">271</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">I</span> <span class="TextSegSigDiff">found</span> <span class="TextSegSigDiff">him</span> co<span class="TextSegSigDiff">llapsed</span>,§<span class="TextSegSigDiff">badl</span>y <span class="TextSegSigDiff">injur</span><span class="TextSegSigDiff">ed</span>.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">272</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">So</span> I <span class="TextSegSigDiff">decid</span>ed <span class="TextSegSigDiff">to</span> patch§him up.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">272</td>
+<td class="TextItemSigDiffMod">I <span class="TextSegSigDiff">f</span><span class="TextSegSigDiff">igur</span>ed <span class="TextSegSigDiff">I'd</span> patch§him up.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">273</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">You</span> <span class="TextSegSigDiff">k</span><span class="TextSegSigDiff">n</span><span class="TextSegSigDiff">ow</span> <span class="TextSegSigDiff">each</span> <span class="TextSegSigDiff">other</span>?</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">273</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">He</span> <span class="TextSegSigDiff">a</span> <span class="TextSegSigDiff">friend</span> <span class="TextSegSigDiff">of</span> <span class="TextSegSigDiff">y</span><span class="TextSegSigDiff">ou</span><span class="TextSegSigDiff">rs</span>?</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">274</td>
+<td class="TextItemSigDiffMod">S<span class="TextSegSigDiff">h</span><span class="TextSegSigDiff">ockman!</span> I'll be back<span class="TextSegSigDiff">!§Count</span> <span class="TextSegSigDiff">on</span> <span class="TextSegSigDiff">it</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">274</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">Mark</span> <span class="TextSegSigDiff">my</span> <span class="TextSegSigDiff">word</span>s<span class="TextSegSigDiff">!</span> <span class="TextSegSigDiff">O</span><span class="TextSegSigDiff">ne</span> <span class="TextSegSigDiff">day,§</span>I'll be back!</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight">275</td>
+<td class="TextItemSame">Farewell!</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">275</td>
+<td class="TextItemSame">Farewell!</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">276</td>
+<td class="TextItemSigDiffMod">Wait!</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">276</td>
+<td class="TextItemSigDiffMod">Wait <span class="TextSegSigDiff">up</span>!</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">277</td>
+<td class="TextItemSigDiffMod">Le<span class="TextSegSigDiff">t</span> <span class="TextSegSigDiff">it</span> <span class="TextSegSigDiff">go</span>!</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">277</td>
+<td class="TextItemSigDiffMod"><span class="TextSegSigDiff">SOMEONE!</span> <span class="TextSegSigDiff">ANYONE!§HE</span>L<span class="TextSegSigDiff">P</span> <span class="TextSegSigDiff">M</span>E <span class="TextSegSigDiff">DOO</span><span class="TextSegSigDiff">OWN</span>!</td>
+</tr>
+</table>
+<br/>
+</body>
+</html>
