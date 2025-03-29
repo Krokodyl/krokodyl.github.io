@@ -61,7 +61,7 @@
   "headline": "Retro-bit Translations: Part Deux",
   "description" : "Let\u0027s look at Shockman Zero",
   "inLanguage" : "en",
-  "wordCount":  2868 ,
+  "wordCount":  2979 ,
   "datePublished" : "2025-03-25T00:00:00",
   "dateModified" : "2025-03-25T00:00:00",
   "image" : "https:\/\/krokodyl.github.io\/",
@@ -316,6 +316,10 @@
 
       <div class="card-image card-image-blog p-0">
         
+          
+          <img src="/img/retro2.png" alt="Retro-bit Translations: Part Deux" class="card-img-bottom img-fluid" style="width:auto;">
+          
+        
         
       </div>
     </div>
@@ -350,6 +354,8 @@ To clarify, I mean the SFC ROM contained in the Switch ROM. Unlike GleyLancer, w
 <p><img src="img%2Fdebug2.png" alt="debug2.png"></p>
 <br/>
 <h2 id="overview">Overview</h2>
+<br/>
+<p>I’m going to compare the ROMs with a program called Beyond Compare. It’s a powerful tool used to compare 2 text files or 2 binary files (hex) side by side. First, I will list all the changes made by Svambo compared to the Japanese ROM. Then I will list all the changes between Retro-bit ROM and Svambo ROM. Any of the changes that appear in the first list but not in the second one mean that this content is identical.</p>
 <br/>
 <h2 id="fan-translation-rom">Fan translation ROM</h2>
 <br/>
@@ -549,7 +555,7 @@ To clarify, I mean the SFC ROM contained in the Switch ROM. Unlike GleyLancer, w
 </tbody>
 </table>
 <br/>
-<p>Which means that the following sections are taken from the fan translation:</p>
+<p>Which means that the following changes are identical (100%, unless specified otherwise) to the fan translation:</p>
 <ul>
 <li>Result Screen tile map</li>
 <li>Title Screen tileset (partially, see below)</li>
@@ -611,7 +617,7 @@ So if you want to spell anything on the title screen (to replace the copyright/l
 Namely the letters D, G, H, J, K, N, Q, T, V, W, X, and Z do not match the in-game font:</p>
 <p><img src="img%2Ffont2.gif" alt="font2.gif"></p>
 <p>As you can see, the exact same modified letters appear in the tileset of the Retro-bit ROM. It&rsquo;s hard to notice when playing the game but the N and D in LICENSED differ from the item name COIN and GOLD, for example.</p>
-<p>Talking about font, I&rsquo;d like to correct a thing I said in the first blog post.
+<p>Talking about fonts, I&rsquo;d like to correct a thing I said in the first blog post.
 The cutscene font is not custom, it&rsquo;s a bitmap font called unholy and the font is not compressed.
 When I speculated that Rod didn&rsquo;t change the font because he couldn&rsquo;t, I was wrong.
 He chose not to change it, which really doesn&rsquo;t make it much better.
@@ -622,7 +628,7 @@ Furthermore, my point was never that Retro-bit had stolen the font from Svambo b
 <p>Here&rsquo;s a <a href="img/code.png">side by side comparison of the code</a> that Svambo injected into the ROM and the Retro-bit ROM.</p>
 <p>All the modifications done by Svambo appear in Retro-bit&rsquo;s ROM with the same change at the same addresses.</p>
 <br/>
-<h3 id="english-script">English Script</h3>
+<h3 id="english-script-cutscenes-text">English Script (Cutscenes text)</h3>
 <br/>
 <p>Beyond Compare difference report between the Retro-bit script and the fan translation script:
 <a href="/html/retrobit-svambo-comparison.html">retrobit-svambo-comparison.html</a></p>
@@ -837,7 +843,9 @@ For every byte that differs between either rom A or B and the reference rom, it 
 </tbody>
 </table>
 <br/>
-<p>I also ran the same code with a few fan translations that are independent.</p>
+<p><em>Note: I added 0xFF or 0x00 when the ROMs were not the same size, in the most favorable way towards Retro-bit</em>.
+<br/></p>
+<p>I also ran the same code with a few fan translations that are known to be independent.</p>
 <br/>
 <table>
 <thead>
@@ -882,7 +890,7 @@ For every byte that differs between either rom A or B and the reference rom, it 
 </table>
 <br/>
 <p>It&rsquo;s a rough metric that doesn&rsquo;t discriminate code and data (graphics and texts). Code and data is not random, it follows some patterns that&rsquo;s why there&rsquo;s bound to be accidental overlaps (which explains there being no 0%).</p>
-<p>But the fact that the percentage of identical changes in the Retro-bit ROMs and their respective fan translations is two order of magnitudes above a &ldquo;normal&rdquo; value is telling.</p>
+<p>But the fact that the percentage of identical changes in the Retro-bit ROMs and their respective fan translations is two orders of magnitudes above a &ldquo;normal&rdquo; value is pretty telling.</p>
 <p>What surprises me is that the &ldquo;most original&rdquo; ROM is Assault Suits Valken at 57% and the &ldquo;least original&rdquo; is King of Demons at 88%.</p>
 <p>Figuring out why we get these values will require a full analysis of these two games.</p>
 <p>Stay tuned.</p>
@@ -1075,54 +1083,6 @@ For every byte that differs between either rom A or B and the reference rom, it 
         
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
     <div class="card h-100 single-post-card shadow-effect bg-faded-light">
-        <a href="https://krokodyl.github.io/post/2025/02/retro-zero/">
-            <div class="card-body">
-
-                <h3 class="fw-bold post-title">Has retro-bit stolen fan translations to put in their repros?</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta">
-  
-  
-  &nbsp;February 19, 2025 
-
-  
-
-  
-  
-  
-</span>
-
-
-                </p>
-                
-                <div class="post-entry">
-
-                    
-                    More like ret-rob-it
-
-                    
-                </div>
-
-                <div class="read-more-section">
-                    <h6>Read more</h6>
-                </div>
-            </div>
-
-            
-            <img src="/img/retro.jpg" alt="Has retro-bit stolen fan translations to put in their repros?" class="card-img-top img-fluid">
-            
-            
-        </a>
-    </div>
-</div> 
-
-        
-         
-        
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <div class="card h-100 single-post-card shadow-effect bg-faded-light">
         <a href="https://krokodyl.github.io/post/2025/01/super-uno/">
             <div class="card-body">
 
@@ -1208,6 +1168,54 @@ For every byte that differs between either rom A or B and the reference rom, it 
 
             
             <img src="/img/wedding.png" alt="Wedding Peach - English Patch" class="card-img-top img-fluid">
+            
+            
+        </a>
+    </div>
+</div> 
+
+        
+         
+        
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <div class="card h-100 single-post-card shadow-effect bg-faded-light">
+        <a href="https://krokodyl.github.io/post/2024/10/bs-demo/">
+            <div class="card-body">
+
+                <h3 class="fw-bold post-title">Developing Satellaview games with PVSnesLib</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta">
+  
+  
+  &nbsp;October 28, 2024 
+
+  
+
+  
+  
+  
+</span>
+
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    How to add Satellaview features to a PVSnesLib project
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6>Read more</h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/bs-demo.png" alt="Developing Satellaview games with PVSnesLib" class="card-img-top img-fluid">
             
             
         </a>
