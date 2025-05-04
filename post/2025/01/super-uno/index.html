@@ -61,7 +61,7 @@
   "headline": "Super UNO - English Patch",
   "description" : "Translation patch for the Super Famicom game Super UNO",
   "inLanguage" : "en",
-  "wordCount":  612 ,
+  "wordCount":  645 ,
   "datePublished" : "2025-01-23T00:00:00",
   "dateModified" : "2025-01-23T00:00:00",
   "image" : "https:\/\/krokodyl.github.io\/",
@@ -639,6 +639,9 @@ Nenriki (ねんりき, 念力) can mean willpower, faith or telekinesis.<br/></p
 <p>I tried to transcribe the personality of each one but the very limited space made it difficult.</p>
 <br/>
 <h2 id="memorycheats">Memory/Cheats</h2>
+<h3 id="final-world">Final world</h3>
+<p><img src="wild-world.png" alt="wild-world.png"></p>
+<p>The path to the castle: right, left, down, down, left, up</p>
 <br/>
 WRAM addresses
 <table>
@@ -660,14 +663,14 @@ WRAM addresses
 <td>$9A3</td>
 </tr>
 <tr>
-<td>Item Count</td>
+<td>Item IDs (3 bytes)</td>
 <td>$88A</td>
 <td>$8EA</td>
 <td>$94A</td>
 <td>$9AA</td>
 </tr>
 <tr>
-<td>Item IDs (3 bytes)</td>
+<td>Item Count</td>
 <td>$896</td>
 <td>$8F6</td>
 <td>$956</td>
@@ -675,7 +678,9 @@ WRAM addresses
 </tr>
 </tbody>
 </table>
-<p>Roulette (set when it stops):		$666<br/></p>
+<p>Card Count: $878 (P1) $8D8 (P2).</p>
+<p>Change it to 1 before playing a card to instantly win a game.</p>
+<p>Roulette (change it after it stops):		$666<br/></p>
 <br/>
       </article>
     </div>
