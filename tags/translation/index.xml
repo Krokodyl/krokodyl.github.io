@@ -6,7 +6,18 @@
     <description>Recent content in translation on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/translation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>America Oudan Ultra Quiz - English Patch</title>
+      <link>https://krokodyl.github.io/post/2025/05/america-oudan/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2025/05/america-oudan/</guid>
+      <description>This is the English translation for the Super Famicom (snes) game アメリカ横断ウルトラクイズ (america ouden urutora kuizu) aka America Ouden Ultra Quiz.
+Patch Version Date Link 1.0 May 14, 2025 America Oudan Ultra Quiz (English) 1.0.bps The patch applies to the following rom: Name: America Oudan Ultra Quiz (Japan) File/ROM SHA-1: 7D53B77C51C7C7E964F40E12B641A405D2E68B2A File/ROM CRC32: 9624E6ED
+TV Show The game is based on a TV trivia show of the same name that ran on NTV from 1977 to 1992 once a year.</description>
+    </item>
+    
     <item>
       <title>Super UNO - English Patch</title>
       <link>https://krokodyl.github.io/post/2025/01/super-uno/</link>
