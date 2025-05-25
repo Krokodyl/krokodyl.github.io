@@ -1,0 +1,85 @@
+                     --------sub start--------
+ACEEF6  DA             PHX
+ACEEF7  5A             PHY
+ACEEF8  A2 00 00       LDX #$0000
+ACEEFB  A9 09          LDA #$09
+ACEEFD  85 C2          STA $C2
+ACEEFF  A9 FF          LDA #$FF
+ACEF01  9F C0 82 7F    STA $7F82C0,X
+ACEF05  E8             INX
+ACEF06  C6 C2          DEC $C2
+ACEF08  10 F5          BPL $ACEEFF
+ACEF0A  A9 04          LDA #$04
+ACEF0C  85 C2          STA $C2
+ACEF0E  A9 0A          LDA #$0A
+ACEF10  20 65 85       JSR $8565
+ACEF13  EB             XBA
+ACEF14  A9 00          LDA #$00
+ACEF16  EB             XBA
+ACEF17  AA             TAX
+ACEF18  BF C0 82 7F    LDA $7F82C0,X
+ACEF1C  C9 FF          CMP #$FF
+ACEF1E  D0 EE          BNE $ACEF0E
+ACEF20  A9 00          LDA #$00
+ACEF22  9F C0 82 7F    STA $7F82C0,X
+ACEF26  C6 C2          DEC $C2
+ACEF28  10 E4          BPL $ACEF0E
+ACEF2A  A0 00 00       LDY #$0000
+ACEF2D  64 C2          STZ $C2
+ACEF2F  A5 C2          LDA $C2
+ACEF31  EB             XBA
+ACEF32  A9 00          LDA #$00
+ACEF34  EB             XBA
+ACEF35  AA             TAX
+ACEF36  BF C0 82 7F    LDA $7F82C0,X
+ACEF3A  C9 FF          CMP #$FF
+ACEF3C  F0 09          BEQ $ACEF47
+ACEF3E  BB             TYX
+ACEF3F  A5 C2          LDA $C2
+ACEF41  1A             INC
+ACEF42  9F 80 82 7F    STA $7F8280,X
+ACEF46  C8             INY
+ACEF47  E8             INX
+ACEF48  E6 C2          INC $C2
+ACEF4A  A5 C2          LDA $C2
+ACEF4C  C9 0A          CMP #$0A
+ACEF4E  D0 DF          BNE $ACEF2F
+ACEF50  7A             PLY
+ACEF51  FA             PLX
+ACEF52  60             RTS
+                     ----------------
+                     --------sub start--------
+AC8565  8B             PHB
+AC8566  48             PHA
+AC8567  A9 70          LDA #$70
+AC8569  48             PHA
+AC856A  AB             PLB
+AC856B  AD 02 00       LDA $0002
+AC856E  0A             ASL
+AC856F  0A             ASL
+AC8570  18             CLC
+AC8571  6D 02 00       ADC $0002
+AC8574  18             CLC
+AC8575  69 01          ADC #$01
+AC8577  8D 02 00       STA $0002
+AC857A  0E 03 00       ASL $0003
+AC857D  A9 20          LDA #$20
+AC857F  2C 03 00       BIT $0003
+AC8582  B0 04          BCS $AC8588
+AC8584  F0 04          BEQ $AC858A
+AC8586  80 05          BRA $AC858D
+AC8588  F0 03          BEQ $AC858D
+AC858A  EE 03 00       INC $0003
+AC858D  AD 03 00       LDA $0003
+AC8590  18             CLC
+AC8591  6D 02 00       ADC $0002
+AC8594  8F 02 42 00    STA WRMPYA
+AC8598  68             PLA
+AC8599  8F 03 42 00    STA WRMPYB
+AC859D  48             PHA
+AC859E  68             PLA
+AC859F  EA             NOP
+AC85A0  AF 17 42 00    LDA RDMPYH
+AC85A4  AB             PLB
+AC85A5  60             RTS
+                     ----------------
