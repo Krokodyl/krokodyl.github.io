@@ -6,7 +6,21 @@
     <description>Recent content in blog on This is a blog.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://krokodyl.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dragonlord</title>
+      <link>https://krokodyl.github.io/post/2026/08/dragonlord/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://krokodyl.github.io/post/2026/08/dragonlord/</guid>
+      <description>Dragonlord is an Atari ST game developed by Thy &amp;amp; Jo and published by 16-32 Diffusion.
+IPS Patch Here is an IPS patch that fixes 5 bugs listed below.
+DragonLord - Fix 1.0.zip
+Apply the IPS patch to the STX file: Dragon Lord - 16-32 Diffusion.stx File size: 1650272 ($192e60) SHA1: 3A6BA776A8355EFA01EBCCE84BB889FEBAEA21D3 MD5: 8C5463751AD230AA34183B44C751205B CRC32: A060188A
+Bug fixed:
+Numbers above six spelled incorrectly Transition screen between stage 3 and 4 Wrong palette in final area Wrong palette on end screen Words spelled incorrectly on end screen Bugs (Ending Spoiler) 01 - Misspelled numbers Original version Fixed version 02 - Transition screen The screen for the transition to and from stage 4 flashes for 1 sec and disappears.</description>
+    </item>
+    
     <item>
       <title>Bingo odds for an odd bingo</title>
       <link>https://krokodyl.github.io/post/2025/05/itadaki-street-bingo/</link>
