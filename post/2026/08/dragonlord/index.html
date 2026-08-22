@@ -61,7 +61,7 @@
   "headline": "Dragonlord",
   "description" : "Bug fixes for the 1989 Atari ST game",
   "inLanguage" : "en",
-  "wordCount":  677 ,
+  "wordCount":  724 ,
   "datePublished" : "2026-08-17T00:00:00",
   "dateModified" : "2026-08-17T00:00:00",
   "image" : "https:\/\/krokodyl.github.io\/",
@@ -338,20 +338,25 @@
 <h2 id="ips-patch">IPS Patch</h2>
 <br/>
 <p>Here is an IPS patch that fixes 5 bugs listed below.</p>
-<p><a href="patch%2FDragonLord%20-%20Fix%201.0.zip">DragonLord - Fix 1.0.zip</a></p>
+<p>v1.1: <a href="patch/1.1/DragonLord%20-%20Fix%201.1.zip">DragonLord - Fix 1.1.zip</a><br/>
+v1.0: <a href="patch/1.0/DragonLord%20-%20Fix%201.0.zip">DragonLord - Fix 1.0.zip</a><br/></p>
 <p>Apply the IPS patch to the <mark>STX</mark> file:<br/>
 Dragon Lord - 16-32 Diffusion.stx<br/>
 File size: 1650272 ($192e60)<br/>
 SHA1: 3A6BA776A8355EFA01EBCCE84BB889FEBAEA21D3<br/>
 MD5: 8C5463751AD230AA34183B44C751205B<br/>
 CRC32: A060188A<br/></p>
-<p>Bug fixed:</p>
+<p>Bugs fixed v1.0:</p>
 <ul>
 <li>Numbers above six spelled incorrectly</li>
 <li>Transition screen between stage 3 and 4</li>
 <li>Wrong palette in final area</li>
 <li>Wrong palette on end screen</li>
 <li>Words spelled incorrectly on end screen</li>
+</ul>
+<p>Bugs fixed v1.1:</p>
+<ul>
+<li>Jittery colors during intro</li>
 </ul>
 <br/>
 <h2 id="bugs-ending-spoiler">Bugs (Ending Spoiler)</h2>
@@ -421,7 +426,26 @@ Maybe the &ldquo;insert name&rdquo; screen was an afterthought and inserted at t
 <p><img src="img%2Fbugs%2F05.png" alt="05.png"></p>
 <p>Considering the wrong palette at the end, it&rsquo;s fair to assume that it&rsquo;s not intentional.</p>
 <br/>
-<h3 id="details-of-changes">Details of changes</h3>
+<h3 id="05---jitter-during-intro-11">05 - Jitter during intro (1.1)</h3>
+<br/>
+<table>
+<thead>
+<tr>
+<th>Original version</th>
+<th>Fixed version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="img%2Fdragonlord-jitter.gif" alt="dragonlord-jitter.gif"></td>
+<td><img src="img%2Fdragonlord-no-jitter.gif" alt="dragonlord-no-jitter.gif"></td>
+</tr>
+</tbody>
+</table>
+<br/>
+<p>That bug is due to the Timer B interrupt (handling scanline effects) not being allowed to stop Timer D interrupt (handling music).</p>
+<br/>
+<h3 id="details-of-changes-10">Details of changes (1.0)</h3>
 <br/>
 <p>Here are the changes I made. Feel free to double-check, improve it and share it.</p>
 <p><a href="hex-compare.html">Hex Compare</a></p>
