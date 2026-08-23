@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0054)file:///C:/Users/Yoann/AppData/Local/Temp/BC327302.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+    body {
+        background-color: dimgrey;
+    }
+    .parent {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .image1 {
+      position: relative;
+      top: 0;
+      left: 0;
+      border: 1px red solid;
+    }
+    .image2 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    .image3 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    .image4 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    #menu {
+    color: white;
+    float: left;
+    width: 240px;
+    height: 100%;
+    overflow: auto;
+}
+    
+    #content {
+        padding-left: 240px;
+    }
+    
+.floating {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+}
+    .fixedElement {
+    background-color: black;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100;
+}
+</style>
+    <script>
+        function changeImage (value) {
+            var image = document.getElementById('image1');
+            image.src = value + '.png';
+            image = document.getElementById('image2');
+            image.src = value + '-monsters.png';
+            image = document.getElementById('image3');
+            image.src = value + '-items.png';
+            image = document.getElementById('image4');
+            image.src = value + '-monsters-hp.png';
+            if (value == 'stage1') {
+                document.getElementById('items1').style.display = 'block';
+                document.getElementById('items2').style.display = 'none';
+                document.getElementById('items3').style.display = 'none';
+                document.getElementById('items4').style.display = 'none';
+            }
+            if (value == 'stage2') {
+                document.getElementById('items1').style.display = 'none';
+                document.getElementById('items2').style.display = 'block';
+                document.getElementById('items3').style.display = 'none';
+                document.getElementById('items4').style.display = 'none';
+            }
+            if (value == 'stage3') {
+                document.getElementById('items1').style.display = 'none';
+                document.getElementById('items2').style.display = 'none';
+                document.getElementById('items3').style.display = 'block';
+                document.getElementById('items4').style.display = 'none';
+            }
+            if (value == 'stage4') {
+                document.getElementById('items1').style.display = 'none';
+                document.getElementById('items2').style.display = 'none';
+                document.getElementById('items3').style.display = 'none';
+                document.getElementById('items4').style.display = 'block';
+            }
+        }
+        function changeVisibilityMonsters() {
+            var image = document.getElementById('image2');
+            if (image.style.visibility == 'hidden') image.style.visibility = 'visible';
+            else image.style.visibility = 'hidden';
+        }
+        function changeVisibilityItems() {
+            var image = document.getElementById('image3');
+            if (image.style.visibility == 'hidden') image.style.visibility = 'visible';
+            else image.style.visibility = 'hidden';
+        }
+        function changeVisibilityHP() {
+            var image = document.getElementById('image4');
+            if (image.style.visibility == 'hidden') image.style.visibility = 'visible';
+            else image.style.visibility = 'hidden';
+        }
+        
+    </script>
+<title>Hex Compare</title>
+</head>
+<body>
+<div id="menu" class="floating fixedElement">
+    <fieldset>
+        <legend>Map</legend>
+        <div>
+            <input type="radio" id="stage1" name="stage" value="stage1" checked onClick='changeImage("stage1")')/>
+            <label for="stage1">Level 1</label>
+        </div>
+
+        <div>
+            <input type="radio" id="stage2" name="stage" value="stage2" onClick='changeImage("stage2")'/>
+            <label for="stage2">Level 2</label>
+        </div>
+
+        <div>
+            <input type="radio" id="stage3" name="stage" value="stage3" onClick='changeImage("stage3")'/>
+            <label for="stage3">Level 3</label>
+        </div>
+
+        <div>
+            <input type="radio" id="stage4" name="stage" value="stage4" onClick='changeImage("stage4")'/>
+            <label for="stage4">Level 4</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="monsters" value="monsters" onchange="changeVisibilityMonsters()"/>
+            <label for="monsters">Show monsters</label>
+        </div>
+        <div>
+            <input type="checkbox" id="loot" value="loot" onchange="changeVisibilityItems()"/>
+            <label for="loot">Show monster loot</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hp" value="loot" onchange="changeVisibilityHP()"/>
+            <label for="hp">Show monster HP</label>
+        </div>
+        <div id="items1" style="display:block">
+            <img src="stage1-items/01.png"/> KEY<br/>
+            <img src="stage1-items/24.png"/> 35 HP | 30 G | 30 XP<br/>
+            <img src="stage1-items/28.png"/> 50 HP| 50 XP<br/>
+            <img src="stage1-items/27.png"/> 75 HP | 50 XP<br/>
+            <img src="stage1-items/29.png"/> 80 FIRE | 50 XP<br/>
+            <img src="stage1-items/31.png"/> FULL FIRE<br/>
+            <img src="stage1-items/02.png"/> POWER UP: PROJECTILE<br/>
+            <img src="stage1-items/03.png"/> POWER UP: BUBBLE<br/>
+            <img src="stage1-items/09.png"/> POWER UP: SHIELD (∅)<br/>
+            <img src="stage1-items/10.png"/> POWER UP: BURN (∅)<br/>
+            <img src="stage1-items/11.png"/> POWER UP: SPEED (∅)<br/>
+            <img src="stage1-items/13.png"/> 1 SPELL FOR F6 F7 F8 (∅)<br/>
+            <img src="stage1-items/12.png"/> 1 SPELL FOR F9 F10 (∅)<br/>
+            <img src="stage1-items/33.png"/> LAMP<br/>
+            <img src="stage1-items/20.png"/> 1 G<br/>
+            <img src="stage1-items/25.png"/> 5 G<br/>
+            <img src="stage1-items/26.png"/> 10 G<br/>
+            <img src="stage1-items/38.png"/> 20 G<br/>
+            <img src="stage1-items/39.png"/> 30 G (∅)<br/>
+            <img src="stage1-items/04.png"/> 40 G<br/>
+            <img src="stage1-items/32.png"/> 50 G<br/>
+            <img src="stage1-items/34.png"/> 60 G<br/>
+            <img src="stage1-items/30.png"/> 100 G<br/>
+            <img src="stage1-items/37.png"/> 8 G | 12 XP (∅)<br/>
+            <img src="stage1-items/36.png"/> 12 G | 15 XP<br/>
+            <img src="stage1-items/05.png"/> 16 G | 25 XP<br/>
+            <img src="stage1-items/06.png"/> 27 G | 35 XP<br/>
+            <img src="stage1-items/07.png"/> 38 G | 45 XP<br/>
+            <img src="stage1-items/23.png"/> 45 G | 60 XP<br/>
+            <img src="stage1-items/22.png"/> 70 G | 85 XP<br/>
+            <img src="stage1-items/35.png"/> 90 G | 130 XP<br/>
+            <img src="stage1-items/21.png"/> 120 G | 140 XP<br/>
+            <img src="stage1-items/08.png"/> 250 XP<br/>
+            <img src="stage1-items/40.png"/> ARTEFACT 1 | 1000 XP<br/>
+        </div>
+        <div id="items2" style="display:none">
+            <img src="stage2-items/01.png"/> KEY<br/>
+            <img src="stage2-items/24.png"/> 70 HP | 60 G | 30 XP<br/>
+            <img src="stage2-items/28.png"/> 100 HP| 50 XP<br/>
+            <img src="stage2-items/27.png"/> 150 HP | 50 XP<br/>
+            <img src="stage2-items/29.png"/> 160 FIRE | 50 XP<br/>
+            <img src="stage2-items/31.png"/> FULL FIRE<br/>
+            <img src="stage2-items/02.png"/> POWER UP: PROJECTILE<br/>
+            <img src="stage2-items/03.png"/> POWER UP: BUBBLE<br/>
+            <img src="stage2-items/09.png"/> POWER UP: SHIELD<br/>
+            <img src="stage2-items/10.png"/> POWER UP: BURN<br/>
+            <img src="stage2-items/11.png"/> POWER UP: SPEED<br/>
+            <img src="stage2-items/13.png"/> 2 SPELLS FOR F6 F7 F8<br/>
+            <img src="stage2-items/12.png"/> 2 SPELLS FOR F9 F10<br/>
+            <img src="stage2-items/33.png"/> LAMP<br/>
+            <img src="stage2-items/20.png"/> 2 G (∅)<br/>
+            <img src="stage2-items/25.png"/> 10 G<br/>
+            <img src="stage2-items/26.png"/> 20 G<br/>
+            <img src="stage2-items/38.png"/> 40 G<br/>
+            <img src="stage2-items/39.png"/> 60 G<br/>
+            <img src="stage2-items/04.png"/> 80 G<br/>
+            <img src="stage2-items/32.png"/> 100 G<br/>
+            <img src="stage2-items/34.png"/> 120 G<br/>
+            <img src="stage2-items/30.png"/> 200 G<br/>
+            <img src="stage2-items/37.png"/> 16 G | 12 XP<br/>
+            <img src="stage2-items/36.png"/> 24 G | 15 XP<br/>
+            <img src="stage2-items/05.png"/> 32 G | 25 XP<br/>
+            <img src="stage2-items/06.png"/> 54 G | 35 XP<br/>
+            <img src="stage2-items/07.png"/> 76 G | 45 XP<br/>
+            <img src="stage2-items/23.png"/> 90 G | 60 XP<br/>
+            <img src="stage2-items/22.png"/> 140 G | 85 XP<br/>
+            <img src="stage2-items/35.png"/> 180 G | 130 XP<br/>
+            <img src="stage2-items/21.png"/> 240 G | 140 XP<br/>
+            <img src="stage2-items/08.png"/> 500 XP<br/>
+            <img src="stage2-items/41.png"/> ARTEFACT 2 | 2500 XP<br/>
+        </div>
+        <div id="items3" style="display:none">
+            <img src="stage3-items/01.png"/> KEY<br/>
+            <img src="stage3-items/24.png"/> 105 HP | 90 G | 30 XP<br/>
+            <img src="stage3-items/28.png"/> 150 HP | 50 XP<br/>
+            <img src="stage3-items/27.png"/> 225 HP | 50 XP<br/>
+            <img src="stage3-items/29.png"/> 240 FIRE | 50 XP<br/>
+            <img src="stage3-items/31.png"/> FULL FIRE<br/>
+            <img src="stage3-items/02.png"/> POWER UP: PROJECTILE<br/>
+            <img src="stage3-items/03.png"/> POWER UP: BUBBLE<br/>
+            <img src="stage3-items/09.png"/> POWER UP: SHIELD<br/>
+            <img src="stage3-items/10.png"/> POWER UP: BURN<br/>
+            <img src="stage3-items/11.png"/> POWER UP: SPEED<br/>
+            <img src="stage3-items/13.png"/> 3 SPELLS FOR F6 F7 F8<br/>
+            <img src="stage3-items/12.png"/> 3 SPELLS FOR F9 F10<br/>
+            <img src="stage3-items/33.png"/> LAMP<br/>
+            <img src="stage3-items/20.png"/> 3 G<br/>
+            <img src="stage3-items/25.png"/> 15 G<br/>
+            <img src="stage3-items/26.png"/> 30 G<br/>
+            <img src="stage3-items/38.png"/> 60 G<br/>
+            <img src="stage3-items/39.png"/> 90 G<br/>
+            <img src="stage3-items/04.png"/> 120 G<br/>
+            <img src="stage3-items/32.png"/> 150 G<br/>
+            <img src="stage3-items/34.png"/> 180 G<br/>
+            <img src="stage3-items/30.png"/> 300 G<br/>
+            <img src="stage3-items/37.png"/> 24 G | 12 XP<br/>
+            <img src="stage3-items/36.png"/> 36 G | 15 XP<br/>
+            <img src="stage3-items/05.png"/> 48 G | 25 XP<br/>
+            <img src="stage3-items/06.png"/> 81 G | 35 XP<br/>
+            <img src="stage3-items/07.png"/> 114 G | 45 XP<br/>
+            <img src="stage3-items/23.png"/> 135 | 60 XP<br/>
+            <img src="stage3-items/22.png"/> 210 G | 85 XP<br/>
+            <img src="stage3-items/35.png"/> 270 G | 130 XP<br/>
+            <img src="stage3-items/21.png"/> 360 G | 140 XP<br/>
+            <img src="stage3-items/08.png"/> 750 XP<br/>
+            <img src="stage3-items/42.png"/> ARTEFACT 3 | 6500 XP<br/>
+
+        </div>
+        <div id="items4" style="display:none">
+            <img src="stage4-items/01.png"/> KEY<br/>
+            <img src="stage4-items/24.png"/> 140 HP | 120 G | 30 XP<br/>
+            <img src="stage4-items/28.png"/> 200 HP | 50 XP<br/>
+            <img src="stage4-items/27.png"/> 300 HP | 50 XP<br/>
+            <img src="stage4-items/29.png"/> 320 FIRE | 50 XP<br/>
+            <img src="stage4-items/31.png"/> FULL FIRE<br/>
+            <img src="stage4-items/02.png"/> POWER UP: PROJECTILE<br/>
+            <img src="stage4-items/03.png"/> POWER UP: BUBBLE (∅)<br/>
+            <img src="stage4-items/09.png"/> POWER UP: SHIELD (∅)<br/>
+            <img src="stage4-items/10.png"/> POWER UP: BURN<br/>
+            <img src="stage4-items/11.png"/> POWER UP: SPEED<br/>
+            <img src="stage4-items/13.png"/> 4 SPELLS FOR F6 F7 F8<br/>
+            <img src="stage4-items/12.png"/> 4 SPELLS FOR F9 F10<br/>
+            <img src="stage4-items/33.png"/> LAMP<br/>
+            <img src="stage4-items/20.png"/> 4 G (∅)<br/>
+            <img src="stage4-items/25.png"/> 20 G<br/>
+            <img src="stage4-items/26.png"/> 40 G<br/>
+            <img src="stage4-items/38.png"/> 80 G<br/>
+            <img src="stage4-items/39.png"/> 120 G<br/>
+            <img src="stage4-items/04.png"/> 160 G<br/>
+            <img src="stage4-items/32.png"/> 200 G<br/>
+            <img src="stage4-items/34.png"/> 240 G<br/>
+            <img src="stage4-items/30.png"/> 400 G<br/>
+            <img src="stage4-items/37.png"/> 32 G | 12 XP<br/>
+            <img src="stage4-items/36.png"/> 48 G | 15 XP<br/>
+            <img src="stage4-items/05.png"/> 64 G | 25 XP<br/>
+            <img src="stage4-items/06.png"/> 108 G | 35 XP<br/>
+            <img src="stage4-items/07.png"/> 152 G | 45 XP<br/>
+            <img src="stage4-items/23.png"/> 180 G | 60 XP<br/>
+            <img src="stage4-items/22.png"/> 280 G | 85 XP<br/>
+            <img src="stage4-items/35.png"/> 360 G | 130 XP<br/>
+            <img src="stage4-items/21.png"/> 480 G | 140 XP<br/>
+            <img src="stage4-items/08.png"/> 1000 XP<br/>
+            <img src="stage4-items/43.png"/> ARTEFACT 4 | 12000 XP<br/>
+        </div>
+    </fieldset>
+</div>
+<div id="content">
+    <div class="parent">
+        <img class="image1" id="image1" src="stage1.png" />
+        <img class="image2" id="image2" src="stage1-monsters.png" style="visibility:hidden;"/>
+        <img class="image3" id="image3" src="stage1-items.png"  style="visibility:hidden;"/>
+        <img class="image4" id="image4" src="stage1-monsters-hp.png"  style="visibility:hidden;"/>
+    </div>
+</div>
+</body>
+
+</html>
